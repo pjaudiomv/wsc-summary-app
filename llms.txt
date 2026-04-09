@@ -1,0 +1,5 @@
+https://svelte.dev/docs/llms
+
+https://svelte.dev/llms.txt
+
+https://flowbite-svelte.com/llms.txt

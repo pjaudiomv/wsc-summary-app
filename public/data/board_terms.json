@@ -1,0 +1,3369 @@
+[
+  {
+    "Name": "Veronica Bistr\u00f6m-Ferris",
+    "First Term Elected": 2023.0,
+    "First Term Expires": 2029.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Carla Wensky",
+    "First Term Elected": 2023.0,
+    "First Term Expires": 2029.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Danny Gershman",
+    "First Term Elected": 2020.0,
+    "First Term Expires": 2026.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Eduardo Gilioli",
+    "First Term Elected": 2020.0,
+    "First Term Expires": 2026.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jorge Mejia",
+    "First Term Elected": 2020.0,
+    "First Term Expires": 2026.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael Bennett",
+    "First Term Elected": 2020.0,
+    "First Term Expires": 2026.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Hammed Al-Tamimi",
+    "First Term Elected": 2018.0,
+    "First Term Expires": 2026.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2026.0
+  },
+  {
+    "Name": "Yoel Geffen",
+    "First Term Elected": 2018.0,
+    "First Term Expires": 2026.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jose Luis Andreu",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2023.0,
+    "Second Term Elected": 2023.0,
+    "Second Term Expires": 2029.0
+  },
+  {
+    "Name": "Jack Hovenier",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2023.0,
+    "Second Term Elected": 2023.0,
+    "Second Term Expires": 2029.0
+  },
+  {
+    "Name": "Tim Smith",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2023.0,
+    "Second Term Elected": 2023.0,
+    "Second Term Expires": 2029.0
+  },
+  {
+    "Name": "Tana Agostini",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2026.0
+  },
+  {
+    "Name": "Irene Crawley",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2026.0
+  },
+  {
+    "Name": "Paul Fitzgerald ",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2026.0
+  },
+  {
+    "Name": "Tali McCall",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": 2016.0,
+    "Second Term Expires": "2022 (deceased 2021)"
+  },
+  {
+    "Name": "Junior Odilson Gomez Braz",
+    "First Term Elected": 2008.0,
+    "First Term Expires": 2014.0,
+    "Second Term Elected": 2014.0,
+    "Second Term Expires": 2020.0
+  },
+  {
+    "Name": "MaryEllen Polin",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": 2016.0,
+    "Second Term Expires": "2022 (deceased 2019)"
+  },
+  {
+    "Name": "Khalil Johnson",
+    "First Term Elected": 2016.0,
+    "First Term Expires": "2022 (resigned 2017)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Arne Hassel-Gren",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Franney Jardine",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Mark Hersh",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Tonia Nikolinakou",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Bob Gray",
+    "First Term Elected": 2012.0,
+    "First Term Expires": "2018 (deceased 2015)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Paul Craig",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "I\u00f1igo Calonje",
+    "First Term Elected": 2010.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Banner",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Mukam Harzenski-Deutsch",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Blake",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Miller",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": 2008.0,
+    "Second Term Expires": 2014.0
+  },
+  {
+    "Name": "Piet De Boer",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": "2016 (resigned 2012)"
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Michael Cox",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2004.0,
+    "Second Term Expires": 2010.0
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Kay Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Danny Gershman",
+    "First Term Elected": 2020.0,
+    "First Term Expires": 2026.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Eduardo Gilioli",
+    "First Term Elected": 2020.0,
+    "First Term Expires": 2026.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jorge Mejia",
+    "First Term Elected": 2020.0,
+    "First Term Expires": 2026.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael Bennett",
+    "First Term Elected": 2020.0,
+    "First Term Expires": 2026.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Hammed Al-Tamimi",
+    "First Term Elected": 2018.0,
+    "First Term Expires": 2024.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2024.0
+  },
+  {
+    "Name": "Yoel Geffen",
+    "First Term Elected": 2018.0,
+    "First Term Expires": 2024.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jose Luis Andreu",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2022.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jack Hovenier",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2022.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tim Smith",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2022.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tana Agostini",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2024.0
+  },
+  {
+    "Name": "Irene Crawley",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2024.0
+  },
+  {
+    "Name": "Paul Fitzgerald ",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2024.0
+  },
+  {
+    "Name": "Tali McCall",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": 2016.0,
+    "Second Term Expires": 2022.0
+  },
+  {
+    "Name": "Junior Odilson Gomez Braz",
+    "First Term Elected": 2008.0,
+    "First Term Expires": 2014.0,
+    "Second Term Elected": 2014.0,
+    "Second Term Expires": 2020.0
+  },
+  {
+    "Name": "MaryEllen Polin",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": 2016.0,
+    "Second Term Expires": "2022 (deceased 2019)"
+  },
+  {
+    "Name": "Khalil Johnson",
+    "First Term Elected": 2016.0,
+    "First Term Expires": "2022 (resigned 2017)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Arne Hassel-Gren",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Franney Jardine",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Mark Hersh",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Tonia Nikolinakou",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Bob Gray",
+    "First Term Elected": 2012.0,
+    "First Term Expires": "2018 (deceased 2015)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Paul Craig",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "I\u00f1igo Calonje",
+    "First Term Elected": 2010.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Banner",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Mukam Harzenski-Deutsch",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Blake",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Miller",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": 2008.0,
+    "Second Term Expires": 2014.0
+  },
+  {
+    "Name": "Piet De Boer",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": "2016 (resigned 2012)"
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Michael Cox",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2004.0,
+    "Second Term Expires": 2010.0
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Hammed Al-Tamimi",
+    "First Term Elected": 2018.0,
+    "First Term Expires": 2024.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2024.0
+  },
+  {
+    "Name": "Yoel Geffen",
+    "First Term Elected": 2018.0,
+    "First Term Expires": 2024.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jose Luis Andreu",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2022.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jack Hovenier",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2022.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tim Smith",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2022.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tana Agostini",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2024.0
+  },
+  {
+    "Name": "Irene Crawley",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2024.0
+  },
+  {
+    "Name": "Paul Fitzgerald ",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": 2018.0,
+    "Second Term Expires": 2024.0
+  },
+  {
+    "Name": "Tali McCall",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": 2016.0,
+    "Second Term Expires": 2022.0
+  },
+  {
+    "Name": "MaryEllen Polin",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": 2016.0,
+    "Second Term Expires": 2022.0
+  },
+  {
+    "Name": "Junior Odilson Gomez Braz",
+    "First Term Elected": 2008.0,
+    "First Term Expires": 2014.0,
+    "Second Term Elected": 2014.0,
+    "Second Term Expires": 2020.0
+  },
+  {
+    "Name": "Khalil Johnson",
+    "First Term Elected": 2016.0,
+    "First Term Expires": "2022 (resigned 2017)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Arne Hassel-Gren",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Franney Jardine",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Mark Hersh",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Tonia Nikolinakou",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Bob Gray",
+    "First Term Elected": 2012.0,
+    "First Term Expires": "2018 (deceased 2015)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Paul Craig",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "I\u00f1igo Calonje",
+    "First Term Elected": 2010.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Banner",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Mukam Harzenski-Deutsch",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Blake",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Miller",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": 2008.0,
+    "Second Term Expires": 2014.0
+  },
+  {
+    "Name": "Piet De Boer",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": "2016 (resigned 2012)"
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Michael Cox",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2004.0,
+    "Second Term Expires": 2010.0
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jose Luis Andreu",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2022.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jack Hovenier",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2022.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Khalil Johnson",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2022.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tim Smith",
+    "First Term Elected": 2016.0,
+    "First Term Expires": 2022.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tana Agostini",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Irene Crawley",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Paul Fitzgerald ",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tali McCall",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": 2016.0,
+    "Second Term Expires": 2022.0
+  },
+  {
+    "Name": "MaryEllen Polin",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": 2016.0,
+    "Second Term Expires": 2022.0
+  },
+  {
+    "Name": "Junior Odilson Gomez Braz",
+    "First Term Elected": 2008.0,
+    "First Term Expires": 2014.0,
+    "Second Term Elected": 2014.0,
+    "Second Term Expires": 2020.0
+  },
+  {
+    "Name": "Arne Hassel-Gren",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Franney Jardine",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Mark Hersh",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Tonia Nikolinakou",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Bob Gray",
+    "First Term Elected": 2012.0,
+    "First Term Expires": "2018 (deceased 2015)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Paul Craig",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "I\u00f1igo Calonje",
+    "First Term Elected": 2010.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Banner",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Mukam Harzenski-Deutsch",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Blake",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Miller",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": 2008.0,
+    "Second Term Expires": 2014.0
+  },
+  {
+    "Name": "Piet De Boer",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": "2016 (resigned 2012)"
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Michael Cox",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2004.0,
+    "Second Term Expires": 2010.0
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tana Agostini",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Irene Crawley",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Paul Fitzgerald ",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bob Gray",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tali McCall",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "MaryEllen Polin",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "I\u00f1igo Calonje",
+    "First Term Elected": 2010.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Junior Odilson Gomez Braz",
+    "First Term Elected": 2008.0,
+    "First Term Expires": 2014.0,
+    "Second Term Elected": 2014.0,
+    "Second Term Expires": 2020.0
+  },
+  {
+    "Name": "Arne Hassel-Gren",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Franney Jardine",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Mark Hersh",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Paul Craig",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Tonia Nikolinakou",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Mary Banner",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Mukam Harzenski-Deutsch",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Blake",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Miller",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": 2008.0,
+    "Second Term Expires": 2014.0
+  },
+  {
+    "Name": "Piet De Boer",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": "2016 (resigned 2012)"
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Michael Cox",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2004.0,
+    "Second Term Expires": 2010.0
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tana Agostini",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Irene Crawley",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Paul Fitzgerald ",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bob Gray",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2018.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tali McCall",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "MaryEllen Polin",
+    "First Term Elected": 2012.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "I\u00f1igo Calonje",
+    "First Term Elected": 2010.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Junior Odilson Gomez Braz",
+    "First Term Elected": 2008.0,
+    "First Term Expires": 2014.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Arne Hassel-Gren",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Franney Jardine",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Mark Hersh",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Paul Craig",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Tonia Nikolinakou",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": 2012.0,
+    "Second Term Expires": 2018.0
+  },
+  {
+    "Name": "Mary Banner",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Mukam Harzenski-Deutsch",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Blake",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Miller",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": 2008.0,
+    "Second Term Expires": 2014.0
+  },
+  {
+    "Name": "Piet De Boer",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": "2016 (resigned 2012)"
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Michael Cox",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2004.0,
+    "Second Term Expires": 2010.0
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "I\u00f1igo Calonje",
+    "First Term Elected": 2010.0,
+    "First Term Expires": 2016.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Junior Odilson Gomez Braz",
+    "First Term Elected": 2008.0,
+    "First Term Expires": 2014.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Arne Hassel-Gren",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Franney Jardine",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mark Hersh",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Paul Craig",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tonia Nikolinakou",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Banner",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Mukam Harzenski-Deutsch",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Piet De Boer",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Blake",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Ron Miller",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": 2010.0,
+    "Second Term Expires": 2016.0
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": 2008.0,
+    "Second Term Expires": 2014.0
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Michael Cox",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2004.0,
+    "Second Term Expires": 2010.0
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Junior Odilson Gomez Braz",
+    "First Term Elected": 2008.0,
+    "First Term Expires": 2014.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Arne Hassel-Gren",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Franney Jardine",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mark Hersh",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Paul Craig",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tonia Nikolinakou",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Banner",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael Cox",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mukam Harzenski-Deutsch",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Piet De Boer",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Ron Blake",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Ron Miller",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": 2008.0,
+    "Second Term Expires": 2014.0
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2004.0,
+    "Second Term Expires": 2010.0
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Arne Hassel-Gren",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Franney Jardine",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mark Hersh",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Paul Craig",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tonia Nikolinakou",
+    "First Term Elected": 2006.0,
+    "First Term Expires": 2012.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Banner",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael Cox",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mukam Harzenski-Deutsch",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Piet De Boer",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Ron Blake",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Ron Miller",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": 2006.0,
+    "Second Term Expires": 2012.0
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2004.0,
+    "Second Term Expires": 2010.0
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Banner",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael Cox",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mukam Harzenski-Deutsch",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Piet De Boer",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Ron Blake",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Ron Miller",
+    "First Term Elected": 2004.0,
+    "First Term Expires": 2010.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": 2004.0,
+    "Second Term Expires": 2010.0
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jim Buerer",
+    "First Term Elected": 2002.0,
+    "First Term Expires": 2008.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Ron Hofius",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Giovanna Ghisays",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Saul Alverado",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tom McCall",
+    "First Term Elected": 2000.0,
+    "First Term Expires": 2006.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Blake",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": 2000.0,
+    "Second Term Expires": 2006.0
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": "2000 (deceased 2000)",
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bella Anderson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Craig Robertson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Lib Edmonds",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jane Nickels",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Susan Chess",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Tony Walters",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2004.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Cary Seltzer",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Claudio Lemionet",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Michael McDermott",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Stephan Lantos",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Jon Thompson",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Larry Roche",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2002.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Bob Jordan",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Daniel Schuessler",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "David James",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Floyd Best",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mario Tesoriero",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  },
+  {
+    "Name": "Mary Key Berger",
+    "First Term Elected": 1998.0,
+    "First Term Expires": 2000.0,
+    "Second Term Elected": null,
+    "Second Term Expires": null
+  }
+]
