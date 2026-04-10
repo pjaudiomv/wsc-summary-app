@@ -1,0 +1,195 @@
+{
+  "source": "A Guide to World Services in Narcotics Anonymous, 2023–2026 Conference Cycle",
+  "glossary": [
+    {
+      "term": "WSC",
+      "definition": "World Service Conference — the decision-making body for NA World Services, meeting biennially with regional and zonal delegates."
+    },
+    {
+      "term": "World Board (WB)",
+      "definition": "The board of NA World Services, Inc. Manages all World Services activities including oversight of the World Service Office. Members serve up to two consecutive 6-year terms."
+    },
+    {
+      "term": "WSO",
+      "definition": "World Service Office — NA's main service center in Chatsworth, CA. Maintains correspondence, prints/distributes literature, and maintains NA archives."
+    },
+    {
+      "term": "Regional Delegate (RD)",
+      "definition": "Primary contact between World Services and a local NA community. Attends WSC and virtual conference participant meetings, has one vote."
+    },
+    {
+      "term": "Zonal Delegate (ZD)",
+      "definition": "Represents a zone (group of regions) at the WSC. Zones with two or more zonally seated regions may send a zonal delegate."
+    },
+    {
+      "term": "HRP",
+      "definition": "Human Resource Panel — facilitates election/selection processes for WSC trusted servant positions. Two elected members serve 6-year terms."
+    },
+    {
+      "term": "WSC Cofacilitators",
+      "definition": "Preside over CAR- and CAT-related Discussions and Decisions during the WSC. Two elected members serve 6-year terms."
+    },
+    {
+      "term": "CAR",
+      "definition": "Conference Agenda Report — published before each WSC containing motions for fellowship review and regional input. Includes World Board motions and regional/zonal motions."
+    },
+    {
+      "term": "CAT",
+      "definition": "Conference Approval Track — material published for approval at the WSC including budget, project plans, seating requests, service material, and policy changes."
+    },
+    {
+      "term": "CBDM",
+      "definition": "Consensus-Based Decision Making — the WSC's decision-making process. Based on respect for all participants, seeking group consent rather than simple majority. Uses straw polls and discussion to build consensus before formal votes."
+    },
+    {
+      "term": "FIPT",
+      "definition": "Fellowship Intellectual Property Trust — governs NA's name, trademarks, and recovery literature. NA World Services serves as Trustee; the fellowship (through delegates) is the Beneficiary."
+    },
+    {
+      "term": "NAWS",
+      "definition": "Narcotics Anonymous World Services, Inc. — the legal entity that serves as Trustee of the FIPT and operates the WSO."
+    },
+    {
+      "term": "Straw Poll",
+      "definition": "An informal measure of where the body stands on an issue. Not a binding decision. Often taken multiple times during discussion to gauge movement."
+    },
+    {
+      "term": "Conference Participant",
+      "definition": "Any delegate (RD or ZD), World Board member, or other seated participant at the WSC. Each has one vote."
+    },
+    {
+      "term": "Conference Cycle",
+      "definition": "The period between WSC meetings, typically two years. The current cycle is 2023–2026."
+    },
+    {
+      "term": "IDT",
+      "definition": "Issue Discussion Topics — fellowship-wide discussion topics selected at the WSC for exploration during the conference cycle."
+    },
+    {
+      "term": "New Idea Proposal",
+      "definition": "A proposal submitted by any conference participant for discussion at the WSC. Uses a standard form with maker, topic, proposal text, and supporting material."
+    },
+    {
+      "term": "Moving Forward",
+      "definition": "The closing session of the WSC where decisions are made about issue discussion topics, workgroups, ongoing processes, and other matters for the cycle ahead."
+    }
+  ],
+  "consensus_thresholds": [
+    {
+      "level": "Unanimous Support",
+      "percentage": "100%",
+      "description": "All voting participants agree"
+    },
+    {
+      "level": "Consensus Support",
+      "percentage": "80% – <100%",
+      "description": "Motion passes. If initial straw poll shows consensus (80%+), Cofacilitators announce as final decision (2025-2026 only)."
+    },
+    {
+      "level": "Strong Support",
+      "percentage": "66.66% – <80%",
+      "description": "Motion passes (meets 2/3 majority threshold required for adoption)."
+    },
+    {
+      "level": "Lack of Strong Support",
+      "percentage": ">20% – <66.66%",
+      "description": "Motion fails. Does not meet the 2/3 majority threshold."
+    },
+    {
+      "level": "Consensus Not in Support",
+      "percentage": ">0% – 20%",
+      "description": "Body has reached consensus against the motion."
+    },
+    {
+      "level": "No Support",
+      "percentage": "0%",
+      "description": "No voting participants support the motion."
+    }
+  ],
+  "decision_process": [
+    "1. Initial straw poll conducted via epoll before WSC meeting to measure support.",
+    "2. If initial straw poll shows consensus (80%+ support or not in support), Cofacilitators announce as final decision.",
+    "3. If 20-80% support, amendments are considered first — each amendment gets its own straw poll and discussion.",
+    "4. Facilitator manages discussion using an unordered discussion pool, calling on members in turn (2 min per speaker).",
+    "5. Intermediate straw polls taken during discussion to measure movement.",
+    "6. Before final vote, all participants asked if they are ready to decide.",
+    "7. Final vote taken — 2/3 majority (66.67%) of those present and voting required to pass.",
+    "8. For FIPT matters, only RDs and ZDs may vote, requiring 2/3 of those recorded at most recent roll call.",
+    "9. Adopted motions take effect at the conclusion of the conference unless otherwise stated."
+  ],
+  "vote_types": [
+    {
+      "type": "Voice Vote",
+      "description": "Participants verbally indicate yes or no. Used when outcome appears clear."
+    },
+    {
+      "type": "Standing Vote / Show of Hands",
+      "description": "Participants stand or raise hands to be counted. Used when voice vote is unclear."
+    },
+    {
+      "type": "Roll Call Vote",
+      "description": "Any member can request. Facilitator calls each participant's name; they respond yes, no, abstain, or present not voting."
+    },
+    {
+      "type": "ePoll",
+      "description": "Electronic poll sent to all seated participants. Can be used for decisions outside of the WSC meeting."
+    },
+    {
+      "type": "Ballot",
+      "description": "Used for elections. HRP facilitates distribution, collection, and tabulation."
+    }
+  ],
+  "key_rules": [
+    "Each conference participant has only one vote.",
+    "No member may speak on a motion more than once until others who wish to speak have had a chance.",
+    "Members may speak for a maximum of 2 minutes each time recognized.",
+    "A quorum is a majority of all eligible voting members.",
+    "Abstentions are effectively counted as not supporting the motion.",
+    "Present but not voting is different from abstention — not counted in the vote total.",
+    "Amendments must be submitted 60 days before WSC opening (45 days for interim).",
+    "An amendment shall not replace a motion or introduce a substitute or contrary motion.",
+    "Regional and zonal motions must be received by July 1 and be in CAR-ready form by August 3."
+  ],
+  "service_structure": [
+    {
+      "level": "NA Group",
+      "description": "The foundation of the NA service structure. Any group of addicts who meet regularly for the purpose of recovery."
+    },
+    {
+      "level": "Area Service Committee (ASC)",
+      "description": "Serves the needs of groups in a defined geographic area."
+    },
+    {
+      "level": "Metropolitan Service Committee",
+      "description": "Optional body that coordinates multiple areas in a metropolitan area."
+    },
+    {
+      "level": "Regional Service Committee (RSC)",
+      "description": "Serves the needs of areas and groups in a defined region. Elects the Regional Delegate."
+    },
+    {
+      "level": "Zonal Forum",
+      "description": "Communication and support body for multiple regions. May send Zonal Delegate to WSC."
+    },
+    {
+      "level": "World Service Conference (WSC)",
+      "description": "The decision-making body for NA World Services. Meets biennially."
+    },
+    {
+      "level": "World Board (WB)",
+      "description": "Manages all World Services activities between conferences."
+    },
+    {
+      "level": "World Service Office (WSO)",
+      "description": "NA's primary service center, carrying out WSC directives."
+    }
+  ],
+  "current_cycle": {
+    "cycle": "2023–2026",
+    "next_wsc": "3–9 May 2026",
+    "interim_wsc": "28 Feb & 1 Mar 2025",
+    "car_available": "3 November 2025",
+    "cat_available": "3 February 2026",
+    "unity_day_2025": "6 September 2025"
+  }
+}

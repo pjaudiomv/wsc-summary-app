@@ -4,10 +4,12 @@
   import active from '@bmlt-enabled/svelte-spa-router/active';
   import Decisions from './pages/Decisions.svelte';
   import Board from './pages/Board.svelte';
+  import Reference from './pages/Reference.svelte';
 
   const routes = {
     '/': Decisions,
     '/board': Board,
+    '/reference': Reference,
   };
 
   let darkMode = $state(false);
@@ -39,12 +41,12 @@
             Decisions
           </a>
           <a
-            href="/board"
+            href="/reference"
             use:link
             use:active={{ className: 'border-b-2 border-primary-600 text-primary-600 dark:text-primary-400 dark:border-primary-400', inactiveClassName: 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300' }}
             class="px-3 py-2 text-sm font-medium"
           >
-            World Board
+            Reference
           </a>
         </nav>
         <button class="rounded-lg border border-gray-300 p-2 text-sm hover:bg-gray-100 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700" onclick={toggleDark}>
