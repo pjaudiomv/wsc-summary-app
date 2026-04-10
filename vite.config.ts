@@ -14,7 +14,7 @@ export default defineConfig({
       '@components': resolve(__dirname, 'src/components'),
       '@utils': resolve(__dirname, 'src/utils'),
       '@tests': resolve(__dirname, 'src/tests'),
-      '@types': resolve(__dirname, 'src/types'),
+      $types: resolve(__dirname, 'src/types'),
       '@assets': resolve(__dirname, 'src/assets')
     }
   },

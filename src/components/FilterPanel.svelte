@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { CATEGORY_LABELS, RESULT_LABELS, type FilterState, type MotionCategory, type MotionResult } from '@types/index';
+  import { CATEGORY_LABELS, RESULT_LABELS, type FilterState, type MotionCategory, type MotionResult } from '$types/index';
 
   interface Props {
     filters: FilterState;
@@ -61,7 +61,7 @@
   <div>
     <p class="mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Year</p>
     <div class="flex flex-wrap gap-1.5">
-      {#each availableYears as year}
+      {#each availableYears as year (year)}
         <button
           class="rounded-full px-3 py-1 text-xs font-medium transition-colors {filters.years.includes(year)
             ? 'bg-primary-600 text-white'
@@ -84,7 +84,7 @@
     <div>
       <p class="mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Result</p>
       <div class="flex flex-wrap gap-1.5">
-        {#each Object.entries(RESULT_LABELS) as [key, label]}
+        {#each Object.entries(RESULT_LABELS) as [key, label] (key)}
           <button
             class="rounded-full px-3 py-1 text-xs font-medium transition-colors {filters.results.includes(key as MotionResult)
               ? 'bg-primary-600 text-white'
@@ -101,7 +101,7 @@
     <div>
       <p class="mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Category</p>
       <div class="flex flex-wrap gap-1.5">
-        {#each Object.entries(CATEGORY_LABELS) as [key, label]}
+        {#each Object.entries(CATEGORY_LABELS) as [key, label] (key)}
           <button
             class="rounded-full px-3 py-1 text-xs font-medium transition-colors {filters.categories.includes(key as MotionCategory)
               ? 'bg-secondary-600 text-white'

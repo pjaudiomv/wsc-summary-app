@@ -76,7 +76,7 @@
         bind:value={search}
       />
       <div class="grid gap-3 md:grid-cols-2">
-        {#each filteredGlossary() as item}
+        {#each filteredGlossary() as item (item.term)}
           <div class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800">
             <dt class="font-semibold text-gray-900 dark:text-white">{item.term}</dt>
             <dd class="mt-1 text-sm text-gray-600 dark:text-gray-400">{item.definition}</dd>
@@ -98,7 +98,7 @@
             </tr>
           </thead>
           <tbody>
-            {#each data.consensus_thresholds as threshold}
+            {#each data.consensus_thresholds as threshold (threshold.level)}
               <tr class="border-b bg-white dark:border-gray-700 dark:bg-gray-800">
                 <td class="px-4 py-3 font-medium text-gray-900 dark:text-white">{threshold.level}</td>
                 <td class="px-4 py-3 font-mono text-sm text-gray-600 dark:text-gray-400">{threshold.percentage}</td>
@@ -115,7 +115,7 @@
       <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Decision-Making Process</h2>
       <div class="rounded-lg border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-800">
         <ol class="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-          {#each data.decision_process as step}
+          {#each data.decision_process as step, i (i)}
             <li>{step}</li>
           {/each}
         </ol>
@@ -126,7 +126,7 @@
     <section>
       <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Types of Votes</h2>
       <div class="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-        {#each data.vote_types as vt}
+        {#each data.vote_types as vt (vt.type)}
           <div class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800">
             <h4 class="font-semibold text-gray-900 dark:text-white">{vt.type}</h4>
             <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">{vt.description}</p>
@@ -140,7 +140,7 @@
       <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Key Rules</h2>
       <div class="rounded-lg border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-800">
         <ul class="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-          {#each data.key_rules as rule}
+          {#each data.key_rules as rule, i (i)}
             <li class="flex gap-2">
               <span class="text-primary-600 mt-1">&#8226;</span>
               <span>{rule}</span>
@@ -154,7 +154,7 @@
     <section>
       <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">NA Service Structure</h2>
       <div class="space-y-2">
-        {#each data.service_structure as level, i}
+        {#each data.service_structure as level, i (level.level)}
           <div class="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800" style="margin-left: {i * 12}px">
             <div class="bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300 flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold">
               {i + 1}

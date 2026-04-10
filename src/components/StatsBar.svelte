@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Motion } from '@types/index';
+  import type { Motion } from '$types/index';
   import { getStats } from '@utils/filters';
 
   interface Props {

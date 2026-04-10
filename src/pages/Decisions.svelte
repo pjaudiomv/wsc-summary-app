@@ -2,7 +2,7 @@
   import StatsBar from '@components/StatsBar.svelte';
   import FilterPanel from '@components/FilterPanel.svelte';
   import DecisionTable from '@components/DecisionTable.svelte';
-  import type { Motion, FilterState, SortState } from '@types/index';
+  import type { Motion, FilterState, SortState } from '$types/index';
   import { filterMotions, sortMotions, getUniqueYears } from '@utils/filters';
 
   let allMotions = $state<Motion[]>([]);

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { CATEGORY_LABELS, RESULT_LABELS, RESULT_COLORS, type Motion, type SortState } from '@types/index';
+  import { CATEGORY_LABELS, RESULT_LABELS, RESULT_COLORS, type Motion, type SortState } from '$types/index';
 
   interface Props {
     motions: Motion[];
@@ -35,7 +35,7 @@
 
   // Reset page when motions change
   $effect(() => {
-    motions;
+    void motions.length;
     currentPage = 0;
   });
 </script>

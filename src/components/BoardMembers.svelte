@@ -61,7 +61,7 @@
   <div class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800">
     <h3 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Current World Board Members</h3>
     <div class="flex flex-wrap gap-2">
-      {#each currentMembers as member}
+      {#each currentMembers as member (member.Name)}
         <span class="bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-300 rounded-full px-3 py-1 text-sm font-medium">
           {member.Name}
           <span class="text-xs opacity-70">
@@ -110,7 +110,7 @@
         </tr>
       </thead>
       <tbody>
-        {#each filtered() as member}
+        {#each filtered() as member (member.Name)}
           <tr class="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <td class="px-4 py-3 font-medium text-gray-900 dark:text-white">{member.Name}</td>
             <td class="px-4 py-3">{member['First Term Elected'] ? Math.round(member['First Term Elected']) : '—'}</td>

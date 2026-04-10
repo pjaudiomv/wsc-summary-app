@@ -1,4 +1,4 @@
-import type { Motion, FilterState, SortState } from '@types/index';
+import type { Motion, FilterState, SortState } from '$types/index';
 
 export function filterMotions(motions: Motion[], filters: FilterState): Motion[] {
   return motions.filter((m) => {
@@ -27,7 +27,7 @@ export function sortMotions(motions: Motion[], sort: SortState): Motion[] {
     switch (sort.column) {
       case 'year':
         return (a.year - b.year) * dir;
-      case 'motion_number':
+      case 'motion_number': {
         aVal = a.motion_number ?? '';
         bVal = b.motion_number ?? '';
         // Try numeric sort first
@@ -35,6 +35,7 @@ export function sortMotions(motions: Motion[], sort: SortState): Motion[] {
         const bNum = parseInt(bVal);
         if (!isNaN(aNum) && !isNaN(bNum)) return (aNum - bNum) * dir;
         return aVal.localeCompare(bVal) * dir;
+      }
       case 'result':
         return (a.result ?? '').localeCompare(b.result ?? '') * dir;
       case 'category':
