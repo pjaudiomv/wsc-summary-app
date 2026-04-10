@@ -12,7 +12,14 @@
     '/reference': Reference
   };
 
-  let darkMode = $state(false);
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+  let darkMode = $state(prefersDark.matches);
+  document.documentElement.classList.toggle('dark', prefersDark.matches);
+
+  prefersDark.addEventListener('change', (e) => {
+    darkMode = e.matches;
+    document.documentElement.classList.toggle('dark', darkMode);
+  });
 
   function toggleDark() {
     darkMode = !darkMode;
