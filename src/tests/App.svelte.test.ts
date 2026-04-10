@@ -4,9 +4,9 @@ import { render, screen } from '@testing-library/svelte';
 
 import App from '@/App.svelte';
 
-describe('Hello World', () => {
-  test('initial screen', async () => {
+describe('App', () => {
+  test('renders header', async () => {
     render(App);
-    expect(screen.getByText('Hello World!')).toBeInTheDocument();
+    expect(screen.getByText('WSC Decisions Archive')).toBeInTheDocument();
   });
 });
