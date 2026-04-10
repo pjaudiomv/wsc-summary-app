@@ -17,7 +17,7 @@
   let sortCol = $state<string>('First Term Elected');
   let sortDir = $state<'asc' | 'desc'>('desc');
 
-  let filtered = $derived(() => {
+  let filtered = $derived.by(() => {
     let result = members;
     if (search) {
       const q = search.toLowerCase();
@@ -110,7 +110,7 @@
         </tr>
       </thead>
       <tbody>
-        {#each filtered() as member (member.Name)}
+        {#each filtered as member (member.Name)}
           <tr class="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <td class="px-4 py-3 font-medium text-gray-900 dark:text-white">{member.Name}</td>
             <td class="px-4 py-3">{member['First Term Elected'] ? Math.round(member['First Term Elected']) : '—'}</td>
@@ -124,6 +124,6 @@
   </div>
 
   <p class="text-sm text-gray-500 dark:text-gray-400">
-    Showing {filtered().length} of {members.length} board members
+    Showing {filtered.length} of {members.length} board members
   </p>
 </div>
