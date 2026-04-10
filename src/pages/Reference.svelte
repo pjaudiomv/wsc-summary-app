@@ -85,6 +85,35 @@
       </div>
     </section>
 
+    <!-- Motion Outcomes -->
+    <section>
+      <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Motion Outcomes</h2>
+      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {#each data.motion_outcomes as outcome (outcome.result)}
+          {@const colors: Record<string, string> = {
+            green: 'border-green-200 dark:border-green-800',
+            red: 'border-red-200 dark:border-red-800',
+            blue: 'border-blue-200 dark:border-blue-800',
+            purple: 'border-purple-200 dark:border-purple-800',
+            yellow: 'border-yellow-200 dark:border-yellow-800',
+            gray: 'border-gray-200 dark:border-gray-700'
+          }}
+          {@const badges: Record<string, string> = {
+            green: 'bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300',
+            red: 'bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300',
+            blue: 'bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300',
+            purple: 'bg-purple-100 text-purple-800 dark:bg-purple-900/40 dark:text-purple-300',
+            yellow: 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/40 dark:text-yellow-300',
+            gray: 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300'
+          }}
+          <div class="rounded-lg border-l-4 bg-white p-4 shadow-sm dark:bg-gray-800 {colors[outcome.color]}">
+            <span class="mb-2 inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold {badges[outcome.color]}">{outcome.label}</span>
+            <p class="text-sm text-gray-600 dark:text-gray-400">{outcome.description}</p>
+          </div>
+        {/each}
+      </div>
+    </section>
+
     <!-- Consensus Thresholds -->
     <section>
       <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Consensus Thresholds</h2>
