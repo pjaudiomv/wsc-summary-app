@@ -26,10 +26,12 @@
     const col = sortCol as keyof BoardTerm;
     const dir = sortDir === 'asc' ? 1 : -1;
     result = [...result].sort((a, b) => {
-      const aVal = a[col] ?? '';
-      const bVal = b[col] ?? '';
-      if (typeof aVal === 'number' && typeof bVal === 'number') return (aVal - bVal) * dir;
-      return String(aVal).localeCompare(String(bVal)) * dir;
+      const aRaw = a[col] ?? '';
+      const bRaw = b[col] ?? '';
+      const aNum = parseFloat(String(aRaw));
+      const bNum = parseFloat(String(bRaw));
+      if (!isNaN(aNum) && !isNaN(bNum)) return (aNum - bNum) * dir;
+      return String(aRaw).localeCompare(String(bRaw)) * dir;
     });
     return result;
   });
@@ -48,10 +50,19 @@
     return sortDir === 'asc' ? '↑' : '↓';
   }
 
+  function formatYear(val: string | number | null): { year: string; note: string } {
+    if (val === null || val === undefined) return { year: '—', note: '' };
+    const str = String(val).trim();
+    const m = str.match(/^(\d{4})\s*(\(.+\))?/);
+    if (!m) return { year: str, note: '' };
+    return { year: m[1], note: m[2] ?? '' };
+  }
+
   let currentMembers = $derived(
     members.filter((m) => {
-      const expires = m['Second Term Expires'] ?? m['First Term Expires'];
-      return expires !== null && Number(expires) >= 2026;
+      const raw = m['Second Term Expires'] ?? m['First Term Expires'];
+      const year = parseInt(String(raw ?? ''));
+      return !isNaN(year) && year >= 2026;
     })
   );
 </script>
@@ -113,10 +124,12 @@
         {#each filtered as member (member.Name)}
           <tr class="border-b bg-white hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <td class="px-4 py-3 font-medium text-gray-900 dark:text-white">{member.Name}</td>
-            <td class="px-4 py-3">{member['First Term Elected'] ? Math.round(member['First Term Elected']) : '—'}</td>
-            <td class="px-4 py-3">{member['First Term Expires'] ? Math.round(member['First Term Expires']) : '—'}</td>
-            <td class="px-4 py-3">{member['Second Term Elected'] ? Math.round(member['Second Term Elected']) : '—'}</td>
-            <td class="px-4 py-3">{member['Second Term Expires'] ? Math.round(member['Second Term Expires']) : '—'}</td>
+            {#each ['First Term Elected', 'First Term Expires', 'Second Term Elected', 'Second Term Expires'] as col (col)}
+              {@const { year, note } = formatYear(member[col as keyof BoardTerm])}
+              <td class="px-4 py-3">
+                {year}{#if note}<span class="ml-1 text-xs text-gray-400 dark:text-gray-500">{note}</span>{/if}
+              </td>
+            {/each}
           </tr>
         {/each}
       </tbody>
