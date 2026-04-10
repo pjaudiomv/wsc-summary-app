@@ -1,0 +1,527 @@
+{
+  "roles": [
+    {
+      "title": "Regional Delegate",
+      "abbreviation": "RD",
+      "description": "The primary contact between NA World Services and the local NA community. Provides information on current World Services projects to the regional committee and provides a local perspective to world service work.",
+      "term_length": "Not explicitly stated; serves for the conference cycle",
+      "how_selected": "Elected by the region's group service representatives and/or RCMs at the regional assembly or RSC",
+      "responsibilities": [
+        "Attends the World Service Conference and virtual conference participants web meetings as a fully active participant",
+        "Acts in the best interests of NA as a whole, not solely as an advocate of their local community",
+        "Works closely with the region's alternate delegate",
+        "Submits regional reports before the published deadline"
+      ]
+    },
+    {
+      "title": "Alternate Regional Delegate",
+      "abbreviation": null,
+      "description": "A full participant in the regional service committee who works closely with the regional delegate. May attend the WSC meeting in the company of their delegate.",
+      "term_length": "Not explicitly stated",
+      "how_selected": "Elected by the region",
+      "responsibilities": [
+        "Consults with and assists the regional delegate on world service affairs",
+        "May participate in conference participants web meetings with or without their delegate present",
+        "May attend the WSC meeting; seating on the conference floor is limited to one delegate and one alternate per region"
+      ]
+    },
+    {
+      "title": "Zonal Delegate",
+      "abbreviation": "ZD",
+      "description": "A funded, voting participant at the WSC who represents regions or communities within a zone that are not individually seated at the WSC.",
+      "term_length": "Not explicitly stated",
+      "how_selected": "Selected by the zonal forum",
+      "responsibilities": [
+        "Represents unseated regions or communities within the zone at the WSC",
+        "Participates in all conference participant communications",
+        "May bring an alternate at the zone's own expense"
+      ]
+    },
+    {
+      "title": "World Board Member",
+      "abbreviation": "WB",
+      "description": "Member of the governing board of Narcotics Anonymous World Services, Inc., responsible for overseeing all World Services activities including the WSO.",
+      "term_length": "Six years; eligible for no more than two terms",
+      "how_selected": "Elected by at least 60% of the World Service Conference",
+      "responsibilities": [
+        "Oversee operations of the World Service Office",
+        "Plan and budget for basic service provision and project development",
+        "Develop and approve service-related information pamphlets and tools",
+        "Hold the Fellowship's intellectual properties in trust",
+        "Make necessary decisions affecting NA World Services when the WSC is not in session",
+        "Oversee development of new literature, periodicals, and translations",
+        "Communicate World Services activity to the membership"
+      ]
+    },
+    {
+      "title": "WSC Cofacilitator",
+      "abbreviation": null,
+      "description": "One of two individuals elected by the WSC to preside over CAR- and CAT-related Discussion and Decisions sessions and facilitate decision-making in other conference sessions at the request of the World Board.",
+      "term_length": "Two conference cycles; may not serve two full consecutive terms",
+      "how_selected": "Elected by simple majority of the World Service Conference",
+      "responsibilities": [
+        "Preside over CAR- and CAT-related Discussion and Decisions sessions",
+        "Facilitate decision making in other conference sessions at the request of the World Board",
+        "Communicate with the World Board to prepare for the conference meeting",
+        "Work with regions and zones to ensure proposed amendments are WSC-ready",
+        "Ensure amendments are clear and lend themselves to a yes/no vote"
+      ]
+    },
+    {
+      "title": "Human Resource Panel Member",
+      "abbreviation": "HRP",
+      "description": "Member of a panel accountable to the WSC that identifies and forwards the most qualified candidates for WSC elected positions (World Board, Cofacilitators, and HRP members).",
+      "term_length": "Two conference cycles; cannot serve two consecutive terms",
+      "how_selected": "Elected by majority vote of the World Service Conference; up to four members",
+      "responsibilities": [
+        "Develop, maintain, and implement a nominations process for WSC elected positions",
+        "Interview all potential candidates who meet the cleantime requirement",
+        "Provide the WSC with a list of nominees (maximum ratio of two candidates per open position)",
+        "Facilitate the Elections Session of the World Service Conference",
+        "Inform service bodies of current position descriptions and deadlines"
+      ]
+    },
+    {
+      "title": "Executive Director of the World Service Office",
+      "abbreviation": null,
+      "description": "The head of the World Service Office who participates in the WSC meeting and serves on the Executive Committee in a non-voting capacity.",
+      "term_length": "Not stated",
+      "how_selected": "Not stated; performance reviewed by the Executive Committee",
+      "responsibilities": [
+        "Directs operations of the World Service Office",
+        "Participates in the Executive Committee in a non-voting capacity",
+        "Does not have a vote or ability to make motions or proposals at the conference meeting"
+      ]
+    }
+  ],
+  "committees_workgroups": [
+    {
+      "name": "Executive Committee of the World Board",
+      "purpose": "Upholds duties of the corporation and its officers; directs activities and annual performance review of the WSO executive director; makes necessary decisions affecting NA World Services when the World Board is not in session.",
+      "composition": "Chairperson, Vice-chairperson, Treasurer, and Secretary of the World Board, plus the Executive Director of the WSO in a non-voting capacity",
+      "reporting_to": "World Board"
+    },
+    {
+      "name": "WCNA Workgroup",
+      "purpose": "Supports the World Board in specific areas of planning and implementation of the World Convention of Narcotics Anonymous by providing input, volunteers, and assistance.",
+      "composition": "Direction and focus set by World Services; World Board provides each workgroup with its list of responsibilities",
+      "reporting_to": "World Board"
+    },
+    {
+      "name": "Human Resource Panel",
+      "purpose": "Identifies and forwards the most qualified candidates for WSC elected positions to the World Service Conference.",
+      "composition": "Up to four members elected by majority vote of the WSC",
+      "reporting_to": "World Service Conference; overseen by World Board when WSC is not in session"
+    }
+  ],
+  "conference_timeline": [
+    {
+      "phase": "Interaction Requests Deadline (Q1)",
+      "timing": "15 November (for January\u2013March quarter)",
+      "description": "Deadline to submit requests for World Services participation or travel for the January\u2013March quarter. Requests should be submitted at least 45 days before each quarter."
+    },
+    {
+      "phase": "Interaction Requests Deadline (Q2)",
+      "timing": "15 February (for April\u2013June quarter)",
+      "description": "Deadline to submit requests for World Services participation or travel for the April\u2013June quarter."
+    },
+    {
+      "phase": "Interaction Requests Deadline (Q3)",
+      "timing": "15 May (for July\u2013September quarter)",
+      "description": "Deadline to submit requests for World Services participation or travel for the July\u2013September quarter."
+    },
+    {
+      "phase": "Interaction Requests Deadline (Q4)",
+      "timing": "15 August (for October\u2013December quarter)",
+      "description": "Deadline to submit requests for World Services participation or travel for the October\u2013December quarter."
+    },
+    {
+      "phase": "Unity Day 2024",
+      "timing": "1 September 2024",
+      "description": "Annual NA Unity Day event."
+    },
+    {
+      "phase": "Interim CAR/CAT Available",
+      "timing": "28 November 2024",
+      "description": "Interim Conference Agenda Report and Conference Approval Track material made available for the 2025 interim WSC meeting."
+    },
+    {
+      "phase": "Translated Interim CAR/CAT Available",
+      "timing": "As soon as possible after CAR is published; no later than 60 days before the interim meeting",
+      "description": "Translated versions of the Interim CAR/CAT distributed to participants."
+    },
+    {
+      "phase": "Amendments to Interim CAR and CAT Motions Deadline",
+      "timing": "13 February 2025 (must be in final form 15 days before the WSC)",
+      "description": "Final deadline for amendments to interim CAR and CAT motions. Amendments must also be in final form 45 days before the interim WSC."
+    },
+    {
+      "phase": "Interim WSC Meeting",
+      "timing": "28 February & 1 March 2025, 11am\u20131pm & 2pm\u20134pm Pacific Time",
+      "description": "Virtual interim World Service Conference meeting held mid-cycle to address legally necessary decisions and other items conference participants choose to address."
+    },
+    {
+      "phase": "Deadline for New Conference Participant Recognition Requests",
+      "timing": "1 May 2025",
+      "description": "Deadline for regions to request to be recognized as a new conference participant at WSC 2026."
+    },
+    {
+      "phase": "Regional and Zonal Motions Submission Deadline",
+      "timing": "1 July 2025 (must be CAR-ready by 3 August 2025)",
+      "description": "Motions from regions and zones for the 2026 CAR must be received by 1 July and in CAR-ready form by 3 August 2025. Regions and zones are encouraged to submit as early as possible."
+    },
+    {
+      "phase": "Unity Day 2025",
+      "timing": "6 September 2025",
+      "description": "24-hour virtual Unity Day event hosted by NA World Services and involving all interested zones."
+    },
+    {
+      "phase": "HRP Candidate Submissions Deadline",
+      "timing": "30 September 2025",
+      "description": "Deadline for all candidate submissions to the HRP's nomination process for WSC 2026 elections."
+    },
+    {
+      "phase": "English CAR Available",
+      "timing": "3 November 2025",
+      "description": "English-language Conference Agenda Report for WSC 2026 distributed. Must be released at minimum 180 days prior to the opening day of the conference."
+    },
+    {
+      "phase": "Translated CAR Available",
+      "timing": "3 December 2025",
+      "description": "Translated versions of the Conference Agenda Report distributed. Must be released at minimum 150 days prior to the conference."
+    },
+    {
+      "phase": "Deadline for Regional Material for CAT Posting",
+      "timing": "3 January 2026",
+      "description": "Deadline for regional material to be submitted for inclusion in the Conference Approval Track posting."
+    },
+    {
+      "phase": "Conference Approval Track (CAT) Material Available",
+      "timing": "3 February 2026",
+      "description": "CAT material distributed to conference participants, 90 days before the WSC."
+    },
+    {
+      "phase": "Regional and Zonal Report Deadline",
+      "timing": "28 February 2026",
+      "description": "Deadline for regional delegates and zonal forums to submit their written reports."
+    },
+    {
+      "phase": "Deadline for Regional Material for Conference Report",
+      "timing": "28 February 2026",
+      "description": "Deadline for regional material to be submitted for inclusion in the Conference Report."
+    },
+    {
+      "phase": "Amendments to CAR and CAT Motions Deadline / Seating Motion Deadline",
+      "timing": "3 March 2026 (final form by 18 March 2026)",
+      "description": "Deadline for amendments to CAR and CAT motions and seating motions. Must be in final form by 18 March 2026 (45 days before WSC opening day)."
+    },
+    {
+      "phase": "Funding Request and WSC Registration Deadline",
+      "timing": "3 March 2026",
+      "description": "Deadline for delegates to submit funding requests and WSC registration."
+    },
+    {
+      "phase": "Initial Straw Poll ePoll",
+      "timing": "After 18 April 2026 (conference participants have 72 hours to respond)",
+      "description": "Initial straw polls on CAR and CAT motions conducted electronically prior to the in-person WSC meeting."
+    },
+    {
+      "phase": "WSC Orientation",
+      "timing": "18 April 2026",
+      "description": "Pre-conference orientation to familiarize participants with session goals, procedures, and resources for the upcoming conference week."
+    },
+    {
+      "phase": "World Service Conference 2026",
+      "timing": "3\u20139 May 2026",
+      "description": "In-person meeting of the World Service Conference. Held typically the last week in April within seventy-five miles of the World Service Office; held every three years."
+    }
+  ],
+  "seating_categories": [
+    {
+      "category": "Regional Delegate",
+      "vote": "Yes",
+      "description": "Elected representative of a seated NA region. Votes in both CAR-related and CAT-related Discussion and Decisions sessions. Seating on the conference floor is limited to one delegate and one alternate per region."
+    },
+    {
+      "category": "Alternate Regional Delegate",
+      "vote": "Yes (when acting as delegate)",
+      "description": "May attend the WSC with their delegate but each region counts as one participant. The alternate may participate in conference participants web meetings with or without their delegate. Acts as a full participant when the delegate is absent."
+    },
+    {
+      "category": "Zonal Delegate",
+      "vote": "Yes",
+      "description": "Funded voting participant representing a zonal forum with two or more regions or communities not individually seated at the WSC. Eligible to receive the same funding as regional delegates."
+    },
+    {
+      "category": "Zonal Alternate Delegate",
+      "vote": "Yes (when acting as delegate)",
+      "description": "May attend the WSC at the zone's own expense. Participates in all conference participant communications."
+    },
+    {
+      "category": "World Board Member",
+      "vote": "Yes (CAT only)",
+      "description": "Votes and may make motions or proposals in CAT-related Discussion and Decisions sessions. Does not vote during CAR-related Discussion and Decisions sessions but may make motions or proposals in all sessions."
+    },
+    {
+      "category": "Executive Director of the WSO",
+      "vote": "No",
+      "description": "Attends the WSC meeting but does not have a vote or the ability to make motions or proposals at the conference meeting."
+    },
+    {
+      "category": "Human Resource Panel Members",
+      "vote": "No",
+      "description": "Not conference participants; attend the WSC meeting in their defined role. Often invited to participate in discussion or presentation sessions. Facilitate the elections session."
+    },
+    {
+      "category": "WSC Cofacilitators",
+      "vote": "No (facilitator role only)",
+      "description": "Not conference participants in the voting sense. Preside over CAR- and CAT-related Discussion and Decisions sessions. Not counted among voting participants."
+    },
+    {
+      "category": "Zonal Contacts (ineligible zones)",
+      "vote": "No",
+      "description": "If a zone is ineligible to have a zonal delegate attend the WSC, two zonal contacts may be included in conference participants web meetings, eblasts, and other communications between face-to-face WSC meetings."
+    }
+  ],
+  "zone_region_structure": {
+    "description": "NA's service structure runs from NA groups upward through area service committees, metropolitan service committees, regional service committees, and zonal forums to the World Service Conference. Regions send elected delegates to the WSC. Zones are groupings of regions that provide a forum for communication, cooperation, and growth among NA communities. Zones interact with World Services in many ways and may send a zonal delegate to the WSC if eligible.",
+    "zone_seating_criteria": "A zonal forum with two or more zonally seated regions or communities that are not seated at the World Service Conference may choose to send one zonal delegate and alternate to the WSC to represent those regions or communities. WSC 2020 decided to pause zonal seating by not considering seating requests from zones formed after WSC 2018 until after zonal seating criteria or a process for zonal seating is established by the WSC.",
+    "notes": [
+      "Zonal forums may provide written reports and short videos to the WSC.",
+      "Zonal forums are provided with conference participant mailings and are requested to send their minutes to World Services.",
+      "World Services typically attends zonal forum meetings and may provide funding for some participants' attendance at zonal forums.",
+      "There are zones in North America, Asia-Pacific-Middle East-Africa, Europe, and Central and South America.",
+      "Zonal delegates are funded, voting participants with the same funding eligibility as regional delegates.",
+      "If a zone is ineligible for a seated delegate, two zonal contacts may participate in web meetings, eblasts, and other communications."
+    ]
+  },
+  "glossary_additions": [
+    {
+      "term": "Conference Approval Track (CAT)",
+      "definition": "A separate approval track from the CAR containing material to be considered at the upcoming WSC that was not included in the Conference Agenda Report. Distributed to conference participants 90 days before the WSC. Typically includes the proposed NAWS budget, project plans, seating requests, and World Board recommendations."
+    },
+    {
+      "term": "Conference Agenda Report (CAR)",
+      "definition": "The primary report distributed to conference participants containing proposals and motions for Fellowship-wide consideration and decision. Released in English 180 days before the WSC and in translated versions 150 days before. Regional and zonal motions must be submitted 270 days before the conference."
+    },
+    {
+      "term": "Consensus-Based Decision Making (CBDM)",
+      "definition": "The decision-making process used by the WSC, based on seeking the consent of the group rather than simple majority rule. The WSC defines 'consensus support' as 80% or more in favor, and uses this process before formal votes to improve decision quality and participant acceptance."
+    },
+    {
+      "term": "Straw Poll",
+      "definition": "An informal measure of where the conference body stands on a particular issue. Not a binding decision except when consensus (80% or more) is reached in an initial straw poll, in which case (for 2025 and 2026 only) the Cofacilitators will announce the result as a final decision."
+    },
+    {
+      "term": "Fellowship Intellectual Property Trust (FIPT)",
+      "definition": "A set of documents describing how NA's literature and logos are managed and protected by NA World Services, Inc. as trustee on behalf of the Fellowship. Created in 1993 and revised at WSC 2023."
+    },
+    {
+      "term": "Issue Discussion Topics (IDTs)",
+      "definition": "Topics selected by the WSC for widespread Fellowship discussion during a conference cycle. Topics are drawn from sources including worldwide workshop reports, Fellowship correspondence, and regional or member submissions, and the results may inform future project plans or literature."
+    },
+    {
+      "term": "RBZ Process",
+      "definition": "The process by which NA regions, NA zones, and the World Board may forward potential candidates to the Human Resource Panel for consideration for WSC elected positions. The acronym stands for Region, Board, Zone."
+    },
+    {
+      "term": "Fellowship-Approved",
+      "definition": "The highest approval designation for NA recovery material, meaning it was developed by NA World Services, sent to the Fellowship for review, and ultimately approved by the Fellowship through the Conference Agenda Report. Fellowship-approved recovery material is typically the only type read in NA meetings."
+    },
+    {
+      "term": "Conference-Approved",
+      "definition": "Approval designation for NA handbooks and service booklets that are approved by the World Service Conference through the Conference Approval Track rather than by the Fellowship at large. Materials tend to convey NA's fundamental ideas about certain areas of service."
+    },
+    {
+      "term": "World Board-Approved",
+      "definition": "Approval designation for service-related informational pamphlets and tools that the World Board is authorized to approve and publish after a 90-day review-and-input period for conference participants."
+    },
+    {
+      "term": "CAR Survey",
+      "definition": "A survey included in the Conference Agenda Report (and posted online) containing ideas for recovery literature, service material, and Issue Discussion Topics. Results help conference participants set priorities for literature and service material projects. For the 2023\u20132026 cycle, a revised process allows conference participants to submit ideas for the survey rather than submitting project plan motions."
+    },
+    {
+      "term": "Moving Forward Session",
+      "definition": "The closing session of the WSC meeting on Saturday afternoon. Used to review decisions of the week, address any final votes needed from new idea proposals, and leave participants with a common understanding of the work ahead for the upcoming conference cycle."
+    },
+    {
+      "term": "Unity Day",
+      "definition": "An annual NA worldwide event coordinated by World Services. In 2025 it is scheduled as a 24-hour virtual event hosted by NA World Services and involving all interested zones."
+    },
+    {
+      "term": "New Idea Proposal",
+      "definition": "A formal proposal submitted during the WSC conference week (by noon Wednesday) for discussion. All proposals are surveyed by participants; those receiving the most 'yes' votes are selected for small-group discussion on Friday, with follow-up in the Saturday sessions."
+    },
+    {
+      "term": "Group Service Representative (GSR)",
+      "definition": "An NA member elected by their group to participate on behalf of the group in the area committee and regional assembly."
+    },
+    {
+      "term": "Regional Committee Member (RCM)",
+      "definition": "A representative elected by member-areas of a region to sit on the regional service committee. RCMs elect regional committee officers from among themselves."
+    },
+    {
+      "term": "Zonal Forum",
+      "definition": "A service-oriented sharing and/or business session or body that provides a means for NA communities to communicate, cooperate, and grow with one another at a level between regions and World Services."
+    }
+  ],
+  "key_policies": [
+    {
+      "policy": "Amendments to the Guidelines",
+      "description": "A Guide to World Services in NA may be amended at any time by a two-thirds (2/3) majority vote of the World Service Conference. The External Guidelines of the World Board and Human Resource Panel are amendable only by action of the WSC."
+    },
+    {
+      "policy": "Decision-Making Threshold",
+      "description": "All decisions at the WSC, excluding elections and appeals of Cofacilitator decisions, require a two-thirds (2/3) majority of those present and voting in the affirmative to be adopted."
+    },
+    {
+      "policy": "Cofacilitator Appeal Threshold",
+      "description": "If a participant appeals a decision of the Cofacilitator, the voting threshold required to uphold the Cofacilitator's decision is 50% plus 1 in favor of the Cofacilitator."
+    },
+    {
+      "policy": "Quorum for WSC",
+      "description": "A quorum for the WSC is a majority of all eligible voting members."
+    },
+    {
+      "policy": "WSC Funding for Delegates",
+      "description": "The WSC offers funding, upon request, for the attendance of a delegate from each seated region or zone to the WSC meeting. Funding includes travel, lodging, and meal expenses only. This policy covers all currently seated regions and zones that have attended one of the past three conferences, as well as newly seated regions and zones. (Changed from automatic funding to funding upon request at WSC 2023.)"
+    },
+    {
+      "policy": "Remote Participation",
+      "description": "Participants who are unable to attend the WSC may participate remotely. Remote participants have the same rights as if they were at the WSC."
+    },
+    {
+      "policy": "CAR Distribution Timeline",
+      "description": "The English CAR must be distributed a minimum of 180 days prior to the opening day of the conference. Translated versions must be released a minimum of 150 days prior. Regional and zonal motions must be submitted 270 days prior to the opening of the conference."
+    },
+    {
+      "policy": "CAT Distribution Timeline",
+      "description": "Conference Approval Track material is distributed to conference participants 90 days before the WSC."
+    },
+    {
+      "policy": "Amendment Submission Deadlines",
+      "description": "All amendments and motions to seat new participants must be submitted 60 days before the WSC and be in final form 45 days before the WSC. For the interim WSC, amendments must be submitted 45 days before and be in final form 30 days before."
+    },
+    {
+      "policy": "World Board Membership Cleantime Requirement",
+      "description": "All World Board members must have a minimum of 10 years clean."
+    },
+    {
+      "policy": "HRP and Cofacilitator Cleantime Requirement",
+      "description": "All Human Resource Panel members and WSC Cofacilitators must have a minimum of 8 years clean."
+    },
+    {
+      "policy": "World Board Election Threshold",
+      "description": "World Board nominees must receive at least 60% of votes cast to be elected. HRP and Cofacilitator nominees require a simple majority (50%+1)."
+    },
+    {
+      "policy": "World Board Size and Terms",
+      "description": "The World Board consists of up to 15 members. Terms are six years. Members are eligible for no more than two terms."
+    },
+    {
+      "policy": "World Board Removal",
+      "description": "Members may be removed from the World Board by a two-thirds majority vote of the Board. The WSC may, by a two-thirds majority vote, direct the Board to remove a member for causes including failure to attend two meetings in twelve months, relapse, felony conviction, being declared of unsound mind, misappropriation of funds, or breach of statutory duties."
+    },
+    {
+      "policy": "HRP Cannot Nominate Outgoing Members",
+      "description": "The Human Resource Panel cannot nominate an outgoing HRP member to any NA World Service trusted servant position. Once off the panel, former members are eligible for nomination consideration."
+    },
+    {
+      "policy": "Seating New Regions\u2014Criteria",
+      "description": "A new region must have functioned as a service body for at least three years before applying. It should conform to established geographic boundaries. It must submit a letter of intent to the World Board not less than one year before a WSC. Formal recognition requires a motion in the CAT-related Discussion and Decisions session to pass with a two-thirds vote. Funding for attendance is not provided for the conference at which the request is being considered. Newly recognized regions are eligible for funding at the next WSC."
+    },
+    {
+      "policy": "Zonal Seating Pause",
+      "description": "WSC 2020 decided to pause zonal seating by not considering seating requests from zones formed after WSC 2018 until after zonal seating criteria or a process for zonal seating is established by the WSC."
+    },
+    {
+      "policy": "Changes to Twelve Steps, Traditions, Concepts, or NA's Name/Nature/Purpose",
+      "description": "Any WSC proposal to change NA's Twelve Steps, Twelve Traditions, Twelve Concepts, or NA's name, nature, or purpose must be approved directly by the groups through a group tally process. A registration period is held; 75% of registered groups must participate for the tally to be valid; and 75% of responding groups must vote in the affirmative for the decision to pass."
+    },
+    {
+      "policy": "Three-Year Conference Cycle",
+      "description": "WSC 2023 approved a three-year WSC conference cycle on a trial basis following WSC 2023 through WSC 2029. After 2029, the cycle will return to two years unless another decision is made. An interim virtual WSC is held mid-cycle."
+    },
+    {
+      "policy": "Conference Minutes Distribution",
+      "description": "Minutes of the conference meeting are distributed to conference participants within 90 days of the close of the conference."
+    },
+    {
+      "policy": "No Project Proposal Considered at Same WSC as Proposed",
+      "description": "No project proposal will be considered for prioritization or action during the same WSC at which it was originally proposed."
+    },
+    {
+      "policy": "Translations\u2014Final Approval by Local Communities",
+      "description": "The World Service Conference does not approve translations; it delegates that responsibility to the World Board. The final approval of translations is done by local communities. All translated and approved literature will include the wording 'This is a translation of NA Fellowship\u2013approved literature.'"
+    },
+    {
+      "policy": "Basic Text Personal Stories in Translation",
+      "description": "Only stories approved by the Fellowship in the Sixth Edition Basic Text should appear in translated versions. Exception: local NA communities that have published local stories in the Little White Book may include up to six of those stories in their translated Sixth Edition Basic Text, in a clearly identified section."
+    },
+    {
+      "policy": "FIPT\u2014Intellectual Property Ownership",
+      "description": "All NA intellectual and physical properties are held by Narcotics Anonymous World Services, Inc. in trust on behalf of the Fellowship. NA World Services is the exclusive publisher and distributor of all WSC- and Fellowship-approved literature."
+    },
+    {
+      "policy": "World Convention Rotation Suspension",
+      "description": "The WCNA rotation policy has been suspended after 2024 as a result of the COVID pandemic, to allow the World Board to determine what is possible and practical and then seek approval from conference participants."
+    },
+    {
+      "policy": "Consensus in Initial Straw Poll as Final Decision (2025\u20132026 only)",
+      "description": "For the 2025 Interim WSC and the 2026 WSC only, if a motion has consensus (80% or more in support or not in support) in an initial straw poll, the Cofacilitators will announce the results as a final decision."
+    }
+  ],
+  "financial_overview": {
+    "description": "The NA World Services budget is built around routine operations (fixed operational funds) and non-routine or variable items (variable operational funds), plus reserve funds. The fiscal year end is 30 June. The budget is approved by the WSC at each conference, with project plans approved individually and the remainder (fixed operational and reserve funds) approved as a whole.",
+    "key_points": [
+      "Budget uses a three-tiered accounting process: Fixed Operational Funds (recurring activities), Variable Operational Funds (non-routine projects prioritized by the WSC), and Reserve Funds (short-term and long-term reserves, depreciation, asset management, and FIPT-related financial resources).",
+      "Any new non-routine project must be thoroughly planned with an accompanying budget and timeline, and be prioritized and approved by the WSC before work begins. No project may be prioritized unless accompanied by a project timeline and budget.",
+      "All items submitted for budget consideration must include an expense estimate with a staff time component.",
+      "Provisions are made in the budget for maintenance of a World Services operational reserve fund.",
+      "The fiscal year end for Narcotics Anonymous World Services, Inc. is 30 June.",
+      "The World Board is responsible for determining basic services (fixed operational funds); the conference prioritizes projects based on available resources (variable operational funds) and reviews and adopts the budget for the upcoming cycle.",
+      "Most of NA World Services' income comes from proceeds on sales of printed literature; NAWS gives away or subsidizes more than a half million dollars' worth of literature each year.",
+      "The Executive Committee of the World Board conducts quarterly audits and/or reviews of WSC credit card activity and reports findings to the Fellowship in the Conference Report."
+    ]
+  },
+  "cat_process": {
+    "description": "The Conference Approval Track (CAT) is a separate approval track from the CAR for material to be considered at the upcoming WSC that was not included in the Conference Agenda Report. It allows materials intended for committees and boards to be distributed directly to conference participants 90 days before the WSC, giving delegates time to workshop the material locally.",
+    "steps": [
+      "Material is prepared and approved by the World Board for inclusion in the CAT.",
+      "CAT material is distributed to conference participants 90 days before the WSC (3 February 2026 for the 2026 WSC).",
+      "Regions may submit material for inclusion in the CAT posting by the deadline (3 January 2026 for the 2026 WSC).",
+      "Delegates workshop the material within their local communities; each community determines how to review it and how to direct their delegate.",
+      "Amendments to CAT motions must be submitted 60 days before the WSC opening day and be in final form 45 days before (or 45 days/30 days before the interim WSC).",
+      "Amendments are vetted by WSC Cofacilitators to ensure they are clear and lend themselves to a yes/no vote.",
+      "All motions and amendments are posted after the final deadline date.",
+      "Initial straw polls on CAT motions are conducted electronically (ePoll) before the in-person WSC meeting.",
+      "CAT-related Discussion and Decisions session is held during the conference week; decisions are made on motions using the CBDM process.",
+      "Formal recognition of new regions and zones requires a motion in the CAT-related Discussion and Decisions session to pass with a two-thirds vote."
+    ],
+    "categories": [
+      "Proposed NAWS Budget and project plans for the upcoming cycle",
+      "Requests for seating (new regions or zones)",
+      "World Board motions including approval of service material, revisions to Conference policy, or other changes to A Guide to World Services in NA",
+      "Most World Board motions not included in the CAR",
+      "Amendments to any of the above"
+    ]
+  },
+  "car_process": {
+    "description": "The Conference Agenda Report (CAR) is the primary report distributed to the Fellowship containing proposals and motions for consideration and decision at the WSC. It is ideally the result of lengthy discussion and input at the previous conference and throughout the conference cycle. It includes an easy-to-read glossary of terms and a CAR survey of ideas for literature, service material, and Issue Discussion Topics.",
+    "steps": [
+      "Regional and zonal motions must be submitted 270 days prior to the opening of the conference (by 1 July 2025 for the 2026 WSC) and be in CAR-ready form by 3 August 2025.",
+      "A motion is 'CAR-ready' when it clearly explains what it is trying to accomplish, the intent lends itself to a clear yes/no decision, and all affected conference policies have been identified by the maker.",
+      "The World Board provides recommendations and financial impact statements for all CAR motions.",
+      "Regional and zonal motions should include approximately 250 words describing the reasoning behind and consequences of the motion.",
+      "All motions must include a written intent provided by the maker.",
+      "The English CAR is published and distributed a minimum of 180 days prior to the opening day of the conference (3 November 2025 for the 2026 WSC).",
+      "Translated versions of the CAR are released a minimum of 150 days prior to the conference (3 December 2025 for the 2026 WSC).",
+      "The CAR is posted at no cost to members on na.org.",
+      "Amendments to CAR motions must be submitted 60 days before the WSC opening day and be in final form 45 days before the WSC.",
+      "Amendments are vetted by WSC Cofacilitators to ensure they are clear and lend themselves to a yes/no vote.",
+      "All motions and amendments are posted after the final deadline date.",
+      "Initial straw polls on CAR motions are conducted electronically (ePoll) before the in-person WSC meeting (after 18 April 2026).",
+      "The CAR-related Discussion and Decisions session is held early in the conference week; it begins with decisions on new processes, then adopts minutes from the previous meeting, then considers CAR motions and any amendments."
+    ]
+  }
+}

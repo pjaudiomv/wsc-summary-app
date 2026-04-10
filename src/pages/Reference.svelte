@@ -1,12 +1,16 @@
 <script lang="ts">
   let data = $state<any>(null);
+  let guide = $state<any>(null);
   let loading = $state(true);
   let search = $state('');
+  let showAllPolicies = $state(false);
+  let showAllTimeline = $state(false);
 
   async function loadData() {
     try {
-      const res = await fetch('./data/gwsna_reference.json');
-      if (res.ok) data = await res.json();
+      const [r1, r2] = await Promise.all([fetch('./data/gwsna_reference.json'), fetch('./data/gwsna_extracted.json')]);
+      if (r1.ok) data = await r1.json();
+      if (r2.ok) guide = await r2.json();
     } catch {
       // silently fail
     }
@@ -17,11 +21,18 @@
     loadData();
   });
 
-  let filteredGlossary = $derived(() => {
+  let visibleTimeline = $derived(showAllTimeline ? (guide?.conference_timeline ?? []) : (guide?.conference_timeline ?? []).slice(0, 8));
+  let visiblePolicies = $derived(showAllPolicies ? (guide?.key_policies ?? []) : (guide?.key_policies ?? []).slice(0, 8));
+
+  let combinedGlossary = $derived.by(() => {
     if (!data?.glossary) return [];
-    if (!search) return data.glossary;
+    const base: any[] = data.glossary;
+    const additions: any[] = guide?.glossary_additions ?? [];
+    const existing = new Set(base.map((g: any) => g.term.toLowerCase()));
+    const merged = [...base, ...additions.filter((g: any) => !existing.has(g.term.toLowerCase()))];
+    if (!search) return merged;
     const q = search.toLowerCase();
-    return data.glossary.filter((g: any) => g.term.toLowerCase().includes(q) || g.definition.toLowerCase().includes(q));
+    return merged.filter((g: any) => g.term.toLowerCase().includes(q) || g.definition.toLowerCase().includes(q));
   });
 </script>
 
@@ -66,17 +77,84 @@
       </div>
     </div>
 
+    <!-- Roles & Responsibilities -->
+    {#if guide?.roles?.length}
+      <section>
+        <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Roles &amp; Responsibilities</h2>
+        <div class="grid gap-4 md:grid-cols-2">
+          {#each guide.roles as role (role.title)}
+            <div class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+              <div class="mb-2 flex items-start justify-between gap-2">
+                <h4 class="font-semibold text-gray-900 dark:text-white">
+                  {role.title}{#if role.abbreviation && role.abbreviation !== 'None'}&nbsp;<span class="text-primary-600 dark:text-primary-400 text-xs">({role.abbreviation})</span>{/if}
+                </h4>
+                {#if role.term_length && !role.term_length.toLowerCase().includes('not')}
+                  <span class="shrink-0 rounded bg-gray-100 px-1.5 py-0.5 text-xs text-gray-500 dark:bg-gray-700 dark:text-gray-400">{role.term_length}</span>
+                {/if}
+              </div>
+              <p class="mb-2 text-sm text-gray-600 dark:text-gray-400">{role.description}</p>
+              {#if role.how_selected}
+                <p class="mb-2 text-xs text-gray-500 dark:text-gray-500"><span class="font-medium">Selected:</span> {role.how_selected}</p>
+              {/if}
+              {#if role.responsibilities?.length}
+                <ul class="space-y-1">
+                  {#each role.responsibilities as r (r)}
+                    <li class="flex gap-1.5 text-xs text-gray-600 dark:text-gray-400">
+                      <span class="text-primary-500 mt-0.5 shrink-0">•</span>{r}
+                    </li>
+                  {/each}
+                </ul>
+              {/if}
+            </div>
+          {/each}
+        </div>
+      </section>
+    {/if}
+
+    <!-- WSC Seating -->
+    {#if guide?.seating_categories?.length}
+      <section>
+        <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">WSC Seating Categories</h2>
+        <div class="overflow-x-auto rounded-lg border border-gray-200 shadow-sm dark:border-gray-700">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-gray-50 text-xs text-gray-700 uppercase dark:bg-gray-700 dark:text-gray-400">
+              <tr>
+                <th class="px-4 py-3">Category</th>
+                <th class="px-4 py-3">Vote</th>
+                <th class="px-4 py-3">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              {#each guide.seating_categories as seat (seat.category)}
+                <tr class="border-b bg-white dark:border-gray-700 dark:bg-gray-800">
+                  <td class="px-4 py-3 font-medium text-gray-900 dark:text-white">{seat.category}</td>
+                  <td class="px-4 py-3">
+                    {#if seat.vote === 'Yes'}
+                      <span class="rounded-full bg-green-100 px-2 py-0.5 text-xs font-medium text-green-800 dark:bg-green-900/40 dark:text-green-300">Yes</span>
+                    {:else}
+                      <span class="rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-700 dark:text-gray-400">{seat.vote}</span>
+                    {/if}
+                  </td>
+                  <td class="px-4 py-3 text-xs text-gray-600 dark:text-gray-400">{seat.description}</td>
+                </tr>
+              {/each}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    {/if}
+
     <!-- Glossary -->
     <section>
       <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Glossary of Terms</h2>
       <input
         type="search"
         class="focus:border-primary-500 focus:ring-primary-500 mb-4 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400"
-        placeholder="Search terms..."
+        placeholder="Search {combinedGlossary.length + (search ? 0 : 0)} terms..."
         bind:value={search}
       />
       <div class="grid gap-3 md:grid-cols-2">
-        {#each filteredGlossary() as item (item.term)}
+        {#each combinedGlossary as item (item.term)}
           <div class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800">
             <dt class="font-semibold text-gray-900 dark:text-white">{item.term}</dt>
             <dd class="mt-1 text-sm text-gray-600 dark:text-gray-400">{item.definition}</dd>
@@ -113,6 +191,88 @@
         {/each}
       </div>
     </section>
+
+    <!-- CAR Process -->
+    {#if guide?.car_process}
+      <section>
+        <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">CAR Process</h2>
+        <div class="rounded-lg border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+          <p class="mb-3 text-sm text-gray-600 dark:text-gray-400">{guide.car_process.description}</p>
+          {#if guide.car_process.steps?.length}
+            <ol class="space-y-2">
+              {#each guide.car_process.steps as step, i (i)}
+                <li class="flex gap-3 text-sm text-gray-700 dark:text-gray-300">
+                  <span class="bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs font-bold">{i + 1}</span
+                  >
+                  {step}
+                </li>
+              {/each}
+            </ol>
+          {/if}
+        </div>
+      </section>
+    {/if}
+
+    <!-- CAT Process -->
+    {#if guide?.cat_process}
+      <section>
+        <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">CAT Process</h2>
+        <div class="rounded-lg border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+          <p class="mb-3 text-sm text-gray-600 dark:text-gray-400">{guide.cat_process.description}</p>
+          {#if guide.cat_process.steps?.length}
+            <ol class="mb-4 space-y-2">
+              {#each guide.cat_process.steps as step, i (i)}
+                <li class="flex gap-3 text-sm text-gray-700 dark:text-gray-300">
+                  <span class="bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs font-bold">{i + 1}</span
+                  >
+                  {step}
+                </li>
+              {/each}
+            </ol>
+          {/if}
+          {#if guide.cat_process.categories?.length}
+            <p class="mb-2 text-xs font-medium text-gray-500 uppercase dark:text-gray-400">CAT Categories</p>
+            <div class="flex flex-wrap gap-2">
+              {#each guide.cat_process.categories as cat (cat)}
+                <span class="rounded-full bg-purple-100 px-2.5 py-0.5 text-xs font-medium text-purple-800 dark:bg-purple-900/40 dark:text-purple-300">{cat}</span>
+              {/each}
+            </div>
+          {/if}
+        </div>
+      </section>
+    {/if}
+
+    <!-- Conference Timeline -->
+    {#if guide?.conference_timeline?.length}
+      <section>
+        <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Conference Timeline</h2>
+        <div class="overflow-x-auto rounded-lg border border-gray-200 shadow-sm dark:border-gray-700">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-gray-50 text-xs text-gray-700 uppercase dark:bg-gray-700 dark:text-gray-400">
+              <tr>
+                <th class="px-4 py-3">Phase / Milestone</th>
+                <th class="px-4 py-3">Timing</th>
+                <th class="px-4 py-3">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              {#each visibleTimeline as item, i (i)}
+                <tr class="border-b bg-white dark:border-gray-700 dark:bg-gray-800">
+                  <td class="px-4 py-3 font-medium text-gray-900 dark:text-white">{item.phase}</td>
+                  <td class="px-4 py-3 text-xs text-gray-500 dark:text-gray-400">{item.timing}</td>
+                  <td class="px-4 py-3 text-xs text-gray-600 dark:text-gray-400">{item.description}</td>
+                </tr>
+              {/each}
+            </tbody>
+          </table>
+        </div>
+        {#if guide.conference_timeline.length > 8}
+          <button class="text-primary-600 hover:text-primary-700 dark:text-primary-400 mt-2 text-sm font-medium" onclick={() => (showAllTimeline = !showAllTimeline)}>
+            {showAllTimeline ? 'Show less' : `Show all ${guide.conference_timeline.length} items`}
+          </button>
+        {/if}
+      </section>
+    {/if}
 
     <!-- Consensus Thresholds -->
     <section>
@@ -163,6 +323,26 @@
         {/each}
       </div>
     </section>
+
+    <!-- Key Policies -->
+    {#if guide?.key_policies?.length}
+      <section>
+        <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Key Policies</h2>
+        <div class="grid gap-3 md:grid-cols-2">
+          {#each visiblePolicies as policy (policy.policy)}
+            <div class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+              <h4 class="mb-1 font-semibold text-gray-900 dark:text-white">{policy.policy}</h4>
+              <p class="text-sm text-gray-600 dark:text-gray-400">{policy.description}</p>
+            </div>
+          {/each}
+        </div>
+        {#if guide.key_policies.length > 8}
+          <button class="text-primary-600 hover:text-primary-700 dark:text-primary-400 mt-2 text-sm font-medium" onclick={() => (showAllPolicies = !showAllPolicies)}>
+            {showAllPolicies ? 'Show less' : `Show all ${guide.key_policies.length} policies`}
+          </button>
+        {/if}
+      </section>
+    {/if}
 
     <!-- Key Rules -->
     <section>
