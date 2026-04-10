@@ -359,7 +359,7 @@
   {
     "motion_number": "1",
     "motion_text": "To approve adding zonal delegates from seated zones to the Settlor and Trustor of the Fellowship Intellectual Property Trust (FIPT). As amended by 1a1: To approve adding zonal delegates from seated zones to the Settlor and Trustor of the Fellowship Intellectual Property Trust (FIPT) in Article II and to clarify the description of Recovery Literature in Article III of the FIPT as reflected in Addendum B.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 111,
@@ -376,7 +376,7 @@
   {
     "motion_number": "2",
     "motion_text": "To approve the revisions to the FIPT Operational Rules contained in Addendum B.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 93,
@@ -393,7 +393,7 @@
   {
     "motion_number": "3",
     "motion_text": "To approve the revisions to NA Intellectual Property Bulletin #1 contained in Addendum D.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 104,
@@ -410,7 +410,7 @@
   {
     "motion_number": "4",
     "motion_text": "To acknowledge that an NA meeting that meets regularly in person or virtually can choose to be an NA group if they meet the criteria described in The Group Booklet, including the six points for an NA group, and are consistent with NA philosophy as expressed in our Traditions. (Footnotes will be added to The Group Booklet and GLS, reflecting the decision of the WSC, if this motion passes, and referencing Virtual Meeting Basics as a possible resource.)",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 114,
@@ -427,7 +427,7 @@
   {
     "motion_number": "5",
     "motion_text": "To revise A Vision for NA Service, changing the phrase \u201chis or her own language and culture\u201d to the phrase \u201ctheir own language and culture.\u201d (If this motion passes, A Vision for NA Service will be revised in future printings, including in Fellowship-approved recovery literature.)",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 101,
@@ -444,7 +444,7 @@
   {
     "motion_number": "6",
     "motion_text": "To approve a change to World Services Translation Policy in GWSNA to allow the possibility for up to six locally developed personal stories to be included in translated Sixth Edition Basic Texts, if the stories have first been published in the Little White Book of that language. These stories would be placed in their own section in Our Members Share with the following language preceding them: A Vision for NA Service looks forward to a day when addicts around the world have the opportunity to experience our message in their own language and culture. In pursuit of that vision, communities or language groups that have published local stories in the Little White Book may include up to six of those stories in the Basic Text if they choose. These [fill in the number] stories were originally published in the [fill in the language] Little White Book in [fill in the year].",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 118,
@@ -461,7 +461,7 @@
   {
     "motion_number": "7",
     "motion_text": "To extend the six World Board members\u2019 terms currently expiring in 2024 through the end of the upcoming World Service Conference cycle.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 119,
@@ -478,7 +478,7 @@
   {
     "motion_number": "8",
     "motion_text": "As a result of the COVID pandemic, to suspend the World Convention of NA (WCNA) rotation policy after 2024, to allow the World Board to determine what is possible and practical moving forward and then seek approval from conference participants.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 107,
@@ -495,7 +495,7 @@
   {
     "motion_number": "9",
     "motion_text": "To approve a three-year World Service Conference cycle on a trial basis following WSC 2023 through WSC 2029. Following 2029, the WSC cycle would return to two years, unless another decision is made.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 98,
@@ -512,7 +512,7 @@
   {
     "motion_number": "10",
     "motion_text": "If Motion 9 is adopted, to approve an interim virtual WSC in the middle of the conference cycle for decisions that are legally necessary and those that conference participants choose to address. As was done in the 2020-2023 cycle, material would be posted on na.org under the same deadline policies as the CAT (ninety days prior) and all voting conference participants would be polled to choose the items they wish to address.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 114,
@@ -529,7 +529,7 @@
   {
     "motion_number": "11",
     "motion_text": "If Motion 9 is adopted, to approve a change to the release of the Conference Agenda Report (CAR) to be thirty days earlier than the current policy of 150 days prior to the start of the World Service Conference. The new CAR release day would be 180 days prior to the in-person WSC meeting for English, 150 days for translated versions. The deadline for the finalization of regional and zonal motions would be 270 days. The Conference Agenda Report will be posted on na.org at no cost to members.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 117,
@@ -546,7 +546,7 @@
   {
     "motion_number": "12",
     "motion_text": "To change the current policy of NA World Services automatically funding delegates from seated regions and zones to the WSC to funding available upon request.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 110,
@@ -580,7 +580,7 @@
   {
     "motion_number": "14",
     "motion_text": "Comakers: Northern California Region, Wisconsin Region, Ontario Region To direct the World Board to create a project plan for consideration at the next WSC to investigate changes and/or additional wording to NA literature from gender specific language to gender neutral and inclusive language.",
-    "maker": null,
+    "maker": "Sweden and Australia Regions",
     "second": null,
     "result": "other",
     "vote_for": 92,
@@ -784,7 +784,7 @@
   {
     "motion_number": "26",
     "motion_text": "To approve the project plan for New Recovery Informational Pamphlets. 8 | Pa g e Summary of Decisions 21 July 2023",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 124,
@@ -801,7 +801,7 @@
   {
     "motion_number": "27",
     "motion_text": "To approve the project plan for Revising Existing Recovery Informational Pamphlets.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 131,
@@ -818,7 +818,7 @@
   {
     "motion_number": "28",
     "motion_text": "To approve the project plan for Issue Discussion Topics.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 127,
@@ -835,7 +835,7 @@
   {
     "motion_number": "29",
     "motion_text": "To approve the project plan for New and Revised Service Tools.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 122,
@@ -852,7 +852,7 @@
   {
     "motion_number": "30",
     "motion_text": "To approve the project plan for Future of the WSC.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 130,
@@ -869,7 +869,7 @@
   {
     "motion_number": "31",
     "motion_text": "To approve the project plan for Invest in Our Vision.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 127,
@@ -886,7 +886,7 @@
   {
     "motion_number": "32",
     "motion_text": "To approve the 2023\u20132025 Narcotics Anonymous World Services, Inc., Budget 9 | Pa g e Summary of Decisions 21 July 2023",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 129,
@@ -903,7 +903,7 @@
   {
     "motion_number": "33",
     "motion_text": "To use the following terminology to describe straw poll and vote outcomes, for WSC 2023 only: Unanimous support Lack of strong support (meaning less than 2/3 support) >20%\u2212<66.66%",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 119,
@@ -920,7 +920,7 @@
   {
     "motion_number": "34",
     "motion_text": "For WSC 2023 only: If a participant appeals a decision of the Cofacilitator, the Cofacilitator will explain why they ruled as they did, the participant making the appeal will explain why they are appealing the ruling, and then the body will vote. The voting threshold required to uphold a decision of the Cofacilitator under appeal will be 50% plus 1 in favor of the Cofacilitator.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 102,
@@ -937,7 +937,7 @@
   {
     "motion_number": "35",
     "motion_text": "To eliminate abstentions when voting or taking straw polls, for WSC 2023 only.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 67,
@@ -954,7 +954,7 @@
   {
     "motion_number": "36",
     "motion_text": "To adopt, for WSC 2023 only, the following approaches for New Idea Discussions [See page 6 of the CAT]",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 106,
@@ -971,7 +971,7 @@
   {
     "motion_number": "37",
     "motion_text": "To adopt the 2023\u20132025 Reimbursement Policy. 10 | Pa g e Summary of Decisions 21 July 2023",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 132,
@@ -988,7 +988,7 @@
   {
     "motion_number": "38",
     "motion_text": "To approve the 2020 and 2022 World Service Conference minutes.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 116,
@@ -1090,7 +1090,7 @@
   {
     "motion_number": "44",
     "motion_text": "To use the following terminology to describe straw poll and vote outcomes: Unanimous support Lack of strong support (meaning less than 2/3 support) >20%\u2212<66.66%",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 131,
@@ -1107,7 +1107,7 @@
   {
     "motion_number": "45",
     "motion_text": "If a participant appeals a decision of the Cofacilitator, the participant making the appeal will explain why they are appealing the ruling, the Cofacilitator will explain why they ruled as they did, and then the body will vote. The voting threshold required to uphold a decision of the Cofacilitator under appeal will be 50% plus 1 in favor of the Cofacilitator.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 123,
@@ -1141,7 +1141,7 @@
   {
     "motion_number": "1-a1",
     "motion_text": "Amend, CAR To add to the end of Motion 1 the following: Motion 1 . . . in Article II and to clarify the description of Recovery Literature in Article III of the FIPT as reflected in Addendum B. Motion 1 would read as amended: Motion 1: To approve adding zonal delegates from seated zones to the Settlor and Trustor of the Fellowship Intellectual Property Trust (FIPT) in Article II and to clarify the description of Recovery Literature in Article III of the FIPT as reflected in Addendum B. 3 | Pa g e Summary of Decisions 21 July 2023",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 107,
@@ -1158,7 +1158,7 @@
   {
     "motion_number": "21-a1",
     "motion_text": "Co-maker: New Jersey Region Amend, CAR To substitute the wording of",
-    "maker": null,
+    "maker": "South Florida Region",
     "second": null,
     "result": "other",
     "vote_for": null,
@@ -1174,8 +1174,8 @@
   },
   {
     "motion_number": "9-a1",
-    "motion_text": "New Jersey Amend, CAR To amend Motion 9 as follows: Motion 9 To approve a three-year World Service Conference cycle on a trial basis following WSC 2023 2025 through WSC 2029 2031. Following 2029 2031, the WSC cycle would return to two years, unless another decision is made. The motion as amended would read To approve a three-year World Service Conference cycle on a trial basis following WSC 2025 through WSC 2031. Following 2031, the WSC cycle would return to two years, unless another decision is made. .",
-    "maker": null,
+    "motion_text": "Amend, CAR To amend Motion 9 as follows: Motion 9 To approve a three-year World Service Conference cycle on a trial basis following WSC 2023 2025 through WSC 2029 2031. Following 2029 2031, the WSC cycle would return to two years, unless another decision is made. The motion as amended would read To approve a three-year World Service Conference cycle on a trial basis following WSC 2025 through WSC 2031. Following 2031, the WSC cycle would return to two years, unless another decision is made. .",
+    "maker": "New Jersey",
     "second": null,
     "result": "other",
     "vote_for": 30,
@@ -1192,7 +1192,7 @@
   {
     "motion_number": "17-a1",
     "motion_text": "Amend, CAR To make the following changes to Motion 17: Motion 17 To place an 8 year a 6-year moratorium on the creation of new recovery literature after WSC 2023, excluding all translations or literature projects currently in development. The motion as amended would read: To place a 6-year moratorium on the creation of new recovery literature after WSC 2023, excluding all translations or literature projects currently in development.",
-    "maker": null,
+    "maker": "Northwest Russia Region",
     "second": null,
     "result": "other",
     "vote_for": 30,
@@ -1209,7 +1209,7 @@
   {
     "motion_number": "19-a1",
     "motion_text": "Amend CAR To direct the WB to create develop a project plan to create a workgroup to investigate the Motion 19 need for a virtual Institutional Review Board (IRB) to review all researchers and their research questions that request access to the Narcotics Anonymous population through NAWS to conduct research. The motion as revised would read: To direct the World Board to develop a project plan, to create a workgroup to investigate the need for a virtual Institutional Review Board (IRB) to review all researchers and their research questions that request access to the Narcotics Anonymous population through NAWS to conduct research",
-    "maker": null,
+    "maker": "Wisconsin Region",
     "second": null,
     "result": "other",
     "vote_for": 34,
@@ -1226,7 +1226,7 @@
   {
     "motion_number": "20-a1",
     "motion_text": "Amend CAR To amend",
-    "maker": null,
+    "maker": "Wisconsin Region",
     "second": null,
     "result": "other",
     "vote_for": null,
@@ -1243,7 +1243,7 @@
   {
     "motion_number": "20-a2",
     "motion_text": "Amend CAR To amend Motion 20 by adding \u201cincluding the simultaneously translated audio feeds\u201d after the",
-    "maker": null,
+    "maker": "Brazil Sul Region",
     "second": null,
     "result": "other",
     "vote_for": null,
@@ -1260,7 +1260,7 @@
   {
     "motion_number": "23-a1",
     "motion_text": "Amend, CAR To amend Motion 23 by replacing the words \u201cEnglish audio\u201d with the words \u201call languages Motion 23 that are being simultaneously translated The motion as amended would read: All in-person and virtual World Service Conferences will be streamed to provide access to NA members in all languages that are being simultaneously translated. 34 | Pa g e Summary of Decisions 21 July 2023",
-    "maker": null,
+    "maker": "Brazil Sul Region",
     "second": null,
     "result": "other",
     "vote_for": 43,
@@ -1277,7 +1277,7 @@
   {
     "motion_number": "24-a1",
     "motion_text": "Amend, CAR To amend Motion 24 by replacing the words \u201cEnglish audio\u201d with the words \u201call languages that Motion 24 are being simultaneously translated.\u201d The motion as amended would read: All Conference Participant webinars will be streamed to provide access to NA members in all languages that are being simultaneously translated.",
-    "maker": null,
+    "maker": "Brazil Sul Region",
     "second": null,
     "result": "other",
     "vote_for": 32,
@@ -1294,7 +1294,7 @@
   {
     "motion_number": "2-a1",
     "motion_text": "Amend, CAR To divide Motion 2 to consider separately the changes to Article V, Section 3 of the Motion 2 Operational Rules (the inspection clause). The motion, as amended would be divided into the following two motions: Motion 2a To approve the revisions to Article V, Section 3 of the FIPT Operational Rules contained in Addendum B. Motion 2b To approve the revisions to the FIPT Operational Rules, contained in Addendum B, with the exception of the revisions to Article V, Section 3 Do you want to discuss and decide on the amendment to Mo #7: 41-82-0-1 33% Lack of Strong Support",
-    "maker": null,
+    "maker": "ABCD Region",
     "second": null,
     "result": "other",
     "vote_for": 50,
@@ -1311,7 +1311,7 @@
   {
     "motion_number": "7-a1",
     "motion_text": "Co-maker: Wisconsin Region Amend, CAR To substitute the wording of",
-    "maker": null,
+    "maker": "Australia Region",
     "second": null,
     "result": "other",
     "vote_for": null,
@@ -1328,7 +1328,7 @@
   {
     "motion_number": "8-a1",
     "motion_text": "Amend, CAR To add to the end of Motion 8 the following: Motion 8 \u2026.no later than at the convening of the next WSC. Motion 8 would read as amended: Motion 8: As a result of the COVID pandemic, to suspend the World Convention of NA (WCNA) rotation policy after 2024, to allow the World Board to determine what is possible and practical moving forward and then seek approval from conference participants no later than at the convening of the next WSC. 36 | Pa g e Summary of Decisions 21 July 2023",
-    "maker": null,
+    "maker": "Alaska Region",
     "second": null,
     "result": "other",
     "vote_for": 63,
@@ -1345,7 +1345,7 @@
   {
     "motion_number": "8-a2",
     "motion_text": "Co-maker: Wisconsin Region Amend, CAR To substitute the wording of",
-    "maker": null,
+    "maker": "Australia Region",
     "second": null,
     "result": "other",
     "vote_for": null,
@@ -1362,7 +1362,7 @@
   {
     "motion_number": "8-a3",
     "motion_text": "Amend, CAR To add at the end of",
-    "maker": null,
+    "maker": "Arizona Region",
     "second": null,
     "result": "other",
     "vote_for": null,
@@ -1379,7 +1379,7 @@
   {
     "motion_number": "10-a1",
     "motion_text": "Amend, CAR To amend motion #10 by making the following changes Motion 10 If Motion 9 is adopted, to approve an interim virtual WSC every non-conference year in the middle of the conference cycle for decisions that are legally necessary and those that conference participants choose to address. As was done in the 2020\u20132023 cycle, material would be posted on na.org under the same deadline policies as the CAT (ninety days prior) and all voting conference participants would be polled to choose the items they wish to address. The motion as amended would read: To approve an interim virtual WSC every non-conference year for decisions that are legally necessary and those that conference participants choose to address. As was done in the 2020\u20132023 cycle, material would be posted on na.org under the same deadline policies as the CAT (ninety days prior) and all voting conference participants would be polled to choose the items they wish to address. 37 | Pa g e Summary of Decisions 21 July 2023 Do you want to discuss and decide on the amendments to Mo #11: 63-61-0-0 50% Lack of Strong Support",
-    "maker": null,
+    "maker": "California Inland Region of NA (CIRNA)",
     "second": null,
     "result": "other",
     "vote_for": 55,
@@ -1396,7 +1396,7 @@
   {
     "motion_number": "11-a1",
     "motion_text": "Amend CAR To amend Motion 11 by making the following changes If Motion 9 is adopted, to approve a Motion 11 change to the release of the Conference Agenda Report (CAR) to be thirty ninety (90) days earlier than the current policy of 150 days prior to the start of the World Service Conference. The new CAR release day would be 180 240 days prior to the in-person WSC meeting for English, 150 210 days for translated versions. The deadline for the finalization of regional and zonal motions would be 270 330 days. The Conference Agenda Report will be posted on na.org at no cost to members. The motion as revised would read: If Motion 9 is adopted, to approve a change to the release of the Conference Agenda Report (CAR) to be ninety (90) days earlier than the current policy of 150 days prior to the start of the World Service Conference. The new CAR release day would be 240 days prior to the in- person WSC meeting for English, 210 days for translated versions. The deadline for the finalization of regional and zonal motions would be 330 days. The Conference Agenda Report will be posted on na.org at no cost to members.",
-    "maker": null,
+    "maker": "California Inland Region of NA (CIRNA)",
     "second": null,
     "result": "other",
     "vote_for": 54,
@@ -1412,15 +1412,15 @@
   },
   {
     "motion_number": "11-a2",
-    "motion_text": "Brazilian Zonal Forum Amend CAR To amend",
-    "maker": null,
+    "motion_text": "Amend CAR To amend",
+    "maker": "Brazilian Zonal Forum",
     "second": null,
     "result": "other",
     "vote_for": null,
     "vote_against": null,
     "vote_abstain": null,
     "vote_present": null,
-    "category": "service_structure",
+    "category": "other",
     "notes": null,
     "is_car_motion": true,
     "is_cat_motion": false,
@@ -2433,7 +2433,7 @@
   {
     "motion_number": "26",
     "motion_text": "To adopt, for WSC 2018 only, the following approaches for use in all WSC business, business discussion, proposal decision sessions, and the Moving Forward session: All decisions at WSC 2018, excluding WSC elections but including changes to motions or proposals and requests for a roll call vote or other procedural decisions, require a two-thirds majority of those present and voting to vote in the affirmative to be adopted.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 101,
@@ -2450,7 +2450,7 @@
   {
     "motion_number": "27",
     "motion_text": "To adopt for WSC 2018 only, the following approaches for CAR Business: Rename the session CAR Discussion and Decisions Eliminate formal CAR Business If a motion has consensus in the first straw poll (80% or more of voting participants in support or not in support of the motion), the Conference will have the option to discuss and decide on that motion without any changes (amendments) if participants wish. The Cofacilitators will make it clear to all participants when the Conference is making a final decision. Final decisions on Motions will be taken in the CAR discussion and decision session. 6 First Draft Summary of Decisions 24 May 2018",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 104,
@@ -2467,7 +2467,7 @@
   {
     "motion_number": "28",
     "motion_text": "To adopt for WSC 2018 only, the following approaches for CAT business: For CAT business: Address Conference Approval Track (CAT)\u2013related decisions in the same way described above for CAR-related decisions, including renaming the session CAT Material Discussion and Decisions. The CAT Material Discussion and Decisions session would include: \uf0b7 Approval of NAWS budget \uf0b7 Approval of project plans \uf0b7 Decision on any requests for seating (including any proposals submitted at the WSC) \uf0b7 Any World Board proposals included in the CAT \uf0b7 Any proposals to change any of the above items",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 97,
@@ -2484,7 +2484,7 @@
   {
     "motion_number": "29",
     "motion_text": "To adopt for WSC 2018 only, the following approaches for New Business: 1) All makers of new proposals will use a New Proposal form to submit their proposal. The form will include the following information: a) Maker b) Main topic/issue addressed in the proposal c) The proposal itself d) What does this proposal intend to accomplish? (i.e., project, issue discussion, new tools, evolving the idea to create a 2020 CAR motion, etc.) e) Any contextual or support material that would be helpful in discussion of the proposal 2) The deadline for New Proposal submissions will be 12:00 noon on Wednesday of the Conference week. The WSC Cofacilitators and World Board Chair will oversee the compilation of all submitted proposals and will be responsible for the final presentation of the list to be distributed to Conference participants. They may group proposals that have similar themes (much as is done currently). 3) New Proposal packages and surveys will be distributed to Conference participants Wednesday evening. a) Each participant will be asked to complete the survey, identifying the proposals or topics they wish to discuss with a \u201cyes\u201d and those they do not wish to discuss with a \u201cno.\u201d Participants can choose to vote \u201cyes\u201d or \u201cno\u201d for every proposal, none of the proposals, or any number between. b) The deadline to complete and turn in New Proposal surveys is noon Thursday. 4) Surveys will be tabulated; all results will be provided to Conference participants Thursday evening. a) The proposals or topics that receive the most \u201cyes\u201d votes will be identified for discussion in small groups. We will seek the Conference\u2019s concurrence on the small-group discussion topics. b) All proposals that were submitted and not discussed will be included in an appendix to the WSC minutes. 7 First Draft Summary of Decisions 24 May 2018 5) New Proposal discussions will take place in two 90-minute breakout sessions on Friday. a) We will meet as a large group prior to the start of the small-group discussions to review the proposals and agree on a frame (depending on topics and intended outcomes), so that there is a common understanding of the process and goals. b) There will be five breakout rooms, two for RDs, two for ADs, and one for Spanish- speaking participants. c) Each session in the breakout rooms will have time for both small- and large-group discussions on each topic. Each breakout room will be asked to agree on outcomes of their discussions to report back to the Conference. d) Session outcomes will be compiled in preparation for the Saturday morning session. 6) Large-group follow-up on small-group sessions (Saturday morning) a) We will report the points of agreement or disagreement from the breakouts, and facilitate a discussion on how to move forward. This could include additional large-group or small- group discussions. b) Either here or in Moving Forward, the Conference will decide how to carry forward proposals or topics that received considerable support but were not identified for discussion. 7) Moving Forward session (Saturday afternoon) a) Any outcomes from the New Proposals process that need a final vote will be addressed. b) Any other issues from the week\u2019s work that need a final vote will be addressed.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 101,
@@ -2501,7 +2501,7 @@
   {
     "motion_number": "30",
     "motion_text": "To approve the minutes from WSC 2016",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 105,
@@ -2518,7 +2518,7 @@
   {
     "motion_number": "31",
     "motion_text": "To approve the WSC of the Future Project Plan for inclusion in the 2018-2020 Narcotics Anonymous World Services, Inc. budget.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 116,
@@ -2535,7 +2535,7 @@
   {
     "motion_number": "32",
     "motion_text": "To approve the project plan for a Mental Health/Illness Informational Pamphlet for inclusion in the 2018-2020 Narcotics Anonymous World Services, Inc. budget.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 121,
@@ -2552,7 +2552,7 @@
   {
     "motion_number": "33",
     "motion_text": "To approve the project plan for a New Daily Meditation Book for inclusion in the 2018-2020 Narcotics Anonymous World Services, Inc. budget. 8 First Draft Summary of Decisions 24 May 2018",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 117,
@@ -2569,7 +2569,7 @@
   {
     "motion_number": "34",
     "motion_text": "To approve the Training and Tools Project Plan for inclusion in the 2018-2020 Narcotics Anonymous World Services, Inc. budget.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 118,
@@ -2586,7 +2586,7 @@
   {
     "motion_number": "35",
     "motion_text": "To approve the 2018-2020 Narcotics Anonymous World Services, Inc. budget.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 118,
@@ -2603,7 +2603,7 @@
   {
     "motion_number": "36",
     "motion_text": "To adopt the 2018\u20132020 Reimbursement Policy",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 120,
@@ -2620,7 +2620,7 @@
   {
     "motion_number": "37",
     "motion_text": "All service materials produced by the Local Service Toolbox Project and the Conventions and Events Project will be identified as World Board\u2013approved material, and follow the same approval process as service pamphlets. That means after the World Board signs off on them, drafts will be distributed to Conference participants for a 90-day review before being identified as approved.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 122,
@@ -2637,7 +2637,7 @@
   {
     "motion_number": "38",
     "motion_text": "To seat the Netherlands Region",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 120,
@@ -2654,7 +2654,7 @@
   {
     "motion_number": "39",
     "motion_text": "To seat the Mexico-Occidente Region",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 115,
@@ -2671,7 +2671,7 @@
   {
     "motion_number": "40",
     "motion_text": "To seat Ukraine Region",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 120,
@@ -2756,7 +2756,7 @@
   {
     "motion_number": "50",
     "motion_text": "To adopt, for WSC 2018 only, the following approaches for use in all WSC business, business discussion, proposal decision sessions, and the Moving Forward session: All decisions at the WSC, excluding WSC elections but including changes to motions or proposals and requests for a roll call vote or other procedural decisions, require a two-thirds majority of those present and voting to vote in the affirmative to be adopted. 9 First Draft Summary of Decisions 24 May 2018",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 112,
@@ -2773,7 +2773,7 @@
   {
     "motion_number": "51",
     "motion_text": "To adopt for WSC 2018 only, the following approaches for CAR Business: Rename the session CAR Discussion and Decisions Eliminate formal CAR Business If a motion has consensus in the first straw poll (80% or more of voting participants in support or not in support of the motion), the Conference will have the option to discuss and decide on that motion without any changes (amendments) if participants wish. The Cofacilitators will make it clear to all participants when the Conference is making a final decision. Final decisions on Motions will be taken in the CAR discussion and decision session.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 120,
@@ -2790,7 +2790,7 @@
   {
     "motion_number": "52",
     "motion_text": "To adopt for WSC 2018 only, the following approaches for CAT business: For CAT business: Address Conference Approval Track (CAT)\u2013related decisions in the same way described above for CAR-related decisions, including renaming the session CAT Material Discussion and Decisions. The CAT Material Discussion and Decisions session would include: \uf0b7 Approval of NAWS budget \uf0b7 Approval of project plans \uf0b7 Decision on any requests for seating (including any proposals submitted at the WSC) \uf0b7 Any Most World Board proposals motions included in the CAT \uf0b7 Any proposals amendments to change any of the above items",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 121,
@@ -2807,7 +2807,7 @@
   {
     "motion_number": "53",
     "motion_text": "To acknowledge in the upcoming GWSNA, that formal new business has been eliminated. The process used at WSC 2018 to discuss New Ideas will continue to be developed in the cycle. A motion will be included in the 2020 CAT and offered at the start of WSC 2020 to outline the process to be used for that Conference.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 114,
@@ -2824,7 +2824,7 @@
   {
     "motion_number": "54",
     "motion_text": "To establish a deadline of ten days prior to the opening day of the WSC for amendments to CAR and CAT Motions. The primary reasons for this is to ensure time for translations and notice to Conference participants. 10 First Draft Summary of Decisions 24 May 2018",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 107,
@@ -2841,7 +2841,7 @@
   {
     "motion_number": "55",
     "motion_text": "Approve a vetting process for amendments to motions. The WSC Cofacilitators will ensure that the amendments are clear and lend themselves to a yes/no vote. Motions for the CAR and CAT have policies to ensure that they are clear and lend themselves to a yes/no decision. Proposals made to amend these motions do not have the same requirements.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 111,
@@ -2858,7 +2858,7 @@
   {
     "motion_number": "56",
     "motion_text": "To call items for consideration that appear in the CAR and CAT and items related to seating - motions. To call items submitted to amend a motion - amendments. To call items submitted as New Ideas - proposals.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 113,
@@ -2875,7 +2875,7 @@
   {
     "motion_number": "57",
     "motion_text": "To acknowledge that the WSC has moved away from distributing and collecting election ballots by roll call. The replacement language for the current policies will be presented to participants in the 2020 CAT.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 119,
@@ -2892,7 +2892,7 @@
   {
     "motion_number": "58",
     "motion_text": "To limit discussion to two minutes per person. Additional time may be allotted, at the discretion of the cofacilitator, for reasons such as translations.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "carried",
     "vote_for": 117,
@@ -2909,7 +2909,7 @@
   {
     "motion_number": "59",
     "motion_text": "To begin discussions of motions without hearing from the maker of the motion or the World Board response. 11 First Draft Summary of Decisions 24 May 2018 WSC 2018 BALLOT (LAST NAMES REMOVED FOR THIS RECORD) Note: A separate ballot is distributed for each service position WSC 2018 BALLOT Instructions for this ballot Vote for up to 12 candidates by marking the box next to their name. WORLD BOARD - 9 positions open HRP Nominees Candidate Name Source of nomination (RBZ or World Pool) Cindi B OK Region Danny G World Board, North Carolina Region Dawn P Montana Region Emilio R World Board Etta F Central Atlantic Region Hammed A-T World Board Irene C World Board Jim D European Delegates Meeting Lib E World Board, Aotearoa New Zealand Region Paul F World Board Tana A World Board Yoel G World Board, EDM, Israel Region 12 First Draft Summary of Decisions 24 May 2018 WSC 2018 BALLOT Instructions for this ballot Vote for up to 4 candidates by marking the box next to their name. HUMAN RESOURCE PANEL - 2 positions open HRP Nominees Candidate Name Source of nomination (RBZ or World Pool Craig R Carolina Region Deb N British Columbia, Canadian Assembly Nathanael M World Pool Paul C Canada Atlantic Region, Canadian Assembly WSC 2018 BALLOT Instructions for this ballot Vote for up to 2 candidate by marking the box next to their name. WSC CO-FACILITATOR - 1 position open HRP Nominees Candidate Name Source of nomination (RBZ or World Pool) Daniel C World Pool Wally I South Florida Region 13 First Draft Summary of Decisions 24 May 2018 WSC 2018 ELECTION RESULTS (LAST NAMES REMOVED FOR THIS RECORD) WORLD BOARD Hammed A-T Irene C Lib E Paul F Tana A Yoel G HRP Craig R Nathanael M Cofacilitator Daniel C 14 First Draft Summary of Decisions 24 May 2018 FELLOWSHIP INTELLECTUAL PROPERTY TRUST STRAW POLLS AND DECISIONS STRAW POLLS FROM FIRST FIPT SESSION Operational Rules Do you agree that a change is needed to Article III of the Operational Rules? Are you prepared to make a decision this week? South Florida Inspection Request As the trustor, directing the World Board should we: Attempt to comply as requested? 45 Limit our response in some way? 21 Not attempt to fulfill this request? 27 None of the above 14 STRAW POLLS FROM SECOND FIPT SESSION 1. Do you agree that a change is needed in the future to Article III of the Operational Rules? (this has no effect on the current inspection request) 2. Do you support a temporary suspension of the right for an inspection request from a single region? (this suspension would expire at WSC 2020) DECISION FROM SECOND FIPT SESSION Acting as the trustor, the delegates present at WSC 2018, are suspending Article 5, Section 3 of the FIPT Operational Rules, while we make a decision about the future. This suspension would expire at the close of WSC 2020. Final vote/decision: 89-22-0-2 consensus support 15 16 First Draft Summary of Decisions 24 May 2018 ISSUE DISCUSSION TOPICS FROM MOVING FORWARD SESSION The top two results from the Conference Agenda Report survey: \uf0b7 Attracting members to service \uf0b7 Carrying the NA message and making NA attractive Verbal agreement to start with these two Issue Discussion Topics, and perhaps add another later in the cycle. Verbal agreement to begin framing the IDTs on a Conference participant webinar. DROPBOX AND CP DISCUSSION BOARD STRAW POLLS FROM MOVING FORWARD DROPBOX Did you try it this week? Was it easier to use? Voice response: yes If so, we will move what was on the FTP site to Dropbox and send you a new link and password when we create a folder for the 2018\u20132020 cycle. Our only concern is these being reposted on public social media sites because we all have a responsibility to protect members\u2019 anonymity. Do you want all materials including PowerPoints and videos in Dropbox. It is password protected. CP DISCUSSION BOARD Should the Conference participant discussion board be open to be viewed by anyone? Should RDs be added (along with a WB member) to moderate this board? 72-40-3-8 support but not enough (2/3) to carry PROJECT PLAN PRIORITIES \uf0b7 WSC of the Future high = 77, medium = 34, low = 12 \uf0b7 New Daily Meditation Book high = 49, medium = 37, low = 38 \uf0b7 Mental Health/Illness IP high = 79, medium = 35, low = 10 \uf0b7 Training and Tools high = 81, medium = 37, low = 5 17 First Draft Summary of Decisions 24 May 2018 WORKGROUPS REPORTED DURING MOVING FORWARD SESSION VIRTUAL WORKGROUPS o FIPT Operational Rules and Bulletins o Delegates Sharing o WSC Seating o Audit Committee o Reaching Out o NA Way Magazine FACE-TO-FACE (WITH SOME VIRTUAL MEETINGS) WORKGROUPS o WSC of the Future \u2013 members selected by zones o New Daily Meditation Book o Mental Health/Illness IP o Business Plan o WCNA 37 (already selected) Any objections to these two lists? Verbal agreement 18 First Draft Summary of Decisions 24 May 2018 NEW IDEA PROPOSAL PRIORITIES I want to discuss Friday Yes No Proposal #AA Western Russia Main Topic/issue: Other - na.org site 1 80 35 The Proposal: To make na.org site multilingual (translate it to most spoken NA languages) Proposal #AB Mountaineer, Central Atlantic, and Chicagoland Regions Main Topic/issue: WSC decision making 2 47 64 The Proposal: Proposed 7-Day Agenda for a Discussion/Planning World Service Conference Proposal #AC Mountaineer Main Topic/issue: Other WSC-related matters 3 19 95 The Proposal: The Mountaineer region proposes further discussion and consideration of a 3 year conference cycle. Proposal #AG Show-Me Main Topic/issue: Literature 4 15 102 The Proposal: That no fellowship approved material should be distributed until it is available in all languages in every format Proposal #AL Costa Rica Main Topic/issue: Other - NA virtual group and service guide 5 71 43 The Proposal: To direct the World Board to create a project plan for creation of the \u201cNA virtual group and service guide\u201d. 19 First Draft Summary of Decisions 24 May 2018 I want to discuss Friday Yes No Proposal #AN Costa Rica Main Topic/issue: Other WSC-related matters The Proposal: To direct the World Board propose a motion to be included in 6 59 54 the WSC 2020 CAR to do a world service virtual pre-conference prior to each WSC. Proposal #AO Costa Rica Main Topic/issue: Literature The Proposal: To direct World Board to prepare and produce an information 7 29 83 pamphlet (IP) called \u201cThe Narcotics Anonymous First Step Working Guide\u201d. Proposal #AP California Mid-State Main Topic/issue: Other WSC-related matters, Update Service Material 8 86 26 The Proposal: That the Guide to Local Services in Narcotics Anonymous be updated by 2020 WSC to reflect decisions made since the last update Proposal #AT Western Russia Main Topic/issue: WSC decision making; network service structure forum \u2013 a platform for discussions & communication 9 58 54 The Proposal: to develop a service network which would \"repeat\" our service structure skeleton. Proposal #AV Israel Main Topic/issue: Other - financial strategy The Proposal: To create a workgroup to encourage less reliance on the sale 10 62 48 of literature and increased self-support or other means of financial support consistent with our Traditions. 20 First Draft Summary of Decisions 24 May 2018 I want to discuss Friday Yes No Proposal #AW British Columbia Main Topic/issue: Other WSC-related matters; Delegates Sharing 11 68 42 The Proposal: To make the Delegates Sharing Session a permanent item on the WSC agenda, with a workgroup comprised of RDs every cycle. Proposal #AY Northern New York Main Topic/issue: Zones The Proposal: To hold a 3 day meeting of up to 2 representatives from each 12 57 54 of the existing zones - to be hosted by an existing volunteer zone. Planning and financial responsibility would be negotiated between that zone and World Services. Proposal #BA New Jersey Main Topic/issue: Literature The Proposal: To suspend the literature survey until: \u2022 The fellowship is asked whether we wish to make our literature 13 45 67 decisions in this manner \u2022 It is re-formatted/re-structured in a way that makes it possible to gather a CLEAR group/regional/fellowship conscience Proposal #AF Southern California Main Topic/issue: CAR development process 14 55 57 The Proposal: If any motion or idea fails to pass at the WSC it may not be proposed or brought forward in any business session at the WSC for the following two WSC's. 21 First Draft Summary of Decisions 24 May 2018 I want to discuss Friday Yes No Proposal #AK Volunteer Main Topic/issue: CAR development process The Proposal: If any motion or Proposal , in Content or Intent, has been submitted and failed to achieve consensus TWO Conferences in a 15 64 46 row, the previously suggested Content and Intent may not be proposed to the Fellowship, in the CAR/CAT or at the WSC for approval for the Next two conference cycles. Proposal #AQ Greater New York Main Topic/issue: CAR development process The Proposal: To form a workgroup composed of 2 World Board members 16 48 64 and 4 RDs that would review and select which regional motions are included in the CAR. The RDs on the workgroup would be elected by /at WSC. Proposal #AX Upper Rocky Mountain Main Topic/issue: FIPT current inspection 17 17 85 The Proposal: Conference votes on whether to move forward with the current inspection. Proposal #AZ Colorado Main Topic/issue: FIPT current inspection 18 44 81 The Proposal: To allow the WSC Participants, as trustors of the FIPT, to direct the World Board on the issue of doing or not doing the FIPT inspection just as we direct all other projects and financial decisions. 22 First Draft Summary of Decisions 24 May 2018 I want to discuss Friday Yes No Proposal #AE Southern California Main Topic/issue: Financial The Proposal: In keeping with Section 12 of the FIPT re: Trustee Reporting obligations, SCRSC proposes that a WSC workgroup be formed to 19 67 46 review NAWS financial reporting practices and policies, and to develop recommendations for a more transparent and detailed reporting format. Proposal #AH Rio de Janeiro Main Topic/issue: Financial The Proposal: An Internal Inspection Work Group composed of three 20 42 73 members be created to maintain a permanent inspection of our financial records. Proposal #AI North Carolina, Mountaineer, British Columbia, Rio de Janeiro, Carolina, South Florida, HOW Brasil, Central Atlantic, San Diego Imperial Regions Main Topic/issue: Financial 21 65 50 The Proposal: We propose that a workgroup be created to come up with a list of additional items to be included in the budget reporting. We propose that at least 2 members are chosen from our current workgroup. 23 First Draft Summary of Decisions 24 May 2018 I want to discuss Friday Yes No Proposal #AU Poland Main Topic/issue: Financial The Proposal: To direct the World Board in cooperation with NAWS to 22 43 67 prepare a NAWS internal process and internal procedures that will allow NAWS to respond to the FITP inspection requests in a cost effective manner. Proposal #AD Southern California Main Topic/issue: FIPT 23 39 69 The Proposal: To amend Section 3 of the FIPT to require a minimum of five (5) NA regions to initiate a request for inspection of Trustee Activities. Proposal #AJ Southern California Main Topic/issue: FIPT The Proposal: The SCRSC proposes a WSC workgroup be formed to review, 24 60 50 update, and revise the FIPT. Any recommendations of proposed changes by the workgroup would be reported to conference participants for review and input, then given to the fellowship for approval in the CAR. Proposal #AM Indiana Main Topic/issue: FIPT 25 25 83 The Proposal: No changes to the FIPT until after the inspection request is complete. 24 First Draft Summary of Decisions 24 May 2018 I want to discuss Friday Yes No Proposal #AR Greater New York Main Topic/issue: FIPT The Proposal: The GNYR would like to propose a moratorium on any future FIPT inspection from the close of the 2018 WSC until after the 2020 WSC. In the interim between the WSC conferences we would like the 26 37 71 World Board to form a workgroup to examine the FIPT and make recommendations for revisions to specifically, but not exclusively limited to: Section 3 \u201cInspection of the trustee activities conditions of inspection.\u201d Proposal #AS Greater New York Main Topic/issue: FIPT 27 35 71 The Proposal: To changes FIPT Operating Rules to: FIPT Inspection can only occur via approval via the RDs at/during the WSC. 25 First Draft Summary of Decisions 24 May 2018 NEW IDEA PROPOSAL DISCUSSION RESULTS 1. Update service material: What do you want to see in a local service guide? Ballroom AB All decisions at WSC since last update, including SSP options; A guide, 25 not policy Describe FD as it applies to areas and regions 23 Use GLS as a framework point to other resources 19 Planning Best practices 12 Video links to \u201chow to\u201d videos and other materials in the guide 7 Include CBDM and RRs 6 Simplify language and pictures 5 Communications for each level of service 3 Mentoring guidelines 1 Broad view of technology 0 Ballroom CD Add CBDM 30 Articulate how zones are used 17 Sections for group, area, region and zone 17 Create electronic version that could be easily updated and dynamic 15 Start over instead of update\u2014simple, concise, etc. 10 Remove out-of-date items; update fund flow, update service structure 8 Create project plan to take what\u2019s created thru literature review process 5 Calabasas Brief intro to the decisions made in the WSC about zonal representation 1st priority Service system\u20142nd priority 2nd priority CBDM 26 First Draft Summary of Decisions 24 May 2018 Definition of roles and functions of zonal delegates who they represent\u2014 nonseated regions and voice in decision making Service prayer\u2014add it Update and expand information on zonal forums Hidden Hills Translate 22 Update\u2014SSP, zones 16 Technology\u2014websites, online meetings 9 Parliamentary to CBDM 8 Local service basics 5 Services \u2013 guide/suggestions 3 Zonal information/elaborate 1 Functions of service positions \u2013gsrs, rcms 1 Ventura Section for mentorship and to provide leadership 16 CBDM\u2014How-to with examples 14 Opening vision statement including the service prayer to relate \u201ca 14 vision for NA service\u201d to carrying out local service Visually friendly flowcharts and diagrams 9 Info on newer service bodies and service structure options: to include FD, 7 zones, adhoc More information for GSRs to help with informed decisions 3 Resources for developing locally based apps 3 Definition of terms and acronyms\u2014expanded glossary 3 Diagram depicting alternative structural options for local service bodies 2 Online and virtual recovery and service meetings: inc. use of social media 1 and other tech issues Template/guideline for implementing technology into local service 0 27 First Draft Summary of Decisions 24 May 2018 2. Na.org site: We welcome any ideas and discussion Ballroom AB Pick language from dropdown menu or portal at homepage 29 Translations of content done by local translation committee 27 Translate \u201cthe basics\u201d i.e. meeting search, recovery literature 19 Portal for individual translation recommendations 9 Language-specific videos 5 Use a global map to direct non-English visitors 4 Simplify site for ease of use 4 Linking to existing non-English sites from homepage 3 Link to local committee toolboxes 0 Ballroom CD Redesign site interface for flexible layout that is globally friendly 17 Analyze user wants, costs, process to build and plan to 16 accomplish Not needed\u2014simply link to others 13 Content management system & LTCs are responsible for translating 12 their priorities Send to a technical workgroup 11 Better meeting locator 6 Tabs identifying existing lit and NA sites in other languages 5 Let numbers of language speakers determine priorities 3 Add \u201cauto-translate\u201d button 3 Translate basic PI 2 Calabasas Develop an NA software with NA language 1st priority Redirect the website gps according to geographical location 2nd priority An NA shopping cart to sell left over convention merchandise 28 First Draft Summary of Decisions 24 May 2018 Each RSC can cooperate with the translations for na.org Zonal forums can work on translations for na.org helping NAWS Simplify selection Hidden Hills Translate home page first using local resource\u2014use Google 15 translator as stopgap\u2014 Use more arts and graphics to help break some language barriers 13 Standing workgroup ongoing to identify local resources 12 Sharing and reciprocity of translations 7 Collaborate with EDM \u2013get experience and model 6 Link to local communities 4 Make website ADA compliant 4 Limit to 4-5 languages to start 2 Home page clickable map/flag \u2013select language 0 Ventura Connect with an addict in your own language, e.g., live chat 19 Use agile portfolio\u2014various languages management processes, 16 system to ensure quality control and that repeat itself for each language Links to websites in other languages, using a map with live links to 13 locate them Avoid draining resources 5 Utilize \u201cblockchain\u201d to facilitate translation 4 Begin with 6 to 8 main languages first, using a drop-down menu of 3 languages Just f***ing do it 3 Use pictures 3 Homepage and primary tabs only in different languages 1 Add translation capability to existing NAWS apps 1 29 First Draft Summary of Decisions 24 May 2018 3. NA Virtual Group & Service Guide: What help do you need? What do you want to see in a virtual group and/or service guide? Ballroom A/B Need guidelines for virtual meetings/groups 31 Answer the question \u201cis an online meeting an NA group?\u201d 20 Identifying best practices and technology options 10 Linking virtual groups with virtual ASC and virtual RSC 10 Clarify application of our traditions and the group booklet 8 Exercising the 7th tradition 8 Protect anonymity/privacy of members in the group 8 What role do virtual meetings serve in NA 8 Open and closed meetings 1 Use BMLT- style meeting search tool 1 Provide one-on-one options (chat box) 0 Ballroom C/D Create virtual group booklet with guidelines for meetings and 42 business meetings Do not ask world board to accomplish 14 How to handle contributions (tradition 7) 14 What is a (Virtual) NA group? 11 Register virtual groups with NAWS (that follow 12/12/12) and BMLT 8 App that will find virtual meetings 5 Identify format/guidelines 3 Find meeting by language 1 Define how virtual meetings fit into service structure 0 Calabasas It should comply with requirements and it should function as an 1st NA group priority 2nd To have guidelines and procedures for virtual groups in NA.org priority That it belongs to a service structure 30 First Draft Summary of Decisions 24 May 2018 Meeting schedules with times and languages for virtual groups How will 7th tradition apply Hidden Hills Meets all six points what is NA Group GLS 20 Service Guide best practices/Guidelines identity key difference 18 Recognize virtual groups as NA meetings 14 Update/loner staying clean in isolation to inc virtual groups and GLS. 4 Normalize in lit Guidelines for self support 3 How we practice NA traditions 2 Establish group criteria GLS 0 Ventura Re-evaluate \u201cwhat is an NA group?\u201d 6 points in the group booklet 19 to recognize them as NA groups Virtual meeting starter pack- guidelines, do\u2019s and don\u2019ts, ability to 13 cyber-hug via emoji/symbol, general meeting etiquette Ask world board to create to project plan for workgroup including 9 worldwide members and involved/experienced members Coordination with virtual service bodies to integrate them into the rest of the service system- e.g. virtual meetings are listed and connected 7 with local service structure Create an avatar like \u201cservice man\u201d to explain rules and guidelines- 6 make it fun and attractive Anonymity and online security topics 5 Virtual groups posted by paired/associated with physical groups- face- 3 to-face groups hold virtual meetings too Seek experience from communities that have online groups 2 Stored NA meetings library- actual recordings of meetings in an 1 accessible archive Balanced workgroup (not all tech savvy members for example) to 2 develop fellowship approved guidelines for online groups Create stand-alone online service structure e.g. group by time 1 zone/language 31 First Draft Summary of Decisions 24 May 2018 4. Financial: What would you like to see in our financial reporting? Ballroom AB More detail/categories in existing reports (ie travel) 34 Provide 2 levels of reporting: Summary - less than now 30 Detail - more than now Ok with existing reporting 15 Budget mirrors auditors schedule C breakdown 7 Provide more narrative detail re: 10% variance [budget to actual] 6 Cost/benefit analysis of projects 6 Virtual quarterly meeting for financial updates for RDs 2 Provide line item entries (no payroll) drill down 1 Ballroom CD Leave as-is 27 Simple, online searchable doc that\u2019s password protected - click & 22 expand fields Breakout of chart of accounts as in Proposal AI 14 Create SP \u201cNAWS budget for dummies\u201d 14 Respond to request in a more timely fashion to add transparency and 9 unity Add RD & ZD to audit committee. Have them report to WSC 3 Provide detailed financial info every 4 years, basic on others 2 Offer chat/Q&A to members re: financial docs 2 Expand independent auditors report to include more categories 2 Calabasas 1st Translations of financial reports Priority 2nd Send translated financial reports prior to the WSC Priority Show master account with itemized categories Provide detailed and maximum limits for hotel/airline/meals/expenses 32 First Draft Summary of Decisions 24 May 2018 Thorough detailed financial reporting that complies with the law Hidden Hills Trust existing process 25 Detail category of expenses on quarterly basis with reporting 10 overages of 10% plus of budget Pass proposal AE 9 More detail travel, overhead, personnel, literature discount/subsidies, 7 prof fees, expense accts/auto Encumber funds & eliminate general fund 4 Creation of oversight committees - RDs & WB NOT Audit Comm. 2 Round-table style Q & A quarterly w/account 2 Project by product - detailed/clarified 1 Annual audit to groups - open books 0 Ventura Happy the way it is 18 Proposal similar to AI - line-by-line details - retroactive for 6 years 12 (with consensus) FIPT needs to be updated to reflect the Fellowship growth 9 Can we please wait a cycle and evaluate the new accounting software 6 before we even talk about this? (new information, etc \u2026) Create a workgroup (diverse) of worldwide RDs, ADs, ZDs 7 Transparency brings trust - line items available for those who 5 need/want them (password protected - not open access) Annual Financial Reports rather than cyclical reports 2 Training tools to help trusted servants understand financials 1 Project plan budgets broken down in more detail - more than just one 2 number Biennial inventory of relevant policies 0 Clarify/explain spiritual losses 0 33 First Draft Summary of Decisions 24 May 2018 CAR SURVEY RESULTS 34 First Draft Summary of Decisions 24 May 2018 35 First Draft Summary of Decisions 24 May 2018 36 First Draft Summary of Decisions 24 May 2018 COMMITTED MOTION",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 59,
@@ -3096,7 +3096,7 @@
   {
     "motion_number": "1",
     "motion_text": "To approve the book contained in Addendum A, \u201cGuiding Principles: The Spirit of Our Traditions,\u201d as Fellowship-approved recovery literature.",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 74,
@@ -3113,8 +3113,8 @@
   {
     "motion_number": "3",
     "motion_text": "That the NA World Board develop a project plan which includes a budget and timeline to create an informational pamphlet specifically about mental illness and recovery for consideration at the 2018 World Service Conference.",
-    "maker": "Eastern New York Region / Second: Chicagoland Region",
-    "second": null,
+    "maker": "Eastern New York Region",
+    "second": "Chicagoland Region",
     "result": "other",
     "vote_for": 93,
     "vote_against": 17,
@@ -3130,8 +3130,8 @@
   {
     "motion_number": "4",
     "motion_text": "That all future approved World Board Minutes be posted on na.org for download.",
-    "maker": "Show Me Region / Second: South Florida Region",
-    "second": null,
+    "maker": "Show Me Region",
+    "second": "South Florida Region",
     "result": "other",
     "vote_for": 25,
     "vote_against": 80,
@@ -3147,8 +3147,8 @@
   {
     "motion_number": "5",
     "motion_text": "That all Financial Reporting for the World Convention of Narcotics Anonymous be provided in a detailed line item format and not in a summary as is currently available. This report will be posted on na.org and be downloadable.",
-    "maker": null,
-    "second": null,
+    "maker": "Show Me Region",
+    "second": "Mid-America",
     "result": "other",
     "vote_for": 34,
     "vote_against": 76,
@@ -3164,8 +3164,8 @@
   {
     "motion_number": "6",
     "motion_text": "That all face to face World Board meetings be open to any NA member on a space available basis; unless the topic(s) being discussed are required by law to be confidential.",
-    "maker": null,
-    "second": null,
+    "maker": "San Diego Imperial Region",
+    "second": "Ohio",
     "result": "other",
     "vote_for": 51,
     "vote_against": 58,
@@ -3249,8 +3249,8 @@
   {
     "motion_number": "11",
     "motion_text": "To allow a delegate from any currently existing Zonal Forum who requests it to be seated at the WSC 2018 as a non-voting participant for one conference only. The expense of attendance will be the responsibility of the Zonal Forum and not the WSC.",
-    "maker": "Western Russia Region / Second: Finland Region",
-    "second": null,
+    "maker": "Western Russia Region",
+    "second": "Finland Region",
     "result": "other",
     "vote_for": 72,
     "vote_against": 29,
@@ -3351,7 +3351,7 @@
   {
     "motion_number": "17",
     "motion_text": "To adopt for WSC 2016 only, the following changes to A Guide to World Services, page 10. The following terms are used by the WSC Cofacilitator when announcing the results of a straw poll: Unanimous support Support (meaning simple majority support) Opposition Lack of support (meaning less than simple majority opposed support) Strong opposition Lack of support (meaning 2/3 opposed less than 1/3 support) Unanimous opposition No support",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 103,
@@ -3385,7 +3385,7 @@
   {
     "motion_number": "19",
     "motion_text": "To approve the Recovery Literature project plan for work in the 2016-2018 conference cycle. \uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf 6",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 123,
@@ -3402,7 +3402,7 @@
   {
     "motion_number": "20",
     "motion_text": "To approve the Service Tools project plan for work in the 2016-2018 Conference cycle. \uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 120,
@@ -3419,7 +3419,7 @@
   {
     "motion_number": "21",
     "motion_text": "To approve the Collaboration in Service project plan for work in the 2016-2018 Conference cycle. \uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 120,
@@ -3436,7 +3436,7 @@
   {
     "motion_number": "22",
     "motion_text": "To approve the Future of the WSC project plan for work in the 2016-2018 Conference cycle. \uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 119,
@@ -3453,7 +3453,7 @@
   {
     "motion_number": "23",
     "motion_text": "To approve the Fellowship Development and Public Relations project plan for work in the 2016-2018 Conference cycle. \uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 120,
@@ -3470,7 +3470,7 @@
   {
     "motion_number": "24",
     "motion_text": "To approve the Social Media as a PR Tool project plan for work in the 2016-2018 Conference cycle. \uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 116,
@@ -3487,7 +3487,7 @@
   {
     "motion_number": "25",
     "motion_text": "To approve the 2016\u20132018 Narcotics Anonymous World Services, Inc. budget. \uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf Proposal A World Board To seat the Grande S\u00e3o Paulo Region at the WSC. \uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf Proposal B World Board To seat the HOW Region at the WSC. \uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf Proposal C World Board To seat the Rio de Janeiro Region at the WSC. \uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf\uf0bf Proposal D World Board To remove Le Nordet Region from the list of seated regions at the WSC. 7",
-    "maker": null,
+    "maker": "World Board",
     "second": null,
     "result": "other",
     "vote_for": 118,

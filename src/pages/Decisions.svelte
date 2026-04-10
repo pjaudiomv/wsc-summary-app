@@ -2,6 +2,7 @@
   import StatsBar from '@components/StatsBar.svelte';
   import FilterPanel from '@components/FilterPanel.svelte';
   import DecisionTable from '@components/DecisionTable.svelte';
+  import MakerTallyModal from '@components/MakerTallyModal.svelte';
   import type { Motion, FilterState, SortState } from '$types/index';
   import { filterMotions, sortMotions, getUniqueYears } from '@utils/filters';
 
@@ -13,6 +14,7 @@
     years: [],
     categories: [],
     results: [],
+    makers: [],
     search: '',
     carOnly: false,
     catOnly: false
@@ -25,6 +27,12 @@
 
   let availableYears = $derived(getUniqueYears(allMotions));
   let filteredMotions = $derived(sortMotions(filterMotions(allMotions, filters), sort));
+  let showMakerModal = $state(false);
+
+  function toggleMakerFilter(maker: string) {
+    const makers = filters.makers.includes(maker) ? filters.makers.filter((m) => m !== maker) : [...filters.makers, maker];
+    filters = { ...filters, makers };
+  }
 
   async function loadData() {
     try {
@@ -65,8 +73,20 @@
   </div>
 {:else}
   <div class="space-y-6">
-    <StatsBar motions={filteredMotions} />
-    <FilterPanel {filters} {availableYears} onchange={handleFilterChange} />
+    <div class="flex items-start justify-between gap-4">
+      <div class="flex-1"><StatsBar motions={filteredMotions} /></div>
+      <button
+        onclick={() => (showMakerModal = true)}
+        class="mt-0 shrink-0 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
+      >
+        Maker Tally
+      </button>
+    </div>
+    <FilterPanel {filters} {availableYears} {allMotions} onchange={handleFilterChange} />
     <DecisionTable motions={filteredMotions} {sort} onsort={handleSortChange} />
   </div>
+
+  {#if showMakerModal}
+    <MakerTallyModal motions={allMotions} selectedMakers={filters.makers} onclose={() => (showMakerModal = false)} ontogglemaker={toggleMakerFilter} />
+  {/if}
 {/if}

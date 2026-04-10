@@ -5,6 +5,7 @@ export function filterMotions(motions: Motion[], filters: FilterState): Motion[]
     if (filters.years.length > 0 && !filters.years.includes(m.year)) return false;
     if (filters.categories.length > 0 && !filters.categories.includes(m.category)) return false;
     if (filters.results.length > 0 && !filters.results.includes(m.result)) return false;
+    if (filters.makers.length > 0 && !filters.makers.includes(m.maker ?? '')) return false;
     if (filters.carOnly && !m.is_car_motion) return false;
     if (filters.catOnly && !m.is_cat_motion) return false;
     if (filters.search) {
@@ -54,6 +55,14 @@ export function sortMotions(motions: Motion[], sort: SortState): Motion[] {
 
 export function getUniqueYears(motions: Motion[]): number[] {
   return [...new Set(motions.map((m) => m.year))].sort((a, b) => b - a);
+}
+
+export function getMakerTally(motions: Motion[]): { maker: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const m of motions) {
+    if (m.maker) counts.set(m.maker, (counts.get(m.maker) ?? 0) + 1);
+  }
+  return [...counts.entries()].map(([maker, count]) => ({ maker, count })).sort((a, b) => b.count - a.count || a.maker.localeCompare(b.maker));
 }
 
 export function getStats(motions: Motion[]) {

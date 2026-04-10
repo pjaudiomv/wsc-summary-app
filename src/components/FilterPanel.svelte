@@ -1,15 +1,18 @@
 <script lang="ts">
-  import { CATEGORY_LABELS, RESULT_LABELS, type FilterState, type MotionCategory, type MotionResult } from '$types/index';
+  import { CATEGORY_LABELS, RESULT_LABELS, type FilterState, type Motion, type MotionCategory, type MotionResult } from '$types/index';
+  import { getMakerTally } from '@utils/filters';
 
   interface Props {
     filters: FilterState;
     availableYears: number[];
+    allMotions: Motion[];
     onchange: (filters: FilterState) => void;
   }
 
-  let { filters, availableYears, onchange }: Props = $props();
+  let { filters, availableYears, allMotions, onchange }: Props = $props();
 
   let showAdvanced = $state(false);
+  let makerSearch = $state('');
 
   function updateSearch(e: Event) {
     const target = e.target as HTMLInputElement;
@@ -31,11 +34,22 @@
     onchange({ ...filters, results });
   }
 
-  function clearAll() {
-    onchange({ years: [], categories: [], results: [], search: '', carOnly: false, catOnly: false });
+  function toggleMaker(maker: string) {
+    const makers = filters.makers.includes(maker) ? filters.makers.filter((m) => m !== maker) : [...filters.makers, maker];
+    onchange({ ...filters, makers });
   }
 
-  let hasActiveFilters = $derived(filters.years.length > 0 || filters.categories.length > 0 || filters.results.length > 0 || filters.search !== '' || filters.carOnly || filters.catOnly);
+  function clearAll() {
+    makerSearch = '';
+    onchange({ years: [], categories: [], results: [], makers: [], search: '', carOnly: false, catOnly: false });
+  }
+
+  let makerTally = $derived(getMakerTally(allMotions));
+  let visibleMakers = $derived(makerSearch.trim() ? makerTally.filter((t) => t.maker.toLowerCase().includes(makerSearch.toLowerCase())) : makerTally);
+
+  let hasActiveFilters = $derived(
+    filters.years.length > 0 || filters.categories.length > 0 || filters.results.length > 0 || filters.makers.length > 0 || filters.search !== '' || filters.carOnly || filters.catOnly
+  );
 </script>
 
 <div class="space-y-4 rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800">
@@ -112,6 +126,40 @@
           </button>
         {/each}
       </div>
+    </div>
+
+    <!-- Maker filter -->
+    <div>
+      <p class="mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Maker</p>
+      <input
+        type="search"
+        class="focus:border-primary-500 focus:ring-primary-500 mb-2 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400"
+        placeholder="Search makers..."
+        bind:value={makerSearch}
+      />
+      <div class="max-h-48 space-y-0.5 overflow-y-auto rounded-lg border border-gray-200 bg-gray-50 p-1 dark:border-gray-700 dark:bg-gray-900">
+        {#each visibleMakers as { maker, count } (maker)}
+          <button
+            class="flex w-full items-center justify-between rounded px-2 py-1 text-left text-sm transition-colors {filters.makers.includes(maker)
+              ? 'bg-primary-600 text-white'
+              : 'text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700'}"
+            onclick={() => toggleMaker(maker)}
+          >
+            <span class="truncate">{maker}</span>
+            <span
+              class="ml-2 shrink-0 rounded-full px-1.5 py-0.5 text-xs font-medium {filters.makers.includes(maker)
+                ? 'bg-white/20 text-white'
+                : 'bg-gray-200 text-gray-600 dark:bg-gray-700 dark:text-gray-400'}">{count}</span
+            >
+          </button>
+        {/each}
+        {#if visibleMakers.length === 0}
+          <p class="px-2 py-2 text-xs text-gray-400">No makers match</p>
+        {/if}
+      </div>
+      {#if filters.makers.length > 0}
+        <button class="mt-1 text-xs text-red-500 hover:text-red-600" onclick={() => onchange({ ...filters, makers: [] })}>Clear maker filter</button>
+      {/if}
     </div>
 
     <!-- CAR/CAT toggles -->

@@ -73,6 +73,7 @@ export interface FilterState {
   years: number[];
   categories: MotionCategory[];
   results: MotionResult[];
+  makers: string[];
   search: string;
   carOnly: boolean;
   catOnly: boolean;
