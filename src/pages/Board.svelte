@@ -22,8 +22,8 @@
 {#if loading}
   <div class="flex items-center justify-center py-24">
     <div class="text-center">
-      <div class="border-t-primary-600 mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-gray-200"></div>
-      <p class="text-gray-500 dark:text-gray-400">Loading board data...</p>
+      <div class="border-primary-200 dark:border-primary-700 border-t-accent-500 mx-auto mb-4 h-10 w-10 animate-spin rounded-full border-2"></div>
+      <p class="text-primary-400 dark:text-primary-500 text-sm tracking-wide">Loading board data&hellip;</p>
     </div>
   </div>
 {:else}

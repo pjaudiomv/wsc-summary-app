@@ -107,13 +107,13 @@ export const RESULT_LABELS: Record<MotionResult, string> = {
 };
 
 export const RESULT_COLORS: Record<MotionResult, string> = {
-  carried: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300',
-  adopted: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300',
-  failed: 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300',
-  committed: 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300',
-  withdrawn: 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300',
-  tabled: 'bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-300',
-  referred: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300',
-  pending: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300',
-  other: 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300'
+  carried: 'bg-emerald-50 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800/40',
+  adopted: 'bg-emerald-50 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800/40',
+  failed: 'bg-rose-50 text-rose-800 dark:bg-rose-900/30 dark:text-rose-300 border border-rose-200/60 dark:border-rose-800/40',
+  committed: 'bg-amber-50 text-amber-800 dark:bg-amber-900/30 dark:text-amber-300 border border-amber-200/60 dark:border-amber-800/40',
+  withdrawn: 'bg-primary-50 text-primary-700 dark:bg-primary-800/40 dark:text-primary-300 border border-primary-200/60 dark:border-primary-700/60',
+  tabled: 'bg-orange-50 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300 border border-orange-200/60 dark:border-orange-800/40',
+  referred: 'bg-sky-50 text-sky-800 dark:bg-sky-900/30 dark:text-sky-300 border border-sky-200/60 dark:border-sky-800/40',
+  pending: 'bg-violet-50 text-violet-800 dark:bg-violet-900/30 dark:text-violet-300 border border-violet-200/60 dark:border-violet-800/40',
+  other: 'bg-primary-50 text-primary-700 dark:bg-primary-800/40 dark:text-primary-300 border border-primary-200/60 dark:border-primary-700/60'
 };

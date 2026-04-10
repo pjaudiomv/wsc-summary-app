@@ -62,14 +62,14 @@
 {#if loading}
   <div class="flex items-center justify-center py-24">
     <div class="text-center">
-      <div class="border-t-primary-600 mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-gray-200"></div>
-      <p class="text-gray-500 dark:text-gray-400">Loading decisions data...</p>
+      <div class="border-primary-200 dark:border-primary-700 border-t-accent-500 mx-auto mb-4 h-10 w-10 animate-spin rounded-full border-2"></div>
+      <p class="text-primary-400 dark:text-primary-500 text-sm tracking-wide">Loading decisions&hellip;</p>
     </div>
   </div>
 {:else if error}
-  <div class="rounded-lg border border-red-200 bg-red-50 p-6 dark:border-red-800 dark:bg-red-900/30">
-    <h2 class="mb-2 text-lg font-semibold text-red-800 dark:text-red-300">Error loading data</h2>
-    <p class="text-sm text-red-600 dark:text-red-400">{error}</p>
+  <div class="rounded-lg border border-rose-200 bg-rose-50 p-6 dark:border-rose-800 dark:bg-rose-900/20">
+    <h2 class="mb-2 font-[--font-serif] text-lg font-bold text-rose-800 dark:text-rose-300">Error loading data</h2>
+    <p class="text-sm text-rose-600 dark:text-rose-400">{error}</p>
   </div>
 {:else}
   <div class="space-y-6">
@@ -77,7 +77,7 @@
       <div class="flex-1"><StatsBar motions={filteredMotions} /></div>
       <button
         onclick={() => (showMakerModal = true)}
-        class="mt-0 shrink-0 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
+        class="border-primary-200 dark:border-primary-700 dark:bg-primary-900/40 text-primary-700 dark:text-primary-300 hover:bg-accent-50 dark:hover:bg-primary-800 hover:border-accent-300 dark:hover:border-accent-700 mt-0 shrink-0 rounded-lg border bg-white px-4 py-2.5 text-sm font-medium shadow-sm transition-all duration-200"
       >
         Maker Tally
       </button>
