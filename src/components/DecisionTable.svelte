@@ -42,7 +42,7 @@
 
 <div class="overflow-x-auto rounded-lg border border-gray-200 shadow-sm dark:border-gray-700">
   <table class="w-full text-left text-sm text-gray-500 dark:text-gray-400">
-    <thead class="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-400">
+    <thead class="bg-gray-50 text-xs text-gray-700 uppercase dark:bg-gray-700 dark:text-gray-400">
       <tr>
         <th class="w-8 px-3 py-3"></th>
         <th class="cursor-pointer px-3 py-3 hover:bg-gray-100 dark:hover:bg-gray-600" onclick={() => handleSort('year')}>
@@ -114,9 +114,8 @@
                   {#if motion.vote_for !== null}
                     <p>
                       <span class="font-medium text-gray-600 dark:text-gray-400">Votes:</span>
-                      For: <span class="font-semibold text-green-600">{motion.vote_for}</span> |
-                      Against: <span class="font-semibold text-red-600">{motion.vote_against ?? 0}</span> |
-                      Abstain: {motion.vote_abstain ?? 0}
+                      For: <span class="font-semibold text-green-600">{motion.vote_for}</span> | Against: <span class="font-semibold text-red-600">{motion.vote_against ?? 0}</span> | Abstain: {motion.vote_abstain ??
+                        0}
                       {#if motion.vote_present !== null}
                         | Present: {motion.vote_present}
                       {/if}
@@ -143,9 +142,7 @@
 
       {#if pagedMotions.length === 0}
         <tr>
-          <td colspan="8" class="px-6 py-12 text-center text-gray-500 dark:text-gray-400">
-            No motions match your filters.
-          </td>
+          <td colspan="8" class="px-6 py-12 text-center text-gray-500 dark:text-gray-400"> No motions match your filters. </td>
         </tr>
       {/if}
     </tbody>

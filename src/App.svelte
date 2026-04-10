@@ -9,7 +9,7 @@
   const routes = {
     '/': Decisions,
     '/board': Board,
-    '/reference': Reference,
+    '/reference': Reference
   };
 
   let darkMode = $state(false);
@@ -27,7 +27,7 @@
       <div>
         <a href="/" use:link class="block">
           <h1 class="text-2xl font-bold text-gray-900 dark:text-white">WSC Decisions Archive</h1>
-          <p class="text-sm text-gray-500 dark:text-gray-400">NA World Service Conference decisions from 2000–2023</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400">NA World Service Conference decisions from 2000–2026</p>
         </a>
       </div>
       <div class="flex items-center gap-4">
@@ -35,7 +35,10 @@
           <a
             href="/"
             use:link
-            use:active={{ className: 'border-b-2 border-primary-600 text-primary-600 dark:text-primary-400 dark:border-primary-400', inactiveClassName: 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300' }}
+            use:active={{
+              className: 'border-b-2 border-primary-600 text-primary-600 dark:text-primary-400 dark:border-primary-400',
+              inactiveClassName: 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'
+            }}
             class="px-3 py-2 text-sm font-medium"
           >
             Decisions
@@ -43,7 +46,10 @@
           <a
             href="/reference"
             use:link
-            use:active={{ className: 'border-b-2 border-primary-600 text-primary-600 dark:text-primary-400 dark:border-primary-400', inactiveClassName: 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300' }}
+            use:active={{
+              className: 'border-b-2 border-primary-600 text-primary-600 dark:text-primary-400 dark:border-primary-400',
+              inactiveClassName: 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'
+            }}
             class="px-3 py-2 text-sm font-medium"
           >
             Reference

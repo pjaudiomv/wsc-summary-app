@@ -47,7 +47,13 @@
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
         </svg>
       </div>
-      <input type="search" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 ps-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400" placeholder="Search motions, makers, notes..." value={filters.search} oninput={updateSearch} />
+      <input
+        type="search"
+        class="focus:border-primary-500 focus:ring-primary-500 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 ps-10 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400"
+        placeholder="Search motions, makers, notes..."
+        value={filters.search}
+        oninput={updateSearch}
+      />
     </div>
   </div>
 
@@ -57,7 +63,9 @@
     <div class="flex flex-wrap gap-1.5">
       {#each availableYears as year}
         <button
-          class="rounded-full px-3 py-1 text-xs font-medium transition-colors {filters.years.includes(year) ? 'bg-primary-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'}"
+          class="rounded-full px-3 py-1 text-xs font-medium transition-colors {filters.years.includes(year)
+            ? 'bg-primary-600 text-white'
+            : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'}"
           onclick={() => toggleYear(year)}
         >
           {year}
@@ -67,7 +75,7 @@
   </div>
 
   <!-- Toggle advanced filters -->
-  <button class="text-sm font-medium text-primary-600 hover:text-primary-700 dark:text-primary-400" onclick={() => (showAdvanced = !showAdvanced)}>
+  <button class="text-primary-600 hover:text-primary-700 dark:text-primary-400 text-sm font-medium" onclick={() => (showAdvanced = !showAdvanced)}>
     {showAdvanced ? '▾ Hide' : '▸ Show'} advanced filters
   </button>
 
@@ -78,7 +86,9 @@
       <div class="flex flex-wrap gap-1.5">
         {#each Object.entries(RESULT_LABELS) as [key, label]}
           <button
-            class="rounded-full px-3 py-1 text-xs font-medium transition-colors {filters.results.includes(key as MotionResult) ? 'bg-primary-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'}"
+            class="rounded-full px-3 py-1 text-xs font-medium transition-colors {filters.results.includes(key as MotionResult)
+              ? 'bg-primary-600 text-white'
+              : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'}"
             onclick={() => toggleResult(key as MotionResult)}
           >
             {label}
@@ -93,7 +103,9 @@
       <div class="flex flex-wrap gap-1.5">
         {#each Object.entries(CATEGORY_LABELS) as [key, label]}
           <button
-            class="rounded-full px-3 py-1 text-xs font-medium transition-colors {filters.categories.includes(key as MotionCategory) ? 'bg-secondary-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'}"
+            class="rounded-full px-3 py-1 text-xs font-medium transition-colors {filters.categories.includes(key as MotionCategory)
+              ? 'bg-secondary-600 text-white'
+              : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'}"
             onclick={() => toggleCategory(key as MotionCategory)}
           >
             {label}

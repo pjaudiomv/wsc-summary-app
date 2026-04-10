@@ -54,7 +54,7 @@
 {#if loading}
   <div class="flex items-center justify-center py-24">
     <div class="text-center">
-      <div class="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-gray-200 border-t-primary-600"></div>
+      <div class="border-t-primary-600 mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-gray-200"></div>
       <p class="text-gray-500 dark:text-gray-400">Loading decisions data...</p>
     </div>
   </div>

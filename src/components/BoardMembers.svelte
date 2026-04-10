@@ -21,7 +21,7 @@
     let result = members;
     if (search) {
       const q = search.toLowerCase();
-      result = result.filter(m => m.Name?.toLowerCase().includes(q));
+      result = result.filter((m) => m.Name?.toLowerCase().includes(q));
     }
     const col = sortCol as keyof BoardTerm;
     const dir = sortDir === 'asc' ? 1 : -1;
@@ -49,7 +49,7 @@
   }
 
   let currentMembers = $derived(
-    members.filter(m => {
+    members.filter((m) => {
       const expires = m['First Term Expires'] ?? m['Second Term Expires'];
       return expires !== null && expires >= 2024;
     })
@@ -62,7 +62,7 @@
     <h3 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Current World Board Members</h3>
     <div class="flex flex-wrap gap-2">
       {#each currentMembers as member}
-        <span class="rounded-full bg-primary-100 px-3 py-1 text-sm font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">
+        <span class="bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-300 rounded-full px-3 py-1 text-sm font-medium">
           {member.Name}
           <span class="text-xs opacity-70">
             ({member['Second Term Elected'] ? '2nd' : '1st'} term, expires {member['Second Term Expires'] ?? member['First Term Expires']})
@@ -79,13 +79,18 @@
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
       </svg>
     </div>
-    <input type="search" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 ps-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400" placeholder="Search board members..." bind:value={search} />
+    <input
+      type="search"
+      class="focus:border-primary-500 focus:ring-primary-500 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 ps-10 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400"
+      placeholder="Search board members..."
+      bind:value={search}
+    />
   </div>
 
   <!-- Table -->
   <div class="overflow-x-auto rounded-lg border border-gray-200 shadow-sm dark:border-gray-700">
     <table class="w-full text-left text-sm text-gray-500 dark:text-gray-400">
-      <thead class="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-400">
+      <thead class="bg-gray-50 text-xs text-gray-700 uppercase dark:bg-gray-700 dark:text-gray-400">
         <tr>
           <th class="cursor-pointer px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-600" onclick={() => handleSort('Name')}>
             Name <span class="text-gray-400">{sortIcon('Name')}</span>

@@ -4,7 +4,7 @@ export interface Motion {
   motion_text: string;
   maker: string | null;
   second: string | null;
-  result: 'carried' | 'failed' | 'committed' | 'withdrawn' | 'tabled' | 'adopted' | 'referred' | 'other';
+  result: 'carried' | 'failed' | 'committed' | 'withdrawn' | 'tabled' | 'adopted' | 'referred' | 'pending' | 'other';
   vote_for: number | null;
   vote_against: number | null;
   vote_abstain: number | null;
@@ -16,19 +16,7 @@ export interface Motion {
   amendment_to: string | null;
 }
 
-export type MotionCategory =
-  | 'procedural'
-  | 'literature'
-  | 'fipt'
-  | 'service_structure'
-  | 'budget'
-  | 'seating'
-  | 'elections'
-  | 'planning'
-  | 'policy'
-  | 'regional_motion'
-  | 'zonal_motion'
-  | 'other';
+export type MotionCategory = 'procedural' | 'literature' | 'fipt' | 'service_structure' | 'budget' | 'seating' | 'elections' | 'planning' | 'policy' | 'regional_motion' | 'zonal_motion' | 'other';
 
 export type MotionResult = Motion['result'];
 
@@ -113,6 +101,7 @@ export const RESULT_LABELS: Record<MotionResult, string> = {
   tabled: 'Tabled',
   adopted: 'Adopted',
   referred: 'Referred',
+  pending: 'Pending',
   other: 'Other'
 };
 
@@ -124,5 +113,6 @@ export const RESULT_COLORS: Record<MotionResult, string> = {
   withdrawn: 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300',
   tabled: 'bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-300',
   referred: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300',
+  pending: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300',
   other: 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300'
 };

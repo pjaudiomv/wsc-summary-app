@@ -21,28 +21,26 @@
     if (!data?.glossary) return [];
     if (!search) return data.glossary;
     const q = search.toLowerCase();
-    return data.glossary.filter((g: any) =>
-      g.term.toLowerCase().includes(q) || g.definition.toLowerCase().includes(q)
-    );
+    return data.glossary.filter((g: any) => g.term.toLowerCase().includes(q) || g.definition.toLowerCase().includes(q));
   });
 </script>
 
 {#if loading}
   <div class="flex items-center justify-center py-24">
     <div class="text-center">
-      <div class="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-gray-200 border-t-primary-600"></div>
+      <div class="border-t-primary-600 mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-gray-200"></div>
       <p class="text-gray-500 dark:text-gray-400">Loading reference data...</p>
     </div>
   </div>
 {:else if data}
   <div class="space-y-8">
     <!-- Source -->
-    <p class="text-sm italic text-gray-500 dark:text-gray-400">
+    <p class="text-sm text-gray-500 italic dark:text-gray-400">
       Source: {data.source}
     </p>
 
     <!-- Current Cycle -->
-    <div class="rounded-lg border border-primary-200 bg-primary-50 p-5 shadow-sm dark:border-primary-800 dark:bg-primary-900/20">
+    <div class="border-primary-200 bg-primary-50 dark:border-primary-800 dark:bg-primary-900/20 rounded-lg border p-5 shadow-sm">
       <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Current Conference Cycle: {data.current_cycle.cycle}</h2>
       <div class="grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-3">
         <div>
@@ -73,7 +71,7 @@
       <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Glossary of Terms</h2>
       <input
         type="search"
-        class="mb-4 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400"
+        class="focus:border-primary-500 focus:ring-primary-500 mb-4 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400"
         placeholder="Search terms..."
         bind:value={search}
       />
@@ -92,7 +90,7 @@
       <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">Consensus Thresholds</h2>
       <div class="overflow-x-auto rounded-lg border border-gray-200 shadow-sm dark:border-gray-700">
         <table class="w-full text-left text-sm">
-          <thead class="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-400">
+          <thead class="bg-gray-50 text-xs text-gray-700 uppercase dark:bg-gray-700 dark:text-gray-400">
             <tr>
               <th class="px-4 py-3">Level</th>
               <th class="px-4 py-3">Percentage</th>
@@ -144,7 +142,7 @@
         <ul class="space-y-2 text-sm text-gray-700 dark:text-gray-300">
           {#each data.key_rules as rule}
             <li class="flex gap-2">
-              <span class="mt-1 text-primary-600">&#8226;</span>
+              <span class="text-primary-600 mt-1">&#8226;</span>
               <span>{rule}</span>
             </li>
           {/each}
@@ -158,7 +156,7 @@
       <div class="space-y-2">
         {#each data.service_structure as level, i}
           <div class="flex items-start gap-3 rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800" style="margin-left: {i * 12}px">
-            <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-100 text-sm font-bold text-primary-700 dark:bg-primary-900 dark:text-primary-300">
+            <div class="bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300 flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold">
               {i + 1}
             </div>
             <div>
