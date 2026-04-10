@@ -50,8 +50,8 @@
 
   let currentMembers = $derived(
     members.filter((m) => {
-      const expires = m['First Term Expires'] ?? m['Second Term Expires'];
-      return expires !== null && expires >= 2024;
+      const expires = m['Second Term Expires'] ?? m['First Term Expires'];
+      return expires !== null && Number(expires) >= 2026;
     })
   );
 </script>
