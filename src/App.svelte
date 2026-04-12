@@ -56,6 +56,17 @@
             Decisions
           </a>
           <a
+            href="/board"
+            use:link
+            use:active={{
+              className: 'text-accent-300 border-b-2 border-accent-400',
+              inactiveClassName: 'text-primary-300 hover:text-white border-b-2 border-transparent'
+            }}
+            class="px-3 py-2 text-sm font-medium tracking-wide transition-all duration-200"
+          >
+            Board
+          </a>
+          <a
             href="/reference"
             use:link
             use:active={{
