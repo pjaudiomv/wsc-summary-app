@@ -154,7 +154,7 @@
     if (parts.length < 2) return entry.name;
     const last = parts[parts.length - 1];
     if (last.length <= 1) return entry.name; // already just an initial
-    return [...parts.slice(0, -1), last[0] + '.'].join(' ');
+    return [...parts.slice(0, -1), last[0]].join(' ');
   }
 
   function getExpiresDisplay(entry: UnifiedEntry): { year: string; note: string } {
