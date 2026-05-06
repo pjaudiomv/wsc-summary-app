@@ -17,7 +17,7 @@
   { "role": "World Board", "name": "Allyse Madey", "region": "Connecticut Region", "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null },
   { "role": "World Board", "name": "Jessica Braswell", "region": "North Carolina Region", "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null },
   { "role": "World Board", "name": "Jade Tellers", "region": "Southern California Region", "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null },
-  { "role": "World Board", "name": "Pam Taylor", "region": null, "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null },
+  { "role": "World Board", "name": "Pam Taylor", "region": "Oklahoma Region", "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null },
   { "role": "World Board", "name": "Tali McCall", "region": null, "firstElected": 2012, "firstExpires": 2016, "secondElected": 2016, "secondExpires": "2022 (deceased 2021)", "note": null },
   { "role": "World Board", "name": "MaryEllen Polin", "region": null, "firstElected": 2012, "firstExpires": 2016, "secondElected": 2016, "secondExpires": "2022 (deceased 2019)", "note": null },
   { "role": "World Board", "name": "Khalil Johnson", "region": null, "firstElected": 2016, "firstExpires": "2022 (resigned 2017)", "secondElected": null, "secondExpires": null, "note": null },
@@ -87,8 +87,8 @@
   { "role": "HRP", "name": "Laura B", "region": null, "firstElected": 2020, "firstExpires": 2026, "secondElected": null, "secondExpires": null, "note": null },
   { "role": "HRP", "name": "Ron M", "region": "Florida Region", "firstElected": 2023, "firstExpires": 2024, "secondElected": null, "secondExpires": null, "note": "stepped down 2024" },
   { "role": "HRP", "name": "Sam L", "region": "Northern New England Region", "firstElected": 2023, "firstExpires": 2029, "secondElected": null, "secondExpires": null, "note": null },
-  { "role": "HRP", "name": "Bella A", "region": null, "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null },
-  { "role": "HRP", "name": "Cindi B", "region": null, "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null },
+  { "role": "HRP", "name": "Bella A", "region": "Australia Region", "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null },
+  { "role": "HRP", "name": "Cindi B", "region": "Oklahoma Region", "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null },
   { "role": "HRP", "name": "Troy B", "region": "Connecticut Region", "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null },
 
   { "role": "Cofacilitator", "name": "John H", "region": "Wisconsin", "firstElected": 2000, "firstExpires": 2002, "secondElected": null, "secondExpires": null, "note": null },
@@ -106,5 +106,5 @@
   { "role": "Cofacilitator", "name": "Daniel C", "region": "World Pool", "firstElected": 2018, "firstExpires": 2023, "secondElected": null, "secondExpires": null, "note": "term extended due to COVID" },
   { "role": "Cofacilitator", "name": "Mario T", "region": null, "firstElected": 2020, "firstExpires": 2026, "secondElected": null, "secondExpires": null, "note": "term extended due to COVID" },
   { "role": "Cofacilitator", "name": "Louis H", "region": "Chicagoland Region", "firstElected": 2023, "firstExpires": 2029, "secondElected": null, "secondExpires": null, "note": null },
-  { "role": "Cofacilitator", "name": "Tina N", "region": null, "firstElected": 2026, "firstExpires": 2029, "secondElected": null, "secondExpires": null, "note": null }
+  { "role": "Cofacilitator", "name": "Tina N", "region": "Region 51", "firstElected": 2026, "firstExpires": 2029, "secondElected": null, "secondExpires": null, "note": null }
 ]
