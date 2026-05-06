@@ -206,6 +206,7 @@
           >
             Name <span class="text-primary-300 dark:text-primary-600">{sortIcon('name')}</span>
           </th>
+          <th class="text-primary-500 dark:text-primary-400 hidden px-4 py-3.5 text-xs font-semibold tracking-widest uppercase sm:table-cell">Region</th>
           <th
             class="text-primary-500 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 cursor-pointer px-3 py-3.5 text-xs font-semibold tracking-widest uppercase transition-colors"
             onclick={() => handleSort('firstElected')}
@@ -242,6 +243,7 @@
                 <span class="text-primary-400 dark:text-primary-500 ml-1 text-xs">({entry.note})</span>
               {/if}
             </td>
+            <td class="text-primary-500 dark:text-primary-400 hidden px-4 py-3 text-sm sm:table-cell">{entry.region ?? '—'}</td>
             <td class="text-primary-600 dark:text-primary-400 px-3 py-3 font-mono text-sm">
               {entry.firstElected ?? '—'}{#if entry.secondElected}<span class="text-primary-400 dark:text-primary-500 text-xs">/{entry.secondElected}</span>{/if}
             </td>
@@ -250,7 +252,7 @@
             </td>
           </tr>
           {#if expanded}
-            <tr class="border-primary-100 dark:border-primary-800 border-b">
+            <tr class="border-primary-100 dark:border-primary-800 border-b sm:hidden">
               <td colspan="4" class="bg-accent-50/40 dark:bg-primary-800/40 px-5 py-2.5 text-sm">
                 <span class="text-primary-500 dark:text-primary-400 font-medium">Region:</span>
                 <span class="text-primary-700 dark:text-primary-300 ml-1">{entry.region ?? '—'}</span>
