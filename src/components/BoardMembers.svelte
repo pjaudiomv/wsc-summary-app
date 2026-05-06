@@ -148,6 +148,15 @@
     return { year: m[1], note: m[2] ?? '' };
   }
 
+  function displayName(entry: UnifiedEntry): string {
+    if (entry.role === 'World Board') return entry.name;
+    const parts = entry.name.trim().split(/\s+/);
+    if (parts.length < 2) return entry.name;
+    const last = parts[parts.length - 1];
+    if (last.length <= 1) return entry.name; // already just an initial
+    return [...parts.slice(0, -1), last[0] + '.'].join(' ');
+  }
+
   function getExpiresDisplay(entry: UnifiedEntry): { year: string; note: string } {
     const raw = entry.secondExpires ?? entry.firstExpires;
     return formatYear(raw);
@@ -187,7 +196,7 @@
       {#each currentEntries as entry (entry.role + entry.name + entry.firstElected)}
         <span class="flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-sm font-medium {roleBadge[entry.role]}">
           <span class="text-xs opacity-70">{entry.role === 'World Board' ? 'WB' : entry.role === 'Cofacilitator' ? 'CF' : 'HRP'}</span>
-          {entry.name}
+          {displayName(entry)}
           {#if entry.region}
             <span class="text-xs opacity-60">· {entry.region}</span>
           {/if}
@@ -264,7 +273,7 @@
               </span>
             </td>
             <td class="text-primary-900 dark:text-primary-100 px-5 py-3 font-medium">
-              {entry.name}
+              {displayName(entry)}
               {#if entry.note}
                 <span class="text-primary-400 dark:text-primary-500 ml-1 text-xs">({entry.note})</span>
               {/if}

@@ -1,6 +1,6 @@
 <script lang="ts">
   import './app.css';
-  import Router, { link } from '@bmlt-enabled/svelte-spa-router';
+  import Router, { link, replace } from '@bmlt-enabled/svelte-spa-router';
   import active from '@bmlt-enabled/svelte-spa-router/active';
   import Decisions from './pages/Decisions.svelte';
   import Board from './pages/Board.svelte';
@@ -8,7 +8,11 @@
 
   const routes = {
     '/': Decisions,
-    '/board': Board,
+    '/elections': Board,
+    '/board': () => {
+      replace('/elections');
+      return null;
+    },
     '/reference': Reference
   };
 
@@ -56,7 +60,7 @@
             Decisions
           </a>
           <a
-            href="/board"
+            href="/elections"
             use:link
             use:active={{
               className: 'text-accent-300 border-b-2 border-accent-400',
@@ -64,7 +68,7 @@
             }}
             class="px-3 py-2 text-sm font-medium tracking-wide transition-all duration-200"
           >
-            Board
+            Elections
           </a>
           <a
             href="/reference"
