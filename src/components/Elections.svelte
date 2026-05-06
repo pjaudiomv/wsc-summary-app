@@ -1,31 +1,7 @@
 <script lang="ts">
-  interface BoardTerm {
-    Name: string;
-    'First Term Elected': number | null;
-    'First Term Expires': number | string | null;
-    'Second Term Elected': number | null;
-    'Second Term Expires': number | string | null;
-  }
-
-  interface HrpEntry {
-    name: string;
-    region: string | null;
-    elected: number;
-    expires: number;
-    note?: string;
-  }
-
-  interface CofacEntry {
-    name: string;
-    region: string | null;
-    elected: number;
-    expires: number;
-    note?: string;
-  }
-
   type Role = 'World Board' | 'HRP' | 'Cofacilitator';
 
-  interface UnifiedEntry {
+  interface Entry {
     role: Role;
     name: string;
     region: string | null;
@@ -33,51 +9,16 @@
     firstExpires: number | string | null;
     secondElected: number | null;
     secondExpires: number | string | null;
-    note?: string;
+    note: string | null;
   }
 
   interface Props {
-    members: BoardTerm[];
-    hrp: HrpEntry[];
-    cofacilitators: CofacEntry[];
+    entries: Entry[];
   }
 
-  let { members, hrp, cofacilitators }: Props = $props();
+  let { entries }: Props = $props();
 
   const CURRENT_YEAR = 2026;
-
-  let unified = $derived<UnifiedEntry[]>([
-    ...members.map((m) => ({
-      role: 'World Board' as Role,
-      name: m.Name,
-      region: null,
-      firstElected: m['First Term Elected'],
-      firstExpires: m['First Term Expires'],
-      secondElected: m['Second Term Elected'],
-      secondExpires: m['Second Term Expires'],
-      note: undefined
-    })),
-    ...hrp.map((h) => ({
-      role: 'HRP' as Role,
-      name: h.name,
-      region: h.region,
-      firstElected: h.elected,
-      firstExpires: h.expires,
-      secondElected: null,
-      secondExpires: null,
-      note: h.note
-    })),
-    ...cofacilitators.map((c) => ({
-      role: 'Cofacilitator' as Role,
-      name: c.name,
-      region: c.region,
-      firstElected: c.elected,
-      firstExpires: c.expires,
-      secondElected: null,
-      secondExpires: null,
-      note: c.note
-    }))
-  ]);
 
   let search = $state('');
   let sortCol = $state<string>('firstElected');
@@ -85,7 +26,7 @@
   let roleFilter = $state<Role | 'All'>('All');
 
   let filtered = $derived.by(() => {
-    let result = unified;
+    let result = entries;
 
     if (roleFilter !== 'All') {
       result = result.filter((e) => e.role === roleFilter);
@@ -148,21 +89,21 @@
     return { year: m[1], note: m[2] ?? '' };
   }
 
-  function displayName(entry: UnifiedEntry): string {
+  function displayName(entry: Entry): string {
     if (entry.role === 'World Board') return entry.name;
     const parts = entry.name.trim().split(/\s+/);
     if (parts.length < 2) return entry.name;
     const last = parts[parts.length - 1];
-    if (last.length <= 1) return entry.name; // already just an initial
+    if (last.length <= 1) return entry.name;
     return [...parts.slice(0, -1), last[0]].join(' ');
   }
 
-  function getExpiresDisplay(entry: UnifiedEntry): { year: string; note: string } {
+  function getExpiresDisplay(entry: Entry): { year: string; note: string } {
     const raw = entry.secondExpires ?? entry.firstExpires;
     return formatYear(raw);
   }
 
-  function isCurrentlyServing(entry: UnifiedEntry): boolean {
+  function isCurrentlyServing(entry: Entry): boolean {
     const raw = entry.secondExpires ?? entry.firstExpires;
     const year = parseFloat(String(raw ?? ''));
     return !isNaN(year) && year > CURRENT_YEAR;
@@ -185,11 +126,11 @@
 
   const roleFilterInactive = 'border-primary-200 dark:border-primary-700 text-primary-600 dark:text-primary-400 hover:border-primary-400 dark:hover:border-primary-500 bg-white dark:bg-primary-900/20';
 
-  let currentEntries = $derived(unified.filter(isCurrentlyServing));
+  let currentEntries = $derived(entries.filter(isCurrentlyServing));
 </script>
 
 <div class="space-y-6">
-  <!-- Current members summary -->
+  <!-- Currently serving summary -->
   <div class="animate-fade-up border-primary-200 dark:border-primary-700 dark:bg-primary-900/40 rounded-lg border bg-white p-5">
     <h3 class="text-primary-900 dark:text-primary-100 mb-3 font-[--font-serif] text-lg font-bold">Currently Serving</h3>
     <div class="flex flex-wrap gap-2">
@@ -295,6 +236,6 @@
   </div>
 
   <p class="text-primary-400 dark:text-primary-500 text-sm">
-    Showing <span class="text-primary-600 dark:text-primary-300 font-semibold">{filtered.length}</span> of <span class="text-primary-600 dark:text-primary-300 font-semibold">{unified.length}</span> entries
+    Showing <span class="text-primary-600 dark:text-primary-300 font-semibold">{filtered.length}</span> of <span class="text-primary-600 dark:text-primary-300 font-semibold">{entries.length}</span> entries
   </p>
 </div>
