@@ -62,7 +62,7 @@
     members.filter((m) => {
       const raw = m['Second Term Expires'] ?? m['First Term Expires'];
       const year = parseInt(String(raw ?? ''));
-      return !isNaN(year) && year >= 2026;
+      return !isNaN(year) && year > 2026;
     })
   );
 </script>
