@@ -2,37 +2,127 @@
   interface BoardTerm {
     Name: string;
     'First Term Elected': number | null;
-    'First Term Expires': number | null;
+    'First Term Expires': number | string | null;
     'Second Term Elected': number | null;
-    'Second Term Expires': number | null;
+    'Second Term Expires': number | string | null;
+  }
+
+  interface HrpEntry {
+    name: string;
+    region: string | null;
+    elected: number;
+    expires: number;
+    note?: string;
+  }
+
+  interface CofacEntry {
+    name: string;
+    region: string | null;
+    elected: number;
+    expires: number;
+    note?: string;
+  }
+
+  type Role = 'World Board' | 'HRP' | 'Cofacilitator';
+
+  interface UnifiedEntry {
+    role: Role;
+    name: string;
+    region: string | null;
+    firstElected: number | null;
+    firstExpires: number | string | null;
+    secondElected: number | null;
+    secondExpires: number | string | null;
+    note?: string;
   }
 
   interface Props {
     members: BoardTerm[];
+    hrp: HrpEntry[];
+    cofacilitators: CofacEntry[];
   }
 
-  let { members }: Props = $props();
+  let { members, hrp, cofacilitators }: Props = $props();
+
+  const CURRENT_YEAR = 2026;
+
+  let unified = $derived<UnifiedEntry[]>([
+    ...members.map((m) => ({
+      role: 'World Board' as Role,
+      name: m.Name,
+      region: null,
+      firstElected: m['First Term Elected'],
+      firstExpires: m['First Term Expires'],
+      secondElected: m['Second Term Elected'],
+      secondExpires: m['Second Term Expires'],
+      note: undefined
+    })),
+    ...hrp.map((h) => ({
+      role: 'HRP' as Role,
+      name: h.name,
+      region: h.region,
+      firstElected: h.elected,
+      firstExpires: h.expires,
+      secondElected: null,
+      secondExpires: null,
+      note: h.note
+    })),
+    ...cofacilitators.map((c) => ({
+      role: 'Cofacilitator' as Role,
+      name: c.name,
+      region: c.region,
+      firstElected: c.elected,
+      firstExpires: c.expires,
+      secondElected: null,
+      secondExpires: null,
+      note: c.note
+    }))
+  ]);
 
   let search = $state('');
-  let sortCol = $state<string>('First Term Elected');
+  let sortCol = $state<string>('firstElected');
   let sortDir = $state<'asc' | 'desc'>('desc');
+  let roleFilter = $state<Role | 'All'>('All');
 
   let filtered = $derived.by(() => {
-    let result = members;
+    let result = unified;
+
+    if (roleFilter !== 'All') {
+      result = result.filter((e) => e.role === roleFilter);
+    }
+
     if (search) {
       const q = search.toLowerCase();
-      result = result.filter((m) => m.Name?.toLowerCase().includes(q));
+      result = result.filter((e) => e.name?.toLowerCase().includes(q) || (e.region ?? '').toLowerCase().includes(q));
     }
-    const col = sortCol as keyof BoardTerm;
+
     const dir = sortDir === 'asc' ? 1 : -1;
     result = [...result].sort((a, b) => {
-      const aRaw = a[col] ?? '';
-      const bRaw = b[col] ?? '';
-      const aNum = parseFloat(String(aRaw));
-      const bNum = parseFloat(String(bRaw));
+      let aVal: any, bVal: any;
+      if (sortCol === 'name') {
+        aVal = a.name ?? '';
+        bVal = b.name ?? '';
+      } else if (sortCol === 'role') {
+        aVal = a.role;
+        bVal = b.role;
+      } else if (sortCol === 'firstElected') {
+        aVal = a.firstElected ?? 0;
+        bVal = b.firstElected ?? 0;
+      } else if (sortCol === 'expires') {
+        const aRaw = a.secondExpires ?? a.firstExpires ?? 0;
+        const bRaw = b.secondExpires ?? b.firstExpires ?? 0;
+        aVal = parseFloat(String(aRaw)) || 0;
+        bVal = parseFloat(String(bRaw)) || 0;
+      } else {
+        aVal = '';
+        bVal = '';
+      }
+      const aNum = typeof aVal === 'number' ? aVal : parseFloat(aVal);
+      const bNum = typeof bVal === 'number' ? bVal : parseFloat(bVal);
       if (!isNaN(aNum) && !isNaN(bNum)) return (aNum - bNum) * dir;
-      return String(aRaw).localeCompare(String(bRaw)) * dir;
+      return String(aVal).localeCompare(String(bVal)) * dir;
     });
+
     return result;
   });
 
@@ -50,7 +140,7 @@
     return sortDir === 'asc' ? '↑' : '↓';
   }
 
-  function formatYear(val: string | number | null): { year: string; note: string } {
+  function formatYear(val: string | number | null | undefined): { year: string; note: string } {
     if (val === null || val === undefined) return { year: '—', note: '' };
     const str = String(val).trim();
     const m = str.match(/^(\d{4})\s*(\(.+\))?/);
@@ -58,44 +148,78 @@
     return { year: m[1], note: m[2] ?? '' };
   }
 
-  let currentMembers = $derived(
-    members.filter((m) => {
-      const raw = m['Second Term Expires'] ?? m['First Term Expires'];
-      const year = parseInt(String(raw ?? ''));
-      return !isNaN(year) && year > 2026;
-    })
-  );
+  function getExpiresDisplay(entry: UnifiedEntry): { year: string; note: string } {
+    const raw = entry.secondExpires ?? entry.firstExpires;
+    return formatYear(raw);
+  }
+
+  function isCurrentlyServing(entry: UnifiedEntry): boolean {
+    const raw = entry.secondExpires ?? entry.firstExpires;
+    const year = parseFloat(String(raw ?? ''));
+    return !isNaN(year) && year > CURRENT_YEAR;
+  }
+
+  const roleBadge: Record<Role, string> = {
+    'World Board': 'bg-accent-100/80 dark:bg-accent-900/40 text-accent-800 dark:text-accent-200 border-accent-200/60 dark:border-accent-700/40',
+    HRP: 'bg-emerald-100/80 dark:bg-emerald-900/40 text-emerald-800 dark:text-emerald-200 border-emerald-200/60 dark:border-emerald-700/40',
+    Cofacilitator: 'bg-violet-100/80 dark:bg-violet-900/40 text-violet-800 dark:text-violet-200 border-violet-200/60 dark:border-violet-700/40'
+  };
+
+  const roleFilterBtnBase = 'rounded-md border px-3 py-1.5 text-xs font-semibold transition-colors cursor-pointer';
+
+  const roleFilterActive: Record<'All' | Role, string> = {
+    All: 'bg-primary-800 dark:bg-primary-200 text-white dark:text-primary-900 border-primary-800 dark:border-primary-200',
+    'World Board': 'bg-accent-600 text-white border-accent-600',
+    HRP: 'bg-emerald-600 text-white border-emerald-600',
+    Cofacilitator: 'bg-violet-600 text-white border-violet-600'
+  };
+
+  const roleFilterInactive = 'border-primary-200 dark:border-primary-700 text-primary-600 dark:text-primary-400 hover:border-primary-400 dark:hover:border-primary-500 bg-white dark:bg-primary-900/20';
+
+  let currentEntries = $derived(unified.filter(isCurrentlyServing));
 </script>
 
 <div class="space-y-6">
-  <!-- Current Board summary -->
+  <!-- Current members summary -->
   <div class="animate-fade-up border-primary-200 dark:border-primary-700 dark:bg-primary-900/40 rounded-lg border bg-white p-5">
-    <h3 class="text-primary-900 dark:text-primary-100 mb-3 font-[--font-serif] text-lg font-bold">Current World Board Members</h3>
+    <h3 class="text-primary-900 dark:text-primary-100 mb-3 font-[--font-serif] text-lg font-bold">Currently Serving</h3>
     <div class="flex flex-wrap gap-2">
-      {#each currentMembers as member (member.Name)}
-        <span class="border-accent-200/60 dark:border-accent-800/40 bg-accent-50/60 dark:bg-accent-900/20 text-primary-800 dark:text-primary-200 rounded-md border px-3 py-1.5 text-sm font-medium">
-          {member.Name}
-          <span class="text-primary-400 dark:text-primary-500 text-xs">
-            ({member['Second Term Elected'] ? '2nd' : '1st'} term, expires {member['Second Term Expires'] ?? member['First Term Expires']})
-          </span>
+      {#each currentEntries as entry (entry.role + entry.name + entry.firstElected)}
+        <span class="flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-sm font-medium {roleBadge[entry.role]}">
+          <span class="text-xs opacity-70">{entry.role === 'World Board' ? 'WB' : entry.role === 'Cofacilitator' ? 'CF' : 'HRP'}</span>
+          {entry.name}
+          {#if entry.region}
+            <span class="text-xs opacity-60">· {entry.region}</span>
+          {/if}
+          <span class="text-xs opacity-60">(expires {entry.secondExpires ?? entry.firstExpires})</span>
         </span>
       {/each}
     </div>
   </div>
 
-  <!-- Search -->
-  <div class="animate-fade-up relative" style="animation-delay: 100ms">
-    <div class="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-4">
-      <svg class="text-primary-400 dark:text-primary-500 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-      </svg>
+  <!-- Role filter + search -->
+  <div class="animate-fade-up flex flex-col gap-3 sm:flex-row sm:items-center" style="animation-delay: 100ms">
+    <div class="flex flex-wrap gap-2">
+      {#each ['All', 'World Board', 'HRP', 'Cofacilitator'] as role (role)}
+        <button class="{roleFilterBtnBase} {roleFilter === role ? roleFilterActive[role as 'All' | Role] : roleFilterInactive}" onclick={() => (roleFilter = role as 'All' | Role)}>
+          {role}
+        </button>
+      {/each}
     </div>
-    <input
-      type="search"
-      class="border-primary-200 dark:border-primary-600 dark:bg-primary-800/60 text-primary-900 dark:text-primary-100 placeholder-primary-400 dark:placeholder-primary-500 focus:border-accent-400 focus:ring-accent-400 block w-full rounded-lg border bg-white p-3 ps-11 text-sm transition-colors focus:ring-1"
-      placeholder="Search board members..."
-      bind:value={search}
-    />
+
+    <div class="relative flex-1">
+      <div class="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-4">
+        <svg class="text-primary-400 dark:text-primary-500 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+        </svg>
+      </div>
+      <input
+        type="search"
+        class="border-primary-200 dark:border-primary-600 dark:bg-primary-800/60 text-primary-900 dark:text-primary-100 placeholder-primary-400 dark:placeholder-primary-500 focus:border-accent-400 focus:ring-accent-400 block w-full rounded-lg border bg-white p-3 ps-11 text-sm transition-colors focus:ring-1"
+        placeholder="Search by name or region..."
+        bind:value={search}
+      />
+    </div>
   </div>
 
   <!-- Table -->
@@ -105,46 +229,56 @@
         <tr>
           <th
             class="text-primary-500 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 cursor-pointer px-5 py-3.5 text-xs font-semibold tracking-widest uppercase transition-colors"
-            onclick={() => handleSort('Name')}
+            onclick={() => handleSort('role')}
           >
-            Name <span class="text-primary-300 dark:text-primary-600">{sortIcon('Name')}</span>
+            Role <span class="text-primary-300 dark:text-primary-600">{sortIcon('role')}</span>
+          </th>
+          <th
+            class="text-primary-500 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 cursor-pointer px-5 py-3.5 text-xs font-semibold tracking-widest uppercase transition-colors"
+            onclick={() => handleSort('name')}
+          >
+            Name <span class="text-primary-300 dark:text-primary-600">{sortIcon('name')}</span>
+          </th>
+          <th class="text-primary-500 dark:text-primary-400 px-4 py-3.5 text-xs font-semibold tracking-widest uppercase">Region</th>
+          <th
+            class="text-primary-500 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 cursor-pointer px-4 py-3.5 text-xs font-semibold tracking-widest uppercase transition-colors"
+            onclick={() => handleSort('firstElected')}
+          >
+            Elected <span class="text-primary-300 dark:text-primary-600">{sortIcon('firstElected')}</span>
           </th>
           <th
             class="text-primary-500 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 cursor-pointer px-4 py-3.5 text-xs font-semibold tracking-widest uppercase transition-colors"
-            onclick={() => handleSort('First Term Elected')}
+            onclick={() => handleSort('expires')}
           >
-            1st Elected <span class="text-primary-300 dark:text-primary-600">{sortIcon('First Term Elected')}</span>
-          </th>
-          <th
-            class="text-primary-500 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 cursor-pointer px-4 py-3.5 text-xs font-semibold tracking-widest uppercase transition-colors"
-            onclick={() => handleSort('First Term Expires')}
-          >
-            1st Expires <span class="text-primary-300 dark:text-primary-600">{sortIcon('First Term Expires')}</span>
-          </th>
-          <th
-            class="text-primary-500 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 cursor-pointer px-4 py-3.5 text-xs font-semibold tracking-widest uppercase transition-colors"
-            onclick={() => handleSort('Second Term Elected')}
-          >
-            2nd Elected <span class="text-primary-300 dark:text-primary-600">{sortIcon('Second Term Elected')}</span>
-          </th>
-          <th
-            class="text-primary-500 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 cursor-pointer px-4 py-3.5 text-xs font-semibold tracking-widest uppercase transition-colors"
-            onclick={() => handleSort('Second Term Expires')}
-          >
-            2nd Expires <span class="text-primary-300 dark:text-primary-600">{sortIcon('Second Term Expires')}</span>
+            Expires <span class="text-primary-300 dark:text-primary-600">{sortIcon('expires')}</span>
           </th>
         </tr>
       </thead>
       <tbody>
-        {#each filtered as member (member.Name)}
+        {#each filtered as entry (entry.role + entry.name + entry.firstElected)}
+          {@const expires = getExpiresDisplay(entry)}
           <tr class="border-primary-100 dark:border-primary-800 dark:bg-primary-900/30 hover:bg-accent-50/40 dark:hover:bg-primary-800/50 border-b bg-white transition-colors duration-150">
-            <td class="text-primary-900 dark:text-primary-100 px-5 py-3 font-medium">{member.Name}</td>
-            {#each ['First Term Elected', 'First Term Expires', 'Second Term Elected', 'Second Term Expires'] as col (col)}
-              {@const { year, note } = formatYear(member[col as keyof BoardTerm])}
-              <td class="text-primary-600 dark:text-primary-400 px-4 py-3 font-mono text-sm">
-                {year}{#if note}<span class="text-primary-300 dark:text-primary-600 ml-1 text-xs">{note}</span>{/if}
-              </td>
-            {/each}
+            <td class="px-5 py-3">
+              <span class="inline-block rounded border px-2 py-0.5 text-xs font-semibold {roleBadge[entry.role]}">
+                {entry.role === 'World Board' ? 'WB' : entry.role}
+              </span>
+            </td>
+            <td class="text-primary-900 dark:text-primary-100 px-5 py-3 font-medium">
+              {entry.name}
+              {#if entry.note}
+                <span class="text-primary-400 dark:text-primary-500 ml-1 text-xs">({entry.note})</span>
+              {/if}
+            </td>
+            <td class="text-primary-500 dark:text-primary-400 px-4 py-3 text-sm">{entry.region ?? '—'}</td>
+            <td class="text-primary-600 dark:text-primary-400 px-4 py-3 font-mono text-sm">
+              {entry.firstElected ?? '—'}
+              {#if entry.secondElected}
+                <span class="text-primary-400 dark:text-primary-500 text-xs"> / {entry.secondElected}</span>
+              {/if}
+            </td>
+            <td class="text-primary-600 dark:text-primary-400 px-4 py-3 font-mono text-sm">
+              {expires.year}{#if expires.note}<span class="text-primary-300 dark:text-primary-600 ml-1 text-xs">{expires.note}</span>{/if}
+            </td>
           </tr>
         {/each}
       </tbody>
@@ -152,7 +286,6 @@
   </div>
 
   <p class="text-primary-400 dark:text-primary-500 text-sm">
-    Showing <span class="text-primary-600 dark:text-primary-300 font-semibold">{filtered.length}</span> of <span class="text-primary-600 dark:text-primary-300 font-semibold">{members.length}</span> board
-    members
+    Showing <span class="text-primary-600 dark:text-primary-300 font-semibold">{filtered.length}</span> of <span class="text-primary-600 dark:text-primary-300 font-semibold">{unified.length}</span> entries
   </p>
 </div>

@@ -2,12 +2,14 @@
   import BoardMembers from '@components/BoardMembers.svelte';
 
   let members = $state<any[]>([]);
+  let hrpCoface = $state<{ hrp: any[]; cofacilitators: any[] }>({ hrp: [], cofacilitators: [] });
   let loading = $state(true);
 
   async function loadData() {
     try {
-      const res = await fetch('./data/board_terms.json');
-      if (res.ok) members = await res.json();
+      const [boardRes, hrpRes] = await Promise.all([fetch('./data/board_terms.json'), fetch('./data/hrp_coface.json')]);
+      if (boardRes.ok) members = await boardRes.json();
+      if (hrpRes.ok) hrpCoface = await hrpRes.json();
     } catch {
       // silently fail
     }
@@ -27,5 +29,5 @@
     </div>
   </div>
 {:else}
-  <BoardMembers {members} />
+  <BoardMembers {members} hrp={hrpCoface.hrp} cofacilitators={hrpCoface.cofacilitators} />
 {/if}
