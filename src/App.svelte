@@ -37,17 +37,17 @@
     <!-- Decorative gold rule at top -->
     <div class="via-accent-400 h-[3px] bg-gradient-to-r from-transparent to-transparent"></div>
 
-    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-      <div>
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-4 sm:px-6 sm:py-5">
+      <div class="min-w-0 shrink">
         <a href="/" use:link class="group block">
-          <h1 class="font-[--font-serif] text-2xl font-bold tracking-tight text-white">WSC Decisions Archive</h1>
-          <p class="text-primary-300 mt-0.5 text-sm font-light tracking-wide">
+          <h1 class="truncate font-[--font-serif] text-xl font-bold tracking-tight text-white sm:text-2xl">WSC Decisions Archive</h1>
+          <p class="text-primary-300 mt-0.5 hidden text-sm font-light tracking-wide sm:block">
             NA World Service Conference Records <span class="text-accent-500">&middot;</span> 2000–2026
           </p>
         </a>
       </div>
-      <div class="flex items-center gap-6">
-        <nav class="flex gap-1">
+      <div class="flex shrink-0 items-center gap-2 sm:gap-4">
+        <nav class="flex gap-0 sm:gap-1">
           <a
             href="/"
             use:link
@@ -55,7 +55,7 @@
               className: 'text-accent-300 border-b-2 border-accent-400',
               inactiveClassName: 'text-primary-300 hover:text-white border-b-2 border-transparent'
             }}
-            class="px-3 py-2 text-sm font-medium tracking-wide transition-all duration-200"
+            class="px-2 py-2 text-sm font-medium tracking-wide transition-all duration-200 sm:px-3"
           >
             Decisions
           </a>
@@ -66,7 +66,7 @@
               className: 'text-accent-300 border-b-2 border-accent-400',
               inactiveClassName: 'text-primary-300 hover:text-white border-b-2 border-transparent'
             }}
-            class="px-3 py-2 text-sm font-medium tracking-wide transition-all duration-200"
+            class="px-2 py-2 text-sm font-medium tracking-wide transition-all duration-200 sm:px-3"
           >
             Elections
           </a>
@@ -77,13 +77,13 @@
               className: 'text-accent-300 border-b-2 border-accent-400',
               inactiveClassName: 'text-primary-300 hover:text-white border-b-2 border-transparent'
             }}
-            class="px-3 py-2 text-sm font-medium tracking-wide transition-all duration-200"
+            class="px-2 py-2 text-sm font-medium tracking-wide transition-all duration-200 sm:px-3"
           >
             Reference
           </a>
         </nav>
         <button
-          class="border-primary-600 text-primary-300 hover:border-accent-500 hover:text-accent-300 rounded-full border p-2 transition-all duration-200"
+          class="border-primary-600 text-primary-300 hover:border-accent-500 hover:text-accent-300 shrink-0 rounded-full border p-2 transition-all duration-200"
           onclick={toggleDark}
           aria-label="Toggle theme"
         >

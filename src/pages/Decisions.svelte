@@ -75,26 +75,24 @@
   </div>
 {:else}
   <div class="space-y-6">
-    <div class="flex items-start justify-between gap-4">
-      <div class="flex-1"><StatsBar motions={filteredMotions} /></div>
-      <div class="flex shrink-0 gap-2">
-        <button
-          onclick={() => (correctionMotion = 'generic')}
-          class="border-primary-200 dark:border-primary-700 dark:bg-primary-900/40 text-primary-500 dark:text-primary-400 hover:bg-accent-50 dark:hover:bg-primary-800 hover:border-accent-300 dark:hover:border-accent-700 flex items-center gap-1.5 rounded-lg border bg-white px-3 py-2.5 text-sm font-medium shadow-sm transition-all duration-200"
-          title="Suggest a correction to the archive data"
-        >
-          <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
-          </svg>
-          Corrections
-        </button>
-        <button
-          onclick={() => (showMakerModal = true)}
-          class="border-primary-200 dark:border-primary-700 dark:bg-primary-900/40 text-primary-700 dark:text-primary-300 hover:bg-accent-50 dark:hover:bg-primary-800 hover:border-accent-300 dark:hover:border-accent-700 rounded-lg border bg-white px-4 py-2.5 text-sm font-medium shadow-sm transition-all duration-200"
-        >
-          Maker Tally
-        </button>
-      </div>
+    <StatsBar motions={filteredMotions} />
+    <div class="flex gap-2">
+      <button
+        onclick={() => (correctionMotion = 'generic')}
+        class="border-primary-200 dark:border-primary-700 dark:bg-primary-900/40 text-primary-500 dark:text-primary-400 hover:bg-accent-50 dark:hover:bg-primary-800 hover:border-accent-300 dark:hover:border-accent-700 flex items-center gap-1.5 rounded-lg border bg-white px-3 py-2 text-sm font-medium shadow-sm transition-all duration-200"
+        title="Suggest a correction to the archive data"
+      >
+        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+        </svg>
+        Corrections
+      </button>
+      <button
+        onclick={() => (showMakerModal = true)}
+        class="border-primary-200 dark:border-primary-700 dark:bg-primary-900/40 text-primary-700 dark:text-primary-300 hover:bg-accent-50 dark:hover:bg-primary-800 hover:border-accent-300 dark:hover:border-accent-700 rounded-lg border bg-white px-3 py-2 text-sm font-medium shadow-sm transition-all duration-200"
+      >
+        Maker Tally
+      </button>
     </div>
     <FilterPanel {filters} {availableYears} {allMotions} onchange={handleFilterChange} />
     <DecisionTable motions={filteredMotions} {sort} onsort={handleSortChange} oncorrect={(m) => (correctionMotion = m)} />
