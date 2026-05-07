@@ -42,7 +42,7 @@
         <a href="/" use:link class="group block">
           <h1 class="truncate font-[--font-serif] text-xl font-bold tracking-tight text-white sm:text-2xl">WSC Decisions Archive</h1>
           <p class="text-primary-300 mt-0.5 hidden text-sm font-light tracking-wide sm:block">
-            NA World Service Conference Records <span class="text-accent-500">&middot;</span> 2000–2026
+            NA World Service Conference Records <span class="text-accent-500">&middot;</span> 1996–2026
           </p>
         </a>
       </div>

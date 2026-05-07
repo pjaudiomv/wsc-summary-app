@@ -17,36 +17,36 @@
     "Name": "Danny Gershman",
     "First Term Elected": 2020.0,
     "First Term Expires": 2026.0,
-    "Second Term Elected": 2026.0,
-    "Second Term Expires": 2032.0
+    "Second Term Elected": null,
+    "Second Term Expires": null
   },
   {
     "Name": "Eduardo Gilioli",
     "First Term Elected": 2020.0,
     "First Term Expires": 2026.0,
-    "Second Term Elected": 2026.0,
-    "Second Term Expires": 2032.0
+    "Second Term Elected": null,
+    "Second Term Expires": null
   },
   {
     "Name": "Jorge Mejia",
     "First Term Elected": 2020.0,
     "First Term Expires": 2026.0,
-    "Second Term Elected": 2026.0,
-    "Second Term Expires": 2032.0
+    "Second Term Elected": null,
+    "Second Term Expires": null
   },
   {
     "Name": "Michael Bennett",
     "First Term Elected": 2020.0,
     "First Term Expires": 2026.0,
-    "Second Term Elected": 2026.0,
-    "Second Term Expires": 2032.0
+    "Second Term Elected": null,
+    "Second Term Expires": null
   },
   {
     "Name": "Hammed Al-Tamimi",
     "First Term Elected": 2018.0,
     "First Term Expires": 2026.0,
-    "Second Term Elected": 2026.0,
-    "Second Term Expires": 2032.0
+    "Second Term Elected": null,
+    "Second Term Expires": null
   },
   {
     "Name": "Lib Edmonds",
@@ -59,8 +59,8 @@
     "Name": "Yoel Geffen",
     "First Term Elected": 2018.0,
     "First Term Expires": 2026.0,
-    "Second Term Elected": 2026.0,
-    "Second Term Expires": 2032.0
+    "Second Term Elected": null,
+    "Second Term Expires": null
   },
   {
     "Name": "Jose Luis Andreu",
@@ -381,34 +381,6 @@
     "Name": "Bella Anderson",
     "First Term Elected": 1998.0,
     "First Term Expires": 2004.0,
-    "Second Term Elected": null,
-    "Second Term Expires": null
-  },
-  {
-    "Name": "Pam Taylor",
-    "First Term Elected": 2026.0,
-    "First Term Expires": 2032.0,
-    "Second Term Elected": null,
-    "Second Term Expires": null
-  },
-  {
-    "Name": "Jade Tellers",
-    "First Term Elected": 2026.0,
-    "First Term Expires": 2032.0,
-    "Second Term Elected": null,
-    "Second Term Expires": null
-  },
-  {
-    "Name": "Allyse Madey",
-    "First Term Elected": 2026.0,
-    "First Term Expires": 2032.0,
-    "Second Term Elected": null,
-    "Second Term Expires": null
-  },
-  {
-    "Name": "Jessica Braswell",
-    "First Term Elected": 2026.0,
-    "First Term Expires": 2032.0,
     "Second Term Elected": null,
     "Second Term Expires": null
   }
