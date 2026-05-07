@@ -1,205 +1,76 @@
-# Svelte 5 + TypeScript + Vite + Tailwind CSS Bootstrap
+# WSC Decisions Archive
 
-A modern starter template for building web applications with Svelte 5, TypeScript, Vite, and Tailwind CSS.
+An interactive archive of NA World Service Conference (WSC) decisions from 2000–2026, live at **[wscarchive.org](https://wscarchive.org)**.
 
-## Table of Contents
-- [Features](#features)
-- [Why Use This Template?](#why-use-this-template)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Available Scripts](#available-scripts)
-- [Project Structure](#project-structure)
-- [Technology Stack](#technology-stack)
-- [Development Features](#development-features)
-  - [Hot Module Replacement (HMR)](#hot-module-replacement-hmr)
-  - [TypeScript Configuration](#typescript-configuration)
-  - [Tailwind CSS Integration](#tailwind-css-integration)
-- [Continuous Integration & Deployment](#continuous-integration--deployment)
-  - [Testing & Linting Workflow](#testing--linting-workflow)
-  - [Deployment Workflow](#deployment-workflow)
-  - [Release Workflow](#release-workflow)
-  - [Workflow Files](#workflow-files)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+Browse, filter, and search every motion voted on at NA's World Service Conference. Data is sourced from the official WSC Summary of Decisions documents published by NA World Services.
 
 ## Features
 
-- 🚀 [Svelte 5](https://svelte.dev) with TypeScript
-- ⚡️ [Vite](https://vitejs.dev) for lightning-fast development
-- 🎨 [Tailwind CSS 4](https://tailwindcss.com) for utility-first styling
-- 🧪 [Vitest](https://vitest.dev) for unit testing
-- 📝 TypeScript for type safety
-- 🔍 ESLint for code linting
-- ✨ Prettier for code formatting
-- 🎯 Pre-configured with best practices
+- Full-text search across all motions
+- Filter by year, category, result, and maker
+- Expandable rows with vote counts, makers, seconds, and notes
+- Elections and board history tab
+- Reference tab with conference cycle info and glossary
+- Dark mode
 
-## Why Use This Template?
+## Development
 
-This template is ideal if you want to use Svelte without the full SvelteKit framework. It's perfect for:
+**Prerequisites:** Node.js 24+
 
-- **Simple SPAs**: When you don't need server-side rendering or complex routing
-- **Custom Stack**: When you want to choose your own routing, state management, and other tools
-- **Learning Svelte**: Great for understanding Svelte basics without framework overhead
-- **Prototypes**: Quick to start and easy to build upon
-- **Static Sites**: Perfect for sites that don't need a backend
-- **Component Libraries**: Ideal for developing standalone component libraries
-
-While SvelteKit is an excellent full-featured framework, this template provides a lighter alternative when you:
-- Want more control over your project structure
-- Don't need server-side rendering
-- Prefer to add features as needed
-- Want to minimize bundle size for simple applications
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (version 18 or higher)
-- npm or yarn or pnpm
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/svelte5-vite-ts-tailwind-eslint.git
-cd svelte5-vite-ts-tailwind-eslint
-```
-
-2. Install dependencies:
 ```bash
 npm install
+npm run dev        # dev server at http://localhost:5173
+npm run lint       # prettier + eslint + svelte-check
+npm run test       # vitest
+npm run build      # production build → dist/
 ```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-Visit `http://localhost:5173` to see your application.
-
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run test` - Run tests
-- `npm run test:watch` - Run tests in watch mode
-- `npm run test:ui` - Run tests with UI
-- `npm run coverage` - Generate test coverage report
-- `npm run lint` - Lint code
-- `npm run format` - Format code
 
 ## Project Structure
 
 ```
-/
-├── src/
-│   ├── lib/
-│   │   └── Counter.svelte
-│   ├── app.css
-│   ├── main.ts
-│   └── App.svelte
-├── public/
-├── index.html
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
-├── tailwind.config.ts
-└── README.md
+src/
+├── components/
+│   ├── DecisionTable.svelte   # paginated motion table with expandable rows
+│   ├── FilterPanel.svelte     # multi-faceted filter state
+│   ├── StatsBar.svelte        # aggregate stats for current filter
+│   ├── CorrectionModal.svelte # crowdsourced correction form
+│   └── MakerTallyModal.svelte # per-maker motion statistics
+├── pages/
+│   ├── Decisions.svelte       # primary view — filtering, sorting, pagination
+│   ├── Board.svelte           # elections and board history
+│   └── Reference.svelte       # glossary and conference cycle info
+├── data/                      # static JSON (generated by scripts/)
+├── types/                     # TypeScript interfaces and label maps
+└── utils/                     # filter and sort helpers
+
+cf-worker/                     # Cloudflare Worker — receives correction submissions
+scripts/                       # Python data pipeline (see below)
+WSC-*/                         # raw WSC Summary of Decisions PDFs by year
 ```
 
-## Technology Stack
+## Data Pipeline
 
-- **Framework**: Svelte 5
-- **Build Tool**: Vite 6
-- **Styling**: Tailwind CSS 4
-- **Testing**: Vitest
-- **Language**: TypeScript
-- **Code Quality**:
-  - ESLint for linting
-  - Prettier for formatting
-  - TypeScript for type checking
+The app data lives in `src/data/` and is generated from PDF source files:
 
-## Development Features
-
-### Hot Module Replacement (HMR)
-
-The template includes HMR support for Svelte components.
-
-### TypeScript Configuration
-
-The project uses TypeScript for type safety. Key configurations include:
-
-- Strict mode enabled
-- Svelte type definitions included
-- Path aliases configured
-- Global type definitions in `src/vite-env.d.ts`
-
-### Tailwind CSS Integration
-
-Tailwind CSS is pre-configured with:
-
-- JIT (Just-In-Time) mode enabled
-- Dark mode support (`class` strategy)
-- Custom color schemes
-- Prettier plugin for automatic class sorting
-
-## Continuous Integration & Deployment
-
-This template comes with pre-configured GitHub Actions workflows for automated testing, linting, and deployment:
-
-### Testing & Linting Workflow
-- Runs on every push to non-main branches
-- Uses Node.js 22
-- Steps:
-  1. Install dependencies
-  2. Run ESLint checks
-  3. Run test suite
-
-### Deployment Workflow
-- Automatically deploys to GitHub Pages
-- Triggers on:
-  - Push to main branch
-  - Manual workflow dispatch
-- Builds and deploys the static site
-- Provides deployment URL in workflow summary
-
-### Release Workflow
-- Triggers when tags are pushed
-- Creates GitHub releases automatically
-- Features:
-  - Builds the project
-  - Creates .zip and .tar.gz archives
-  - Generates release notes from CHANGELOG.md
-  - Supports beta/rc releases with proper prerelease marking
-  - Attaches build artifacts to releases
-
-### Workflow Files
-```
-.github/workflows/
-├── test.yml     # Testing and linting
-├── static.yml   # GitHub Pages deployment
-└── release.yml  # Release automation
+```bash
+cd scripts
+python3 extract_decisions.py
 ```
 
-To use these workflows:
-1. Enable GitHub Pages in your repository settings
-2. For releases, push a tag (e.g., `git tag 1.0.0 && git push origin 1.0.0`)
-3. Ensure your CHANGELOG.md is updated before creating releases
+Requires Python 3 with `pdfplumber` (`pip install pdfplumber`). Run this whenever new conference PDFs are added to `WSC-*/`. The script writes updated JSON to both `src/data/` and `public/data/`.
 
-## Contributing
+## Corrections
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Data errors can be reported directly from the app using the **Corrections** button. Submissions create a GitHub issue tagged `correction` for review.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on correcting data or contributing to the codebase.
+
+## Deployment
+
+The app deploys automatically to [Cloudflare Pages](https://pages.cloudflare.com) on push to `main`. The correction endpoint runs as a separate Cloudflare Worker (`cf-worker/`).
+
+Infrastructure is managed with Terraform — see the [cloudflare-pages](https://github.com/pjaudiomv/cloudflare-pages) repo.
 
 ## License
 
-This project is licensed under the MIT License—see the LICENSE file for details.
-
-## Acknowledgments
-
-- Svelte team for the amazing framework
-- Vite team for the build tool
-- Tailwind CSS team for the styling framework
-- All contributors to the included tools and libraries
+MIT
