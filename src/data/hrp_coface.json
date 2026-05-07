@@ -48,6 +48,6 @@
     { "name": "Daniel C", "region": "World Pool", "elected": 2018, "expires": 2023, "note": "term extended due to COVID" },
     { "name": "Mario T", "region": null, "elected": 2020, "expires": 2026, "note": "term extended due to COVID" },
     { "name": "Louis H", "region": "Chicagoland Region", "elected": 2023, "expires": 2029 },
-    { "name": "Tina N", "region": null, "elected": 2026, "expires": 2029 }
+    { "name": "Tina N", "region": null, "elected": 2026, "expires": 2032 }
   ]
 }

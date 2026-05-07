@@ -106,5 +106,5 @@
   { "role": "Cofacilitator", "name": "Daniel C", "region": "World Pool", "firstElected": 2018, "firstExpires": 2023, "secondElected": null, "secondExpires": null, "note": "term extended due to COVID" },
   { "role": "Cofacilitator", "name": "Mario T", "region": null, "firstElected": 2020, "firstExpires": 2026, "secondElected": null, "secondExpires": null, "note": "term extended due to COVID" },
   { "role": "Cofacilitator", "name": "Louis H", "region": "Chicagoland Region", "firstElected": 2023, "firstExpires": 2029, "secondElected": null, "secondExpires": null, "note": null },
-  { "role": "Cofacilitator", "name": "Tina N", "region": "Region 51", "firstElected": 2026, "firstExpires": 2029, "secondElected": null, "secondExpires": null, "note": null }
+  { "role": "Cofacilitator", "name": "Tina N", "region": "Region 51", "firstElected": 2026, "firstExpires": 2032, "secondElected": null, "secondExpires": null, "note": null }
 ]

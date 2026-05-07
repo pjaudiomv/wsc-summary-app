@@ -49,7 +49,7 @@
       } else if (sortCol === 'firstElected') {
         aVal = a.firstElected ?? 0;
         bVal = b.firstElected ?? 0;
-      } else if (sortCol === 'expires') {
+      } else if (sortCol === 'until') {
         const aRaw = a.secondExpires ?? a.firstExpires ?? 0;
         const bRaw = b.secondExpires ?? b.firstExpires ?? 0;
         aVal = parseFloat(String(aRaw)) || 0;
@@ -158,7 +158,7 @@
           {#if entry.region}
             <span class="text-xs opacity-60">· {entry.region}</span>
           {/if}
-          <span class="text-xs opacity-60">(expires {entry.secondExpires ?? entry.firstExpires})</span>
+          <span class="text-xs opacity-60">(until {entry.secondExpires ?? entry.firstExpires})</span>
         </span>
       {/each}
     </div>
@@ -215,15 +215,15 @@
           </th>
           <th
             class="text-primary-500 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 cursor-pointer px-3 py-3.5 text-xs font-semibold tracking-widest uppercase transition-colors"
-            onclick={() => handleSort('expires')}
+            onclick={() => handleSort('until')}
           >
-            Expires <span class="text-primary-300 dark:text-primary-600">{sortIcon('expires')}</span>
+            Expires <span class="text-primary-300 dark:text-primary-600">{sortIcon('until')}</span>
           </th>
         </tr>
       </thead>
       <tbody>
         {#each filtered as entry (entry.role + entry.name + entry.firstElected)}
-          {@const expires = getExpiresDisplay(entry)}
+          {@const until = getExpiresDisplay(entry)}
           {@const key = rowKey(entry)}
           {@const expanded = expandedKey === key}
           <tr
@@ -248,7 +248,7 @@
               {entry.firstElected ?? '—'}{#if entry.secondElected}<span class="text-primary-400 dark:text-primary-500 text-xs">/{entry.secondElected}</span>{/if}
             </td>
             <td class="text-primary-600 dark:text-primary-400 px-3 py-3 font-mono text-sm">
-              {expires.year}{#if expires.note}<span class="text-primary-300 dark:text-primary-600 ml-1 text-xs">{expires.note}</span>{/if}
+              {until.year}{#if until.note}<span class="text-primary-300 dark:text-primary-600 ml-1 text-xs">{until.note}</span>{/if}
             </td>
           </tr>
           {#if expanded}
