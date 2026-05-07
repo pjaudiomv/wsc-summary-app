@@ -217,7 +217,7 @@
             class="text-primary-500 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 cursor-pointer px-3 py-3.5 text-xs font-semibold tracking-widest uppercase transition-colors"
             onclick={() => handleSort('until')}
           >
-            Expires <span class="text-primary-300 dark:text-primary-600">{sortIcon('until')}</span>
+            Until <span class="text-primary-300 dark:text-primary-600">{sortIcon('until')}</span>
           </th>
         </tr>
       </thead>
