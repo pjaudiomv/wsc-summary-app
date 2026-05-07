@@ -35,6 +35,12 @@
     e.preventDefault();
     if (!description.trim() || honeypot) return;
 
+    if (!workerUrl) {
+      submitStatus = 'error';
+      errorMsg = 'Submission not configured — please open a GitHub issue directly.';
+      return;
+    }
+
     submitStatus = 'submitting';
     errorMsg = '';
 
@@ -196,7 +202,7 @@
             </button>
             <button
               type="submit"
-              disabled={!description.trim() || submitStatus === 'submitting' || !workerUrl}
+              disabled={!description.trim() || submitStatus === 'submitting'}
               class="bg-accent-600 hover:bg-accent-700 focus:ring-accent-500 rounded-lg px-5 py-2 text-sm font-semibold text-white transition-colors focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             >
               {submitStatus === 'submitting' ? 'Submitting…' : 'Submit'}
