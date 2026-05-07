@@ -10,9 +10,10 @@
     motions: Motion[];
     sort: SortState;
     onsort: (sort: SortState) => void;
+    oncorrect?: (motion: Motion) => void;
   }
 
-  let { motions, sort, onsort }: Props = $props();
+  let { motions, sort, onsort, oncorrect }: Props = $props();
 
   let expandedKey = $state<string | null>(null);
   let currentPage = $state(0);
@@ -133,6 +134,21 @@
           <span class="text-accent-700 dark:text-accent-400 text-xs font-semibold">Note:</span>
           <p class="text-primary-700 dark:text-primary-300 mt-0.5 text-xs">{motion.notes}</p>
         </div>
+      {/if}
+      {#if oncorrect}
+        <button
+          type="button"
+          onclick={(e) => {
+            e.stopPropagation();
+            oncorrect!(motion);
+          }}
+          class="text-primary-400 hover:text-accent-600 dark:text-primary-500 dark:hover:text-accent-400 mt-1 flex items-center gap-1.5 text-xs transition-colors"
+        >
+          <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+          </svg>
+          Suggest a correction
+        </button>
       {/if}
     </div>
   </div>

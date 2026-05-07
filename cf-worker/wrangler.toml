@@ -1,0 +1,7 @@
+name = "wsc-corrections"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+[vars]
+# Do NOT put GITHUB_TOKEN here — use: wrangler secret put GITHUB_TOKEN
+GITHUB_REPO = "pjaudiomv/wsc-summary-app"
